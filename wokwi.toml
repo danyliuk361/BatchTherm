@@ -2,3 +2,4 @@
 version = 1
 firmware = 'firmware/build/firmware.hex'
 elf = 'firmware/build/firmware.elf'
+vcdFile = 'docs/captures/lab1/uart-led.vcd'

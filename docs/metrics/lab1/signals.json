@@ -1,0 +1,25 @@
+{
+  "led_edge_ns": [
+    0,
+    715275,
+    3070700,
+    1004552875,
+    2005533275,
+    3006511150,
+    4007490550,
+    5008470200,
+    6009449600
+  ],
+  "led_half_period_ms": [
+    1001.482175,
+    1000.9804,
+    1000.977875,
+    1000.9794,
+    1000.97965,
+    1000.9794
+  ],
+  "min_ms": 1000.977875,
+  "max_ms": 1001.482175,
+  "decoded_uart": "STM32C031C6 ready\r\ntick 0\r\ntick 1\r\ntick 2\r\ntick 3\r\ntick 4\r\ntick 5\r\ntick 6\r\n",
+  "decoded_matches_raw": true
+}

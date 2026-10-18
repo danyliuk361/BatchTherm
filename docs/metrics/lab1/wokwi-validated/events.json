@@ -1,0 +1,13 @@
+[
+  {
+    "command": "sim:run"
+  },
+  {
+    "command": "sim:stop"
+  },
+  {
+    "command": "vcd:ready",
+    "channelCount": 2,
+    "sampleCount": 480
+  }
+]

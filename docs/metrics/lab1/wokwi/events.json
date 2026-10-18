@@ -1,0 +1,8 @@
+[
+  {
+    "command": "sim:run"
+  },
+  {
+    "command": "sim:stop"
+  }
+]

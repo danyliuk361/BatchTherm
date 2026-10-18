@@ -1,0 +1,14 @@
+{
+  "actual_utc": "2026-11-06T15:36:26.605066+00:00",
+  "first": {
+    ".elf": "fdffef65d20f8c095927d83b0bb3bc5c1a33637233f97f67642634e3b90342b7",
+    ".hex": "5798ce6389f6fdbd67dbe32c56bb8cefd8d531dcf8d84d0c7b46ce60a611d1f6",
+    ".bin": "f73dd8fcc2372021c17d8bc22033a07e3222412d6e5fd8a7ac807f7d80b95967"
+  },
+  "second": {
+    ".elf": "fdffef65d20f8c095927d83b0bb3bc5c1a33637233f97f67642634e3b90342b7",
+    ".hex": "5798ce6389f6fdbd67dbe32c56bb8cefd8d531dcf8d84d0c7b46ce60a611d1f6",
+    ".bin": "f73dd8fcc2372021c17d8bc22033a07e3222412d6e5fd8a7ac807f7d80b95967"
+  },
+  "identical": true
+}

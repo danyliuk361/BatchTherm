@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "author": "template",
+  "author": "BatchTherm",
   "editor": "wokwi",
   "parts": [
     {
@@ -9,11 +9,49 @@
       "top": 0,
       "left": 0,
       "attrs": {}
+    },
+    {
+      "type": "wokwi-logic-analyzer",
+      "id": "logic",
+      "top": -140,
+      "left": 250,
+      "attrs": {
+        "channelNames": "UART_TX,LED",
+        "bufferSize": "100000"
+      }
     }
   ],
   "connections": [
-    ["$serialMonitor:TX", "nucleo:PA3", "", []],
-    ["$serialMonitor:RX", "nucleo:PA2", "", []]
+    [
+      "$serialMonitor:TX",
+      "nucleo:PA3",
+      "",
+      []
+    ],
+    [
+      "$serialMonitor:RX",
+      "nucleo:PA2",
+      "",
+      []
+    ],
+    [
+      "logic:D0",
+      "nucleo:PA2",
+      "blue",
+      []
+    ],
+    [
+      "logic:D1",
+      "nucleo:PA5",
+      "green",
+      []
+    ],
+    [
+      "logic:GND",
+      "nucleo:GND.1",
+      "black",
+      []
+    ]
   ],
   "dependencies": {}
 }
