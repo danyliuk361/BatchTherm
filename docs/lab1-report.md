@@ -56,6 +56,8 @@ BMP280 потребував би іншого register map; DS18B20 заміни
 
 Дві чисті Docker-збірки виконані 06.11.2026. Порівняно SHA-256 окремо для ELF, HEX і BIN: усі три артефакти побайтно однакові. Вихідні команди й результати збережені у docs/metrics/lab1/build-clean-1.log, build-clean-2.log та reproducibility.json.
 
+![Реальний Terminal: секції ELF та перевірка двох чистих збірок](docs/figures/lab1-build-crop.png)
+
 Виміряний ELF SHA-256: fdffef65d20f8c095927d83b0bb3bc5c1a33637233f97f67642634e3b90342b7.
 
 ![Реальний запуск Wokwi: LED, аналізатор і послідовні tick](docs/metrics/lab1/wokwi-validated/wokwi-full.png)

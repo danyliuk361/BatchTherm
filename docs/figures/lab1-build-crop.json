@@ -1,0 +1,21 @@
+{
+  "desktop_capture": "raw/lab1-build-actual.png",
+  "window_id": 42453,
+  "region_logical_xywh": [
+    80,
+    109,
+    1120,
+    610
+  ],
+  "retina_region_px": [
+    2240,
+    1220
+  ],
+  "final_crop_xyxy": [
+    5,
+    75,
+    2210,
+    455
+  ],
+  "edits": "geometric crop only"
+}
