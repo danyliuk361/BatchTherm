@@ -56,7 +56,7 @@ BMP280 потребував би іншого register map; DS18B20 заміни
 
 Дві чисті Docker-збірки виконані 06.11.2026. Порівняно SHA-256 окремо для ELF, HEX і BIN: усі три артефакти побайтно однакові. Вихідні команди й результати збережені у docs/metrics/lab1/build-clean-1.log, build-clean-2.log та [reproducibility.json](https://github.com/danyliuk361/BatchTherm/commit/2b074be).
 
-![Реальний Terminal: секції ELF та перевірка двох чистих збірок](docs/figures/lab1-build-crop.png)
+![Реальний Terminal: повторна перевірка збережених збірок і сигналів](docs/figures/lab1-build-crop.png)
 
 Виміряний ELF SHA-256: fdffef65d20f8c095927d83b0bb3bc5c1a33637233f97f67642634e3b90342b7.
 
