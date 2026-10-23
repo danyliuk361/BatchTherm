@@ -157,3 +157,8 @@ void EXTI4_15_IRQHandler(void)
 /* USER CODE BEGIN 1 */
 
 /* USER CODE END 1 */
+
+/* USER CODE BEGIN UART_IRQ */
+extern UART_HandleTypeDef huart2;
+void USART2_IRQHandler(void){HAL_UART_IRQHandler(&huart2);}
+/* USER CODE END UART_IRQ */

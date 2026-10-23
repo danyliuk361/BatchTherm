@@ -22,7 +22,7 @@ TARGET = firmware
 # debug build?
 DEBUG = 1
 # optimization
-OPT = -Og
+OPT = -Os
 
 
 #######################################
@@ -36,6 +36,14 @@ BUILD_DIR = build
 ######################################
 # C sources
 C_SOURCES =  \
+Platform/board.c \
+Platform/storage_bringup.c \
+Devices/sdcard.c \
+Devices/bmp180.c \
+Devices/ntc.c \
+App/quality.c \
+Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_adc.c \
+Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_adc_ex.c \
 Core/Src/main.c \
 Core/Src/stm32c0xx_it.c \
 Core/Src/stm32c0xx_hal_msp.c \
@@ -53,8 +61,6 @@ Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_dma_ex.c \
 Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_pwr.c \
 Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_pwr_ex.c \
 Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_exti.c \
-Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_i2c.c \
-Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_i2c_ex.c \
 Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_uart.c \
 Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_uart_ex.c \
 Core/Src/system_stm32c0xx.c  
@@ -114,7 +120,7 @@ AS_INCLUDES =
 
 # C includes
 C_INCLUDES =  \
--ICore/Inc \
+-ICore/Inc -IDevices -IApp -IPlatform \
 -IDrivers/STM32C0xx_HAL_Driver/Inc \
 -IDrivers/STM32C0xx_HAL_Driver/Inc/Legacy \
 -IDrivers/CMSIS/Device/ST/STM32C0xx/Include \
@@ -132,7 +138,7 @@ endif
 
 
 # Generate dependency information
-CFLAGS += -MMD -MP -MF"$(@:%.o=%.d)"
+CFLAGS += -Wextra -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)"
 
 
 #######################################
@@ -191,3 +197,6 @@ clean:
 -include $(wildcard $(BUILD_DIR)/*.d)
 
 # *** EOF ***
+
+# ST vendor functions intentionally leave family-specific parameters unused.
+$(filter build/stm32c0xx_hal_%.o,$(OBJECTS)): CFLAGS += -Wno-unused-parameter

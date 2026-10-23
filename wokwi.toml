@@ -2,4 +2,10 @@
 version = 1
 firmware = 'firmware/build/firmware.hex'
 elf = 'firmware/build/firmware.elf'
-vcdFile = 'docs/captures/lab1/uart-led.vcd'
+vcdFile = 'docs/captures/lab2/live.vcd'
+
+[[sdcard]]
+part = 'storage'
+image = 'docs/inputs/sd-demo.img'
+size = '2M'
+writeback = true
