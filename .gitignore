@@ -2,3 +2,6 @@
 firmware/build/
 wokwi.vcd
 *.swp
+
+tests/build/
+docs/captures/lab2/live.vcd

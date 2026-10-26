@@ -1,0 +1,12 @@
+name: BatchTherm build and host tests
+on:
+  pull_request:
+  push:
+    branches: [lab1, lab2]
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - run: make build IMAGE=batchtherm-ci:local
+      - run: make test IMAGE=batchtherm-ci:local
