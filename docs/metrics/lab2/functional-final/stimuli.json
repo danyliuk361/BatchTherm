@@ -1,0 +1,40 @@
+[
+  {
+    "action": "lid_hold_closed",
+    "actual_utc": "2026-11-06T16:07:01.676Z"
+  },
+  {
+    "action": "lid_open",
+    "actual_utc": "2026-11-06T16:07:02.285Z"
+  },
+  {
+    "action": "sample_temperature",
+    "value_C": 25,
+    "actual_utc": "2026-11-06T16:07:02.743Z"
+  },
+  {
+    "action": "sample_temperature",
+    "value_C": 58,
+    "actual_utc": "2026-11-06T16:07:04.115Z"
+  },
+  {
+    "action": "sample_temperature",
+    "value_C": 62,
+    "actual_utc": "2026-11-06T16:07:05.474Z"
+  },
+  {
+    "action": "sample_temperature",
+    "value_C": 63,
+    "actual_utc": "2026-11-06T16:07:06.835Z"
+  },
+  {
+    "action": "sample_temperature",
+    "value_C": -5,
+    "actual_utc": "2026-11-06T16:07:08.184Z"
+  },
+  {
+    "action": "sample_temperature",
+    "value_C": 60,
+    "actual_utc": "2026-11-06T16:07:09.536Z"
+  }
+]

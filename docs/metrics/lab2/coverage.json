@@ -1,0 +1,22 @@
+{
+  "bmp180.c": {
+    "covered": 43,
+    "lines": 44,
+    "percent": 97.73
+  },
+  "quality.c": {
+    "covered": 40,
+    "lines": 40,
+    "percent": 100.0
+  },
+  "ntc.c": {
+    "covered": 10,
+    "lines": 10,
+    "percent": 100.0
+  },
+  "sdcard.c": {
+    "covered": 91,
+    "lines": 101,
+    "percent": 90.1
+  }
+}

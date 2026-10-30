@@ -1,0 +1,12 @@
+{
+  "elf_sha256": "44b89de4d5a40ba93abb7a817fedf1609814882259301a014d8ed1e0ab5f0b58",
+  "checks": {
+    "integration": true,
+    "temperatures": true,
+    "lid": true,
+    "persistence_new_process": true,
+    "uart_independent_decode": true,
+    "host_tests": true,
+    "arm_build_no_warnings": true
+  }
+}

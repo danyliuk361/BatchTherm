@@ -1,0 +1,22 @@
+i2c-1: Start
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: Write
+i2c-1: Address write: 77
+i2c-1: ACK
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: Data write: D0
+i2c-1: ACK

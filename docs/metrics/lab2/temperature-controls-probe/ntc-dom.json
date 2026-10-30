@@ -1,0 +1,19 @@
+{
+  "html": "<wokwi-ntc-temperature-sensor class=\"diagram-part_diagramItem__IbJC1 diagram-part_active__0zZeg diagram-part_selectable__qT1rF\" id=\"sample\" data-draggable=\"\" wokwi-controller=\"wokwi-ntc-temperature-sensor\" temperature=\"60\" style=\"top: 200px; left: -200px; transform: rotate(0deg);\"></wokwi-ntc-temperature-sensor>",
+  "shadow": "cy=\"46.384\" r=\"2.612\" fill=\"#eceee9\"></circle>\n        <path d=\"m48.82 25.397c-8.828 4.288-19.813 9.008-38 11.393\" fill=\"none\" stroke=\"#d6d8d4\" stroke-linejoin=\"miter\" stroke-width=\".95px\"></path>\n        <path d=\"m48.82 45.922c-9.482-5.223-20.452-6.013-38-4.789\" fill=\"none\" stroke=\"#d8d8d3\" stroke-linejoin=\"miter\" stroke-width=\".95px\"></path>\n        <path d=\"m9.023 43.72c-0.945 0.682-2.127 1.088-3.411 1.088-3.104 0-5.612-2.374-5.612-5.281s2.508-5.281 5.612-5.281c1.038 0 2.009 0.266 2.842 0.728 2.108 0.79 3.314 1.004 5.699 0.917 0 0-2.134 1.335-1.968 2.97 0.149 1.458 3.053 2.494 3.053 2.494-2.438 0.388-4.177 1.403-6.215 2.365z\" fill=\"#151312\"></path>\n        <g transform=\"translate(-6.313,-6.005)\" clip-path=\"url(#a)\">\n          <path d=\"m16.648 41.782c-0.617 0-1.284-0.077-1.895 0-2.276 0.284-4.755 1.806-6.429 3.282-0.732 0.645-1.351 1.332-1.854 2.171-0.172 0.287-0.363 0.562-0.527 0.852-8e-3 0.012-0.215 0.396-0.248 0.362-0.152-0.151-0.044-0.995-0.044-1.151 0-1.394 0.015-2.694 0.341-4.059 0.435-1.827 0.867-4.205 2.407-5.497 0.593-0.497 1.419-0.714 2.138-0.941 0.989-0.311 2.096-0.55 3.145-0.406 1.754 0.241 3.113 2.109 3.428 3.768 0.08 0.421-0.08 0.892-0.08 1.31\" fill=\"#615a59\"></path>\n        </g>\n        <g r=\"3.698\" fill=\"none\" stroke=\"#bbb9b9\" stroke-linejoin=\"miter\" stroke-width=\"2.23px\">\n          <circle cx=\"91.379\" cy=\"17.794\"></circle>\n          <circle cx=\"91.379\" cy=\"54.01\"></circle>\n        </g>\n\n        <path d=\"m79.979 41.028c3.519 0 6.375 2.168 6.375 4.839 0 2.67-2.856 4.839-6.375 4.839-3.518 0-6.375-2.169-6.375-4.839 0-2.671 2.857-4.839 6.375-4.839zm0 1.141c2.041 0 3.698 1.657 3.698 3.698s-1.657 3.698-3.698 3.698-3.698-1.657-3.698-3.698 1.657-3.698 3.698-3.698z\" fill=\"#bbb9b9\"></path>\n        <path d=\"m79.979 20.04c3.519 0 6.375 2.169 6.375 4.839 0 2.671-2.856 4.839-6.375 4.839-3.518 0-6.375-2.168-6.375-4.839 0-2.67 2.857-4.839 6.375-4.839zm0 1.141c2.041 0 3.698 1.657 3.698 3.698s-1.657 3.698-3.698 3.698-3.698-1.657-3.698-3.698 1.657-3.698 3.698-3.698z\" fill=\"#bbb9b9\"></path>\n        <path d=\"m89.905 44.462v-17.142h8.391v17.142z\" fill=\"none\" stroke=\"#fff\" stroke-linejoin=\"miter\" stroke-width=\".65px\"></path>\n        <text fill=\"#fffefe\" font-family=\"sans-serif\" transform=\"rotate(-90)\">\n          <tspan x=\"-39.297 -37.036 -34.776\" y=\"95.418\" font-size=\"3.735px\">103</tspan>\n          <tspan x=\"-61.485\" y=\"111.57\" font-size=\"9.778px\">S</tspan>\n          <tspan x=\"-15.512\" y=\"111.573\" font-size=\"15.828px\">-</tspan>\n        </text>\n      </svg>\n    ",
+  "own": [
+    "_$Ep",
+    "isUpdatePending",
+    "hasUpdated",
+    "_$Em",
+    "enableUpdating",
+    "_$ES",
+    "_$AL",
+    "renderOptions",
+    "_$Do",
+    "pinInfo",
+    "__reactFiber$3p1y84nitoq",
+    "__reactProps$3p1y84nitoq",
+    "renderRoot"
+  ]
+}

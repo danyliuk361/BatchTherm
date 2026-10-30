@@ -1,0 +1,171 @@
+docker build -t batchtherm-build:lab2 docker
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 331B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:24.04
+#2 DONE 0.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/ubuntu:24.04@sha256:534baea6a22c03a63003dbc8dbe78fe34bc0d7e595d9a9dc9834884ff530eb55
+#4 resolve docker.io/library/ubuntu:24.04@sha256:534baea6a22c03a63003dbc8dbe78fe34bc0d7e595d9a9dc9834884ff530eb55 0.0s done
+#4 DONE 0.0s
+
+#5 [2/3] RUN apt-get update && apt-get install -y --no-install-recommends     make     gcc-arm-none-eabi     binutils-arm-none-eabi     libnewlib-arm-none-eabi     ca-certificates     && rm -rf /var/lib/apt/lists/*
+#5 CACHED
+
+#6 [3/3] WORKDIR /workspace
+#6 CACHED
+
+#7 exporting to image
+#7 exporting layers done
+#7 exporting manifest sha256:5d55519566f42c5327d27275540b040a9f9edcf287f3bfbd0d43257da1b001ff done
+#7 exporting config sha256:cd499726b99492d1070e7bd430d3a22de5ce2e608113bea2b7d193ef4fc77742 done
+#7 exporting attestation manifest sha256:742af4650ac4b5e5686e688c52ef12e518b441b1cea587703cea010ce81bde0f done
+#7 exporting manifest list sha256:f35bf604634ffd6aae324853f8781f705c769ad92241745bca01be37e297538f done
+#7 naming to docker.io/library/batchtherm-build:lab2 done
+#7 unpacking to docker.io/library/batchtherm-build:lab2 done
+#7 DONE 0.0s
+docker run --rm -v "/Users/pliffdax/Projects/university/Study/People/Данилюк Вадим Ігорович/2026-Fall/SP/Lab01/Work/BatchTherm:/workspace" -w /workspace \
+		--user "501:20" batchtherm-build:lab2 \
+		make -C firmware all
+make: Entering directory '/workspace/firmware'
+mkdir -p build		
+arm-none-eabi-gcc -c -mcpu=cortex-m0plus -mthumb   -DUSE_HAL_DRIVER -DSTM32C031xx -ICore/Inc -IDevices -IApp -IPlatform -IDrivers/STM32C0xx_HAL_Driver/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32C0xx/Include -IDrivers/CMSIS/Include -Og -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -Wextra -fstack-usage -MMD -MP -MF"build/board.d" -Wa,-a,-ad,-alms=build/board.lst Platform/board.c -o build/board.o
+Platform/board.c:9:8: error: unknown type name 'ADC_HandleTypeDef'
+    9 | static ADC_HandleTypeDef adc;
+      |        ^~~~~~~~~~~~~~~~~
+Platform/board.c: In function 'adc_init':
+Platform/board.c:39:5: error: request for member 'Instance' in something not a structure or union
+   39 |  adc.Instance=ADC1;adc.Init.ClockPrescaler=ADC_CLOCK_SYNC_PCLK_DIV4;adc.Init.Resolution=ADC_RESOLUTION_12B;
+      |     ^
+Platform/board.c:39:23: error: request for member 'Init' in something not a structure or union
+   39 |  adc.Instance=ADC1;adc.Init.ClockPrescaler=ADC_CLOCK_SYNC_PCLK_DIV4;adc.Init.Resolution=ADC_RESOLUTION_12B;
+      |                       ^
+Platform/board.c:39:44: error: 'ADC_CLOCK_SYNC_PCLK_DIV4' undeclared (first use in this function); did you mean 'ADC_CLOCKPRESCALER_PCLK_DIV4'?
+   39 |  adc.Instance=ADC1;adc.Init.ClockPrescaler=ADC_CLOCK_SYNC_PCLK_DIV4;adc.Init.Resolution=ADC_RESOLUTION_12B;
+      |                                            ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                            ADC_CLOCKPRESCALER_PCLK_DIV4
+Platform/board.c:39:44: note: each undeclared identifier is reported only once for each function it appears in
+Platform/board.c:39:72: error: request for member 'Init' in something not a structure or union
+   39 |  adc.Instance=ADC1;adc.Init.ClockPrescaler=ADC_CLOCK_SYNC_PCLK_DIV4;adc.Init.Resolution=ADC_RESOLUTION_12B;
+      |                                                                        ^
+Platform/board.c:39:89: error: 'ADC_RESOLUTION_12B' undeclared (first use in this function); did you mean 'ADC_RESOLUTION12b'?
+   39 |  adc.Instance=ADC1;adc.Init.ClockPrescaler=ADC_CLOCK_SYNC_PCLK_DIV4;adc.Init.Resolution=ADC_RESOLUTION_12B;
+      |                                                                                         ^~~~~~~~~~~~~~~~~~
+      |                                                                                         ADC_RESOLUTION12b
+Platform/board.c:40:5: error: request for member 'Init' in something not a structure or union
+   40 |  adc.Init.DataAlign=ADC_DATAALIGN_RIGHT;adc.Init.ScanConvMode=ADC_SCAN_DISABLE;adc.Init.EOCSelection=ADC_EOC_SINGLE_CONV;
+      |     ^
+Platform/board.c:40:21: error: 'ADC_DATAALIGN_RIGHT' undeclared (first use in this function)
+   40 |  adc.Init.DataAlign=ADC_DATAALIGN_RIGHT;adc.Init.ScanConvMode=ADC_SCAN_DISABLE;adc.Init.EOCSelection=ADC_EOC_SINGLE_CONV;
+      |                     ^~~~~~~~~~~~~~~~~~~
+Platform/board.c:40:44: error: request for member 'Init' in something not a structure or union
+   40 |  adc.Init.DataAlign=ADC_DATAALIGN_RIGHT;adc.Init.ScanConvMode=ADC_SCAN_DISABLE;adc.Init.EOCSelection=ADC_EOC_SINGLE_CONV;
+      |                                            ^
+Platform/board.c:40:63: error: 'ADC_SCAN_DISABLE' undeclared (first use in this function); did you mean 'UART_STATE_DISABLE'?
+   40 |  adc.Init.DataAlign=ADC_DATAALIGN_RIGHT;adc.Init.ScanConvMode=ADC_SCAN_DISABLE;adc.Init.EOCSelection=ADC_EOC_SINGLE_CONV;
+      |                                                               ^~~~~~~~~~~~~~~~
+      |                                                               UART_STATE_DISABLE
+Platform/board.c:40:83: error: request for member 'Init' in something not a structure or union
+   40 |  adc.Init.DataAlign=ADC_DATAALIGN_RIGHT;adc.Init.ScanConvMode=ADC_SCAN_DISABLE;adc.Init.EOCSelection=ADC_EOC_SINGLE_CONV;
+      |                                                                                   ^
+Platform/board.c:40:102: error: 'ADC_EOC_SINGLE_CONV' undeclared (first use in this function); did you mean 'EOC_SINGLE_CONV'?
+   40 |  adc.Init.DataAlign=ADC_DATAALIGN_RIGHT;adc.Init.ScanConvMode=ADC_SCAN_DISABLE;adc.Init.EOCSelection=ADC_EOC_SINGLE_CONV;
+      |                                                                                                      ^~~~~~~~~~~~~~~~~~~
+      |                                                                                                      EOC_SINGLE_CONV
+Platform/board.c:41:5: error: request for member 'Init' in something not a structure or union
+   41 |  adc.Init.NbrOfConversion=1;adc.Init.ExternalTrigConv=ADC_SOFTWARE_START;adc.Init.ExternalTrigConvEdge=ADC_EXTERNALTRIGCONVEDGE_NONE;
+      |     ^
+Platform/board.c:41:32: error: request for member 'Init' in something not a structure or union
+   41 |  adc.Init.NbrOfConversion=1;adc.Init.ExternalTrigConv=ADC_SOFTWARE_START;adc.Init.ExternalTrigConvEdge=ADC_EXTERNALTRIGCONVEDGE_NONE;
+      |                                ^
+Platform/board.c:41:55: error: 'ADC_SOFTWARE_START' undeclared (first use in this function)
+   41 |  adc.Init.NbrOfConversion=1;adc.Init.ExternalTrigConv=ADC_SOFTWARE_START;adc.Init.ExternalTrigConvEdge=ADC_EXTERNALTRIGCONVEDGE_NONE;
+      |                                                       ^~~~~~~~~~~~~~~~~~
+Platform/board.c:41:77: error: request for member 'Init' in something not a structure or union
+   41 |  adc.Init.NbrOfConversion=1;adc.Init.ExternalTrigConv=ADC_SOFTWARE_START;adc.Init.ExternalTrigConvEdge=ADC_EXTERNALTRIGCONVEDGE_NONE;
+      |                                                                             ^
+Platform/board.c:41:104: error: 'ADC_EXTERNALTRIGCONVEDGE_NONE' undeclared (first use in this function); did you mean 'ADC_EXTERNALTRIG_EDGE_NONE'?
+   41 |  adc.Init.NbrOfConversion=1;adc.Init.ExternalTrigConv=ADC_SOFTWARE_START;adc.Init.ExternalTrigConvEdge=ADC_EXTERNALTRIGCONVEDGE_NONE;
+      |                                                                                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                                        ADC_EXTERNALTRIG_EDGE_NONE
+Platform/board.c:42:5: error: request for member 'Init' in something not a structure or union
+   42 |  adc.Init.Overrun=ADC_OVR_DATA_OVERWRITTEN;adc.Init.SamplingTimeCommon1=ADC_SAMPLETIME_79CYCLES_5;
+      |     ^
+Platform/board.c:42:19: error: 'ADC_OVR_DATA_OVERWRITTEN' undeclared (first use in this function); did you mean 'OVR_DATA_OVERWRITTEN'?
+   42 |  adc.Init.Overrun=ADC_OVR_DATA_OVERWRITTEN;adc.Init.SamplingTimeCommon1=ADC_SAMPLETIME_79CYCLES_5;
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                   OVR_DATA_OVERWRITTEN
+Platform/board.c:42:47: error: request for member 'Init' in something not a structure or union
+   42 |  adc.Init.Overrun=ADC_OVR_DATA_OVERWRITTEN;adc.Init.SamplingTimeCommon1=ADC_SAMPLETIME_79CYCLES_5;
+      |                                               ^
+Platform/board.c:42:73: error: 'ADC_SAMPLETIME_79CYCLES_5' undeclared (first use in this function); did you mean 'ADC_SAMPLETIME_2CYCLE_5'?
+   42 |  adc.Init.Overrun=ADC_OVR_DATA_OVERWRITTEN;adc.Init.SamplingTimeCommon1=ADC_SAMPLETIME_79CYCLES_5;
+      |                                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                         ADC_SAMPLETIME_2CYCLE_5
+Platform/board.c:43:5: error: request for member 'Init' in something not a structure or union
+   43 |  adc.Init.SamplingTimeCommon2=ADC_SAMPLETIME_79CYCLES_5;adc.Init.TriggerFrequencyMode=ADC_TRIGGER_FREQ_HIGH;
+      |     ^
+Platform/board.c:43:60: error: request for member 'Init' in something not a structure or union
+   43 |  adc.Init.SamplingTimeCommon2=ADC_SAMPLETIME_79CYCLES_5;adc.Init.TriggerFrequencyMode=ADC_TRIGGER_FREQ_HIGH;
+      |                                                            ^
+Platform/board.c:43:87: error: 'ADC_TRIGGER_FREQ_HIGH' undeclared (first use in this function)
+   43 |  adc.Init.SamplingTimeCommon2=ADC_SAMPLETIME_79CYCLES_5;adc.Init.TriggerFrequencyMode=ADC_TRIGGER_FREQ_HIGH;
+      |                                                                                       ^~~~~~~~~~~~~~~~~~~~~
+Platform/board.c:44:5: warning: implicit declaration of function 'HAL_ADC_Init'; did you mean 'HAL_I2C_Init'? [-Wimplicit-function-declaration]
+   44 |  if(HAL_ADC_Init(&adc)!=HAL_OK||HAL_ADCEx_Calibration_Start(&adc)!=HAL_OK)Error_Handler();
+      |     ^~~~~~~~~~~~
+      |     HAL_I2C_Init
+Platform/board.c:44:33: warning: implicit declaration of function 'HAL_ADCEx_Calibration_Start' [-Wimplicit-function-declaration]
+   44 |  if(HAL_ADC_Init(&adc)!=HAL_OK||HAL_ADCEx_Calibration_Start(&adc)!=HAL_OK)Error_Handler();
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+Platform/board.c:45:2: error: unknown type name 'ADC_ChannelConfTypeDef'; did you mean 'DMA_Channel_TypeDef'?
+   45 |  ADC_ChannelConfTypeDef channel={0};channel.Channel=ADC_CHANNEL_0;channel.Rank=ADC_RANK_CHANNEL_NUMBER;channel.SamplingTime=ADC_SAMPLINGTIME_COMMON_1;
+      |  ^~~~~~~~~~~~~~~~~~~~~~
+      |  DMA_Channel_TypeDef
+Platform/board.c:45:44: error: request for member 'Channel' in something not a structure or union
+   45 |  ADC_ChannelConfTypeDef channel={0};channel.Channel=ADC_CHANNEL_0;channel.Rank=ADC_RANK_CHANNEL_NUMBER;channel.SamplingTime=ADC_SAMPLINGTIME_COMMON_1;
+      |                                            ^
+Platform/board.c:45:53: error: 'ADC_CHANNEL_0' undeclared (first use in this function); did you mean 'DAC1_CHANNEL_1'?
+   45 |  ADC_ChannelConfTypeDef channel={0};channel.Channel=ADC_CHANNEL_0;channel.Rank=ADC_RANK_CHANNEL_NUMBER;channel.SamplingTime=ADC_SAMPLINGTIME_COMMON_1;
+      |                                                     ^~~~~~~~~~~~~
+      |                                                     DAC1_CHANNEL_1
+Platform/board.c:45:74: error: request for member 'Rank' in something not a structure or union
+   45 |  ADC_ChannelConfTypeDef channel={0};channel.Channel=ADC_CHANNEL_0;channel.Rank=ADC_RANK_CHANNEL_NUMBER;channel.SamplingTime=ADC_SAMPLINGTIME_COMMON_1;
+      |                                                                          ^
+Platform/board.c:45:80: error: 'ADC_RANK_CHANNEL_NUMBER' undeclared (first use in this function)
+   45 |  ADC_ChannelConfTypeDef channel={0};channel.Channel=ADC_CHANNEL_0;channel.Rank=ADC_RANK_CHANNEL_NUMBER;channel.SamplingTime=ADC_SAMPLINGTIME_COMMON_1;
+      |                                                                                ^~~~~~~~~~~~~~~~~~~~~~~
+Platform/board.c:45:111: error: request for member 'SamplingTime' in something not a structure or union
+   45 |  ADC_ChannelConfTypeDef channel={0};channel.Channel=ADC_CHANNEL_0;channel.Rank=ADC_RANK_CHANNEL_NUMBER;channel.SamplingTime=ADC_SAMPLINGTIME_COMMON_1;
+      |                                                                                                               ^
+Platform/board.c:45:125: error: 'ADC_SAMPLINGTIME_COMMON_1' undeclared (first use in this function)
+   45 |  ADC_ChannelConfTypeDef channel={0};channel.Channel=ADC_CHANNEL_0;channel.Rank=ADC_RANK_CHANNEL_NUMBER;channel.SamplingTime=ADC_SAMPLINGTIME_COMMON_1;
+      |                                                                                                                             ^~~~~~~~~~~~~~~~~~~~~~~~~
+Platform/board.c:46:5: warning: implicit declaration of function 'HAL_ADC_ConfigChannel' [-Wimplicit-function-declaration]
+   46 |  if(HAL_ADC_ConfigChannel(&adc,&channel)!=HAL_OK)Error_Handler();
+      |     ^~~~~~~~~~~~~~~~~~~~~
+Platform/board.c: In function 'sample_read':
+Platform/board.c:51:22: warning: implicit declaration of function 'HAL_ADC_Start'; did you mean 'HAL_DMA_Start'? [-Wimplicit-function-declaration]
+   51 |  HAL_StatusTypeDef r=HAL_ADC_Start(&adc);
+      |                      ^~~~~~~~~~~~~
+      |                      HAL_DMA_Start
+Platform/board.c:52:17: warning: implicit declaration of function 'HAL_ADC_PollForConversion' [-Wimplicit-function-declaration]
+   52 |  if(r==HAL_OK)r=HAL_ADC_PollForConversion(&adc,5);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+Platform/board.c:53:34: warning: implicit declaration of function 'HAL_ADC_GetValue' [-Wimplicit-function-declaration]
+   53 |  if(r==HAL_OK){adc_raw=(uint16_t)HAL_ADC_GetValue(&adc);ntc_result=ntc_temperature(adc_raw,&sample_dc);}
+      |                                  ^~~~~~~~~~~~~~~~
+Platform/board.c:55:8: warning: implicit declaration of function 'HAL_ADC_Stop'; did you mean 'HAL_UART_DMAStop'? [-Wimplicit-function-declaration]
+   55 |  (void)HAL_ADC_Stop(&adc);HAL_GPIO_WritePin(GPIOA,GPIO_PIN_8,GPIO_PIN_RESET);
+      |        ^~~~~~~~~~~~
+      |        HAL_UART_DMAStop
+make: *** [Makefile:170: build/board.o] Error 1
+make: Leaving directory '/workspace/firmware'
+make: *** [build] Error 2

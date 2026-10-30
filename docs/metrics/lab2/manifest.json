@@ -1,0 +1,126 @@
+{
+  "integration-final": {
+    "run": {
+      "actual_utc": "2026-11-06T16:10:21.196Z",
+      "url": "https://wokwi.com/vscode/wcode?v=4.1.0",
+      "duration_host_s": 15,
+      "diagram_sha256": "bceea70474c6823b250c7aa09c437b4193c7ecb186990d4ff7e268633a642ad5",
+      "elf_sha256": "44b89de4d5a40ba93abb7a817fedf1609814882259301a014d8ed1e0ab5f0b58",
+      "hex_sha256": "727c89ad604da959ac895ddb9304bdb9225cd8e11fc895609d650b9ccb83290b",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "screenshot_crop": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    "files": {
+      "docs/metrics/lab2/integration-final/events.json": "62c7a1928cfd33ecac59362228ed09281a8677dcc703ab748b4de6a4a841630f",
+      "docs/metrics/lab2/integration-final/stimuli.json": "cda086b6d5730e18f3de844198b7f9e40f063db1de86c002e1116209817b18b6",
+      "docs/metrics/lab2/integration-final/dom.txt": "0425d655f8c8eff49614b39c9331cb0710454e5c48d94752718c0be7ddf9aeee",
+      "docs/metrics/lab2/integration-final/capture.vcd": "ec913228f7a7e9475d3630af638273c1d6a12471642002fe48abb1a5d6648c2b",
+      "docs/metrics/lab2/integration-final/sd-after.img": "a8be397accdbaef1c72f804b0473611e6afca079f4b50243ba4352c184fd6463",
+      "docs/metrics/lab2/integration-final/uart.log": "2da4cc9696001167cbc114a499fb30eb844d91e75fd0ac5819a72142cfd6a571",
+      "docs/metrics/lab2/integration-final/run.json": "b619a28de343a44d2db8d6ea448190cf40a843a97211e2bbfdfb2575e487d7a3",
+      "docs/metrics/lab2/integration-final/wokwi-full.png": "78f0b7b0f55fd8a54f2d4357ec53f0217cf92c9cd8c8350a34d1705521fc2d2f"
+    }
+  },
+  "functional-final": {
+    "run": {
+      "actual_utc": "2026-11-06T16:07:12.140Z",
+      "url": "https://wokwi.com/vscode/wcode?v=4.1.0",
+      "duration_host_s": 15,
+      "diagram_sha256": "75d8e63a7c6d52138a1129859885fece8f7df4c24e13f4c41d49f087f627368f",
+      "elf_sha256": "44b89de4d5a40ba93abb7a817fedf1609814882259301a014d8ed1e0ab5f0b58",
+      "hex_sha256": "727c89ad604da959ac895ddb9304bdb9225cd8e11fc895609d650b9ccb83290b",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "screenshot_crop": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    "files": {
+      "docs/metrics/lab2/functional-final/events.json": "25daee816e436f9b20c5911a550639b038a161b170320e7f544e2543c8aef748",
+      "docs/metrics/lab2/functional-final/sample-25.png": "31e9dfd64922cfcc08a0048057e8dd10037f50a4c70920a734c9a0b9ea2fa15f",
+      "docs/metrics/lab2/functional-final/stimuli.json": "9c5d30bccd10b92c25b2d34dbdeef8a48bd423d4fdd7bacf57ede53b88a38f14",
+      "docs/metrics/lab2/functional-final/sample--5.png": "b85b4c86d5dce3888c57ae9be8be0a8a2de9c8529b9dbb9e1f3d4f5720091b67",
+      "docs/metrics/lab2/functional-final/sample-63.png": "86e27d5441e780cf84baa709066d53dc4d6fce33294721c1d3b71b4f10cad9b9",
+      "docs/metrics/lab2/functional-final/sample-62.png": "ac7d1fc2f074656e8b51846c84e3b7d5e9ddfcdc8a916424377227d3b463feab",
+      "docs/metrics/lab2/functional-final/sample-60.png": "9d31eeba6785238bf6d072714e2caf375745f0ad45707951069ef3db8b0adf77",
+      "docs/metrics/lab2/functional-final/sample-58.png": "9cd94ca673272922fe582aa2068b2fd558a859cff84723c5b87ecee4ccbe4999",
+      "docs/metrics/lab2/functional-final/capture.vcd": "7d24ba1a591f3b2d2285c5c8b8fee6c7ccdb1af0916d503946713b0ff242ea81",
+      "docs/metrics/lab2/functional-final/sd-after.img": "5647f05ec18958947d32874eeb788fa396a05d0bab7c1b71f112ceb7e9b31eee",
+      "docs/metrics/lab2/functional-final/uart.log": "568c52b9fcc5eafd12eb2a740a5baace0da0d2b8afc43b00f639e67abe82ef90",
+      "docs/metrics/lab2/functional-final/run.json": "d4e6290aa1171cf7a66aa50b811ac2bace9a416288731f0938d0f63edc434e68",
+      "docs/metrics/lab2/functional-final/wokwi-full.png": "42604c462801df812aed522f5314f945a42cae986e8269c6eb40f1ce0e3ecf3f"
+    }
+  },
+  "lid-final": {
+    "run": {
+      "actual_utc": "2026-11-06T16:09:46.854Z",
+      "url": "https://wokwi.com/vscode/wcode?v=4.1.0",
+      "duration_host_s": 6,
+      "diagram_sha256": "75d8e63a7c6d52138a1129859885fece8f7df4c24e13f4c41d49f087f627368f",
+      "elf_sha256": "44b89de4d5a40ba93abb7a817fedf1609814882259301a014d8ed1e0ab5f0b58",
+      "hex_sha256": "727c89ad604da959ac895ddb9304bdb9225cd8e11fc895609d650b9ccb83290b",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "screenshot_crop": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    "files": {
+      "docs/metrics/lab2/lid-final/lid-open.png": "938b9f12c9b915548a2bef1cac4935e5282ead26729a52150c0358980f39c180",
+      "docs/metrics/lab2/lid-final/events.json": "3e3f464c66d683d3ac432be24137a81cd46e87a0cfaf80f0eab91b11c2796d25",
+      "docs/metrics/lab2/lid-final/stimuli.json": "e3fb1256303391688df30fc273ea4eac0b4c61bc4ee317a210b8527f39ce3545",
+      "docs/metrics/lab2/lid-final/lid-closed.png": "57601991a7ec0af7c32d652779fef416dcd9ad738c0a335c1c7b3bf798053398",
+      "docs/metrics/lab2/lid-final/capture.vcd": "df6507256e54a5d1df7cd8318ac322d710cfa4a3b954fb326ff0d14e4c70de94",
+      "docs/metrics/lab2/lid-final/sd-after.img": "5647f05ec18958947d32874eeb788fa396a05d0bab7c1b71f112ceb7e9b31eee",
+      "docs/metrics/lab2/lid-final/uart.log": "560910e0e5588980bf17d0da7974785065269d0718a1c735e76fd67341e2a798",
+      "docs/metrics/lab2/lid-final/run.json": "bd8123db7fb52d8959f10d75f3b7d5c9f448a1cab5298040aef55ddc6a24b099",
+      "docs/metrics/lab2/lid-final/wokwi-full.png": "0c7f28895ddd5dc84a7a0feb6839898f6da4470f939f49ee86b05854a2573b3b"
+    }
+  },
+  "persistent-read-final": {
+    "run": {
+      "actual_utc": "2026-11-06T16:08:11.572Z",
+      "url": "https://wokwi.com/vscode/wcode?v=4.1.0",
+      "duration_host_s": 6,
+      "diagram_sha256": "75d8e63a7c6d52138a1129859885fece8f7df4c24e13f4c41d49f087f627368f",
+      "elf_sha256": "44b89de4d5a40ba93abb7a817fedf1609814882259301a014d8ed1e0ab5f0b58",
+      "hex_sha256": "727c89ad604da959ac895ddb9304bdb9225cd8e11fc895609d650b9ccb83290b",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "screenshot_crop": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    "files": {
+      "docs/metrics/lab2/persistent-read-final/events.json": "63d4299511932c0abdc5a8ddf98f8329e13188ca4a60e42d903da15e462c56bd",
+      "docs/metrics/lab2/persistent-read-final/capture.vcd": "d01655347839ec4c1494a988c01638d9b132949d8ffdb3e7eaad72aab773e6ab",
+      "docs/metrics/lab2/persistent-read-final/sd-after.img": "a8be397accdbaef1c72f804b0473611e6afca079f4b50243ba4352c184fd6463",
+      "docs/metrics/lab2/persistent-read-final/uart.log": "b7d6418a4626ad855f00ed87daa7769905f3513c239764a89c24178f6397c65a",
+      "docs/metrics/lab2/persistent-read-final/run.json": "dd8a989db8b530ba0587f1a836cf9a1704c8da2a06967a0e2c1217ba4f3a2a6b",
+      "docs/metrics/lab2/persistent-read-final/wokwi-full.png": "f9a8536211fd6f5ff39440a0526c7e878f1b66fe8065e437e4168a49b6a585b1"
+    }
+  }
+}

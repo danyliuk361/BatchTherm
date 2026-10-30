@@ -1,0 +1,83 @@
+docker build -t batchtherm-build:lab2 docker
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [1/3] FROM docker.io/library/ubuntu:24.04@sha256:534baea6a22c03a63003dbc8dbe78fe34bc0d7e595d9a9dc9834884ff530eb55
+#1 resolve docker.io/library/ubuntu:24.04@sha256:534baea6a22c03a63003dbc8dbe78fe34bc0d7e595d9a9dc9834884ff530eb55 done
+#1 CACHED
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 353B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/ubuntu:24.04
+#3 DONE 0.0s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.0s
+
+#5 [2/3] RUN apt-get update && apt-get install -y --no-install-recommends     make gcc libc6-dev python3     gcc-arm-none-eabi     binutils-arm-none-eabi     libnewlib-arm-none-eabi     ca-certificates     && rm -rf /var/lib/apt/lists/*
+#5 CACHED
+
+#6 [3/3] WORKDIR /workspace
+#6 CACHED
+
+#7 exporting to image
+#7 exporting layers done
+#7 exporting manifest sha256:e24e3aaee9f752c4817b10ae5e12880f52ca7f6f15e41632f754fe57e3c54297 done
+#7 exporting config sha256:0061b46a053e53d8d5030c8bbfea97fbd256324156490e8e4472b5bfe25287ed done
+#7 exporting attestation manifest sha256:123a9941b26e270bba731a0345dfb945dcdc19a419d183838335ac3ca3dce384 0.0s done
+#7 exporting manifest list sha256:8863a62d99fa898f21603b3138755f380c54fc8a55e2c187646bdf6a670b0150 done
+#7 naming to docker.io/library/batchtherm-build:lab2 done
+#7 unpacking to docker.io/library/batchtherm-build:lab2 done
+#7 DONE 0.0s
+docker run --rm -v "/Users/pliffdax/Projects/university/Study/People/Данилюк Вадим Ігорович/2026-Fall/SP/Lab01/Work/BatchTherm:/workspace" -w /workspace --user "501:20" batchtherm-build:lab2 sh tools/test_host.sh
+Layer dependencies: PASS
+PASS SD command order/CRC, SDHC OCR, CMD24/CMD17 512-byte readback, bad echo/token/response and busy timeout
+PASS BMP180 datasheet 15.0 C, ID/calibration, conversion sequence, NACK/timeout/IO
+PASS NTC physical units, range, rail codes and 5..80 C independent model
+PASS median warm-up/spike/reset, inclusive band, freshness, lid bounce/wrap
+ALL THERMAL TESTS PASS
+File '../../firmware/Devices/bmp180.c'
+Lines executed:97.73% of 44
+Branches executed:100.00% of 26
+Taken at least once:80.77% of 26
+Calls executed:100.00% of 11
+Creating 'bmp180.c.gcov'
+
+File '../../firmware/Devices/ntc.c'
+Lines executed:100.00% of 10
+Branches executed:100.00% of 10
+Taken at least once:90.00% of 10
+No calls
+Creating 'ntc.c.gcov'
+
+File '../../firmware/App/quality.c'
+Lines executed:100.00% of 40
+Branches executed:100.00% of 34
+Taken at least once:91.18% of 34
+No calls
+Creating 'quality.c.gcov'
+
+File '../../firmware/Devices/sdcard.c'
+Lines executed:90.10% of 101
+Branches executed:100.00% of 58
+Taken at least once:82.76% of 58
+Calls executed:94.00% of 50
+Creating 'sdcard.c.gcov'
+
+File '../test_sdcard.c'
+Lines executed:100.00% of 104
+Branches executed:100.00% of 98
+Taken at least once:77.55% of 98
+Calls executed:54.55% of 33
+Creating 'test_sdcard.c.gcov'
+
+File '../test_thermal.c'
+Lines executed:100.00% of 123
+Branches executed:100.00% of 140
+Taken at least once:53.57% of 140
+Calls executed:56.31% of 103
+Creating 'test_thermal.c.gcov'
+
+Lines executed:97.39% of 422

@@ -1,0 +1,17 @@
+[
+  {
+    "command": "sim:run"
+  },
+  {
+    "command": "sdcard:export",
+    "part": "storage"
+  },
+  {
+    "command": "sim:stop"
+  },
+  {
+    "command": "vcd:ready",
+    "channelCount": 8,
+    "sampleCount": 9807
+  }
+]

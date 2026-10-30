@@ -1,0 +1,60 @@
+BOOT product=BatchTherm lab=2 units=dC adc_bits=12 core_hz=48000000
+TEST device=BMP180 addr=77 id=00 result=NACK ac5=0 ac6=0 mc=0 md=0
+TEST device=NTC adc=809 sample_dC=0 result=RANGE
+TEST device=LID raw_closed=0 known=0 result=OK
+BUS t=29 addr=77 status=IO
+LID t=57 closed=0
+BUS t=233 addr=77 status=ID
+FRAME t=236 adc=809 sample_dC=0 median_dC=0 sample_valid=0 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+BUS t=433 addr=77 status=IO
+FRAME t=437 adc=809 sample_dC=0 median_dC=0 sample_valid=0 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+BUS t=633 addr=77 status=ID
+FRAME t=636 adc=809 sample_dC=0 median_dC=0 sample_valid=0 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+BUS t=833 addr=77 status=IO
+FRAME t=837 adc=809 sample_dC=0 median_dC=0 sample_valid=0 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+BUS t=1033 addr=77 status=ID
+FRAME t=1036 adc=809 sample_dC=0 median_dC=0 sample_valid=0 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+BUS t=1233 addr=77 status=IO
+FRAME t=1237 adc=809 sample_dC=0 median_dC=0 sample_valid=0 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+BUS t=1433 addr=77 status=ID
+FRAME t=1436 adc=809 sample_dC=0 median_dC=0 sample_valid=0 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+BUS t=1633 addr=77 status=IO
+FRAME t=1637 adc=809 sample_dC=0 median_dC=0 sample_valid=0 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+BUS t=1833 addr=77 status=ID
+FRAME t=1836 adc=809 sample_dC=0 median_dC=0 sample_valid=0 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+BUS t=2033 addr=77 status=IO
+FRAME t=2037 adc=809 sample_dC=0 median_dC=0 sample_valid=0 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+BUS t=2233 addr=77 status=ID
+FRAME t=2236 adc=809 sample_dC=0 median_dC=0 sample_valid=0 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+BUS t=2433 addr=77 status=IO
+FRAME t=2437 adc=809 sample_dC=0 median_dC=0 sample_valid=0 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+BUS t=2633 addr=77 status=ID
+FRAME t=2636 adc=809 sample_dC=0 median_dC=0 sample_valid=0 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+BUS t=2833 addr=77 status=IO
+FRAME t=2837 adc=809 sample_dC=0 median_dC=0 sample_valid=0 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+BUS t=3033 addr=77 status=ID
+FRAME t=3036 adc=809 sample_dC=0 median_dC=0 sample_valid=0 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+BUS t=3233 addr=77 status=IO
+FRAME t=3237 adc=809 sample_dC=0 median_dC=0 sample_valid=0 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+BUS t=3433 addr=77 status=ID
+FRAME t=3436 adc=809 sample_dC=0 median_dC=0 sample_valid=0 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+BUS t=3633 addr=77 status=IO
+FRAME t=3637 adc=809 sample_dC=0 median_dC=0 sample_valid=0 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+BUS t=3833 addr=77 status=ID
+FRAME t=3836 adc=809 sample_dC=0 median_dC=0 sample_valid=0 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+BUS t=4033 addr=77 status=IO
+FRAME t=4037 adc=809 sample_dC=0 median_dC=0 sample_valid=0 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+BUS t=4233 addr=77 status=ID
+FRAME t=4236 adc=809 sample_dC=0 median_dC=0 sample_valid=0 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+BUS t=4433 addr=77 status=IO
+FRAME t=4437 adc=809 sample_dC=0 median_dC=0 sample_valid=0 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+BUS t=4633 addr=77 status=ID
+FRAME t=4636 adc=809 sample_dC=0 median_dC=0 sample_valid=0 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+BUS t=4833 addr=77 status=IO
+FRAME t=4837 adc=809 sample_dC=0 median_dC=0 sample_valid=0 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+BUS t=5033 addr=77 status=ID
+FRAME t=5036 adc=809 sample_dC=0 median_dC=0 sample_valid=0 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+BUS t=5233 addr=77 status=IO
+FRAME t=5237 adc=809 sample_dC=0 median_dC=0 sample_valid=0 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+BUS t=5433 addr=77 status=ID
+FRAME t=5436 adc=809 sample_dC=0 median_dC=0 sample_valid=0 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0

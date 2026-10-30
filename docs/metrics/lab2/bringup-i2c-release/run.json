@@ -1,0 +1,18 @@
+{
+  "actual_utc": "2026-11-06T16:00:56.327Z",
+  "url": "https://wokwi.com/vscode/wcode?v=4.1.0",
+  "duration_host_s": 6,
+  "diagram_sha256": "39a3ba2a27549292d09c3cd150f5494372120975f127276e39466564d4bb9acf",
+  "elf_sha256": "25845961acdebff0493fb8e450a27ea06daa1a74d982feff8f04819f2e408c99",
+  "hex_sha256": "7bad36f9065f90b7b90adbfc11fe1ba55e109b26184fa7aa988eee26186f99b3",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "screenshot_crop": {
+    "x": 0,
+    "y": 0,
+    "width": 1440,
+    "height": 1000
+  }
+}

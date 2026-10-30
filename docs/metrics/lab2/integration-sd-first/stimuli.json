@@ -1,0 +1,12 @@
+{
+  "actual_utc": "2026-11-06T16:02:12.089Z",
+  "commands": [
+    "capture",
+    "nack",
+    "recover",
+    "sdwrite",
+    "sdread",
+    "counts"
+  ],
+  "pacing_char_ms": 25
+}

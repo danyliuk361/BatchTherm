@@ -1,0 +1,37 @@
+BOOT product=BatchTherm lab=2 units=dC adc_bits=12 core_hz=48000000
+TEST device=BMP180 addr=77 id=00 result=IO ac5=0 ac6=0 mc=0 md=0
+TEST device=NTC adc=930 sample_dC=0 result=RANGE
+TEST device=LID raw_closed=0 known=0 result=OK
+LID t=89 closed=0
+FRAME t=291 adc=1230 sample_dC=72 median_dC=0 sample_valid=0 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+FRAME t=491 adc=1657 sample_dC=166 median_dC=120 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+FRAME t=691 adc=1414 sample_dC=114 median_dC=145 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+FRAME t=891 adc=1699 sample_dC=175 median_dC=122 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+FRAME t=1091 adc=1722 sample_dC=180 median_dC=180 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+FRAME t=1291 adc=1903 sample_dC=219 median_dC=217 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+FRAME t=1491 adc=2123 sample_dC=267 median_dC=231 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+FRAME t=1691 adc=2030 sample_dC=246 median_dC=246 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+FRAME t=1891 adc=1880 sample_dC=214 median_dC=246 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+FRAME t=2091 adc=2059 sample_dC=253 median_dC=214 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+FRAME t=2291 adc=2280 sample_dC=302 median_dC=271 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+FRAME t=2491 adc=2288 sample_dC=304 median_dC=304 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+FRAME t=2691 adc=2010 sample_dC=242 median_dC=261 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+FRAME t=2891 adc=2304 sample_dC=307 median_dC=263 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+FRAME t=3091 adc=2323 sample_dC=312 median_dC=307 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+FRAME t=3291 adc=2224 sample_dC=289 median_dC=301 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+FRAME t=3491 adc=2354 sample_dC=319 median_dC=319 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+FRAME t=3691 adc=2516 sample_dC=358 median_dC=342 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+FRAME t=3891 adc=2400 sample_dC=330 median_dC=350 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+FRAME t=4091 adc=2263 sample_dC=298 median_dC=298 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+FRAME t=4291 adc=2161 sample_dC=275 median_dC=275 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+FRAME t=4491 adc=2072 sample_dC=255 median_dC=255 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+FRAME t=4691 adc=2129 sample_dC=268 median_dC=256 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+FRAME t=4891 adc=1866 sample_dC=211 median_dC=241 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+FRAME t=5091 adc=1791 sample_dC=195 median_dC=211 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+FRAME t=5291 adc=2124 sample_dC=267 median_dC=221 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+FRAME t=5491 adc=2119 sample_dC=266 median_dC=266 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+FRAME t=5691 adc=1929 sample_dC=224 median_dC=244 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+FRAME t=5891 adc=1609 sample_dC=156 median_dC=190 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+FRAME t=6091 adc=1632 sample_dC=161 median_dC=159 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+FRAME t=6291 adc=1950 sample_dC=229 median_dC=196 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0
+FRAME t=6491 adc=2075 sample_dC=256 median_dC=256 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=0

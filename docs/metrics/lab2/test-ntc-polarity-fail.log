@@ -1,0 +1,38 @@
+docker build -t batchtherm-build:lab2 docker
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 353B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:24.04
+#2 DONE 0.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/ubuntu:24.04@sha256:534baea6a22c03a63003dbc8dbe78fe34bc0d7e595d9a9dc9834884ff530eb55
+#4 resolve docker.io/library/ubuntu:24.04@sha256:534baea6a22c03a63003dbc8dbe78fe34bc0d7e595d9a9dc9834884ff530eb55 done
+#4 DONE 0.0s
+
+#5 [2/3] RUN apt-get update && apt-get install -y --no-install-recommends     make gcc libc6-dev python3     gcc-arm-none-eabi     binutils-arm-none-eabi     libnewlib-arm-none-eabi     ca-certificates     && rm -rf /var/lib/apt/lists/*
+#5 CACHED
+
+#6 [3/3] WORKDIR /workspace
+#6 CACHED
+
+#7 exporting to image
+#7 exporting layers done
+#7 exporting manifest sha256:e24e3aaee9f752c4817b10ae5e12880f52ca7f6f15e41632f754fe57e3c54297 done
+#7 exporting config sha256:0061b46a053e53d8d5030c8bbfea97fbd256324156490e8e4472b5bfe25287ed done
+#7 exporting attestation manifest sha256:552f9eb28afb95a17347f1ca75b20ae88f2b20e2f1b66aabb512757ee4a54257 done
+#7 exporting manifest list sha256:df48e555914e178df9ac16495d742da78661bd7c5dce40c56d0592e07218a469 done
+#7 naming to docker.io/library/batchtherm-build:lab2 done
+#7 unpacking to docker.io/library/batchtherm-build:lab2 done
+#7 DONE 0.0s
+docker run --rm -v "/Users/pliffdax/Projects/university/Study/People/Данилюк Вадим Ігорович/2026-Fall/SP/Lab01/Work/BatchTherm:/workspace" -w /workspace --user "501:20" batchtherm-build:lab2 sh tools/test_host.sh
+Layer dependencies: PASS
+thermal: ../test_thermal.c:45: test_ntc: Assertion `abs(t-c*10)<=1' failed.
+Aborted
+make: *** [test] Error 134

@@ -1,0 +1,10 @@
+BatchTherm / Lab 1 / preserved build and signal evidence
+Artifact recheck UTC: 2026-11-06T17:01:05.002933+00:00
+.elf fdffef65d20f8c095927d83b0bb3bc5c1a33637233f97f67642634e3b90342b7
+.hex 5798ce6389f6fdbd67dbe32c56bb8cefd8d531dcf8d84d0c7b46ce60a611d1f6
+.bin f73dd8fcc2372021c17d8bc22033a07e3222412d6e5fd8a7ac807f7d80b95967
+Two recorded clean Docker builds: ELF / HEX / BIN identical: PASS
+Independent VCD UART decode equals raw UART: PASS
+LED regular intervals (ms): 1000.978 .. 1001.482
+   text	   data	    bss	    dec	    hex	filename
+  13088	    112	   2120	  15320	   3bd8	docs/evidence/lab1/firmware.elf

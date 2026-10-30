@@ -1,0 +1,48 @@
+BOOT product=BatchTherm lab=2 units=dC adc_bits=12 core_hz=48000000
+TRACE reg=d0 n=1 r=1 err=4 isr=5 cr2=20004ee first=00
+TEST device=BMP180 addr=77 id=00 result=NACK ac5=0 ac6=0 mc=0 md=0
+TEST device=NTC adc=809 sample_dC=600 result=OK
+TEST device=LID raw_closed=0 known=0 result=OK
+TRACE reg=d0 n=1 r=0 err=0 isr=8003 cr2=20024ee first=55
+TRACE reg=aa n=22 r=1 err=0 isr=8003 cr2=20024ee first=55
+BUS t=49 addr=77 status=IO
+LID t=77 closed=0
+TRACE reg=d0 n=1 r=0 err=0 isr=8003 cr2=20024ee first=34
+BUS t=260 addr=77 status=ID
+FRAME t=263 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=1
+TRACE reg=d0 n=1 r=0 err=0 isr=8003 cr2=20024ee first=55
+TRACE reg=aa n=22 r=1 err=0 isr=8003 cr2=20024ee first=55
+BUS t=467 addr=77 status=IO
+FRAME t=470 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=1
+TRACE reg=d0 n=1 r=0 err=0 isr=8003 cr2=20024ee first=34
+BUS t=660 addr=77 status=ID
+FRAME t=663 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=1
+TRACE reg=d0 n=1 r=0 err=0 isr=8003 cr2=20024ee first=55
+BUS t=860 addr=77 status=IO
+FRAME t=863 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=1
+BUS t=1053 addr=77 status=ID
+FRAME t=1056 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=1
+BUS t=1254 addr=77 status=IO
+FRAME t=1257 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=1
+BUS t=1453 addr=77 status=ID
+FRAME t=1456 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=1
+BUS t=1654 addr=77 status=IO
+FRAME t=1657 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=1
+BUS t=1853 addr=77 status=ID
+FRAME t=1856 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=1
+BUS t=2054 addr=77 status=IO
+FRAME t=2057 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=1
+BUS t=2253 addr=77 status=ID
+FRAME t=2256 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=1
+BUS t=2453 addr=77 status=IO
+FRAME t=2457 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=1
+BUS t=2653 addr=77 status=ID
+FRAME t=2656 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=1
+BUS t=2854 addr=77 status=IO
+FRAME t=2857 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=1
+BUS t=3053 addr=77 status=ID
+FRAME t=3056 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=1
+BUS t=3254 addr=77 status=IO
+FRAME t=3257 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=1
+BUS t=3453 addr=77 status=ID
+FRAME t=3456 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=0 ambient_valid=0 ut=0 lid=OPEN usable=0 band=1

@@ -1,0 +1,63 @@
+BOOT product=BatchTherm lab=2 units=dC adc_bits=12 core_hz=48000000
+TEST device=BMP180 addr=77 id=55 result=OK ac5=32757 ac6=23153 mc=-8711 md=2868
+TEST device=NTC adc=809 sample_dC=600 result=OK
+TEST device=LID raw_closed=0 known=0 result=OK
+TEST device=SD result=0 ready=1 ocr=c0ff8000
+LID t=223 closed=0
+FRAME t=430 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=630 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=830 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=1030 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=1230 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=1430 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+TEST device=BMP180 addr=77 id=55 result=OK ac5=32757 ac6=23153 mc=-8711 md=2868
+TEST device=NTC adc=809 sample_dC=600 result=OK
+TEST device=LID raw_closed=0 known=1 result=OK
+FRAME t=1664 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=1830 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=2030 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+BUS t=2070 addr=76 status=NACK
+FRAME t=2203 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=0 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=2403 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=0 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=2603 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=0 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=2803 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=0 ut=29028 lid=OPEN usable=0 band=1
+BUS t=3092 addr=77 status=OK
+FRAME t=3128 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=3230 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=3430 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=3630 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=3830 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+STORAGE op=WRITE_READ sector=32 result=0 mismatch=0 elapsed_ms=833
+FRAME t=4772 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=4820 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=4868 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=4916 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=4964 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=5030 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=5230 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=5430 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=5630 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=5830 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=6030 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=6230 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=6430 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=6630 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=6830 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=7030 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+STORAGE op=READ_ONLY sector=32 result=0 mismatch=0 elapsed_ms=411
+FRAME t=7533 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=7581 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=7631 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=7830 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=8030 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=8230 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=8430 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=8630 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=8830 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=9030 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=9230 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+COUNTS adc=92 bmp=48 errors=5 commands=6 rx_overflow=0 rx_errors=0
+FRAME t=9430 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=9630 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=9830 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1
+FRAME t=10030 adc=809 sample_dC=600 median_dC=600 sample_valid=1 ambient_dC=240 ambient_valid=1 ut=29028 lid=OPEN usable=0 band=1

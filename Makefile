@@ -1,4 +1,4 @@
-IMAGE ?= stm32c0-wokwi-build:local
+IMAGE ?= batchtherm-build:lab2
 
 .PHONY: image build clean
 
