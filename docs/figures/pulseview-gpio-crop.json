@@ -1,0 +1,10 @@
+{
+  "source": "../screenshots/raw/pulseview-gpio-wide.png",
+  "crop_xyxy": [
+    540,
+    480,
+    2490,
+    1550
+  ],
+  "method": "geometric crop only"
+}

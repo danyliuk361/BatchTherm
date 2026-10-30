@@ -1,0 +1,10 @@
+{
+  "source": "docs/metrics/lab2/lid-final/lid-closed.png",
+  "crop_xyxy": [
+    0,
+    800,
+    1300,
+    960
+  ],
+  "method": "geometric crop only"
+}

@@ -1,0 +1,15 @@
+digraph BatchTherm {
+ graph [rankdir=TB,bgcolor="white",pad=.25,nodesep=.3,ranksep=.35];
+ node [shape=box,style="rounded,filled",fillcolor="#edf2f4",fontname="Arial",fontsize=14,margin=".16,.12"];
+ edge [color="#4a6876"];
+ core [label="Core\nHAL startup • SysTick • USART2 ISR"];
+ board [label="Platform\nboard • I2C/SPI GPIO • ADC/UART"];
+ quality [label="App\nMedian / debounce / validity"];
+ bmp [label="Devices\nBMP180 / NTC"];
+ sd [label="Devices\nSDHC sector protocol"];
+ pins [label="Nucleo-C031C6\nBMP180 • NTC • contact • SDHC",fillcolor="#d5e6df"];
+ core -> board; board -> quality; board -> bmp; board -> sd;
+ bmp -> board [label="bt_bus callbacks",style=dashed,constraint=false];
+ sd -> board [label="sd_bus callbacks",style=dashed,constraint=false];
+ board -> pins;
+}
