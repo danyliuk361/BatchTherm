@@ -17,7 +17,7 @@
 | ЛР2: шарування і component diagram | Перевірено: Core/Platform/Devices/App, check_layers.py, docs/architecture.md і figures/components.png |
 | ЛР2: dependencies, warnings, host-тести | Перевірено: vendored hashes/version, ARM -Wall -Wextra без warnings, make test; BMP97.73%,NTC100%,App100%,SD90.10% lines |
 | CI на PR | Workflow реалізований; remote execution залишається неперевіреним до публікації |
-| Звіти | PDF ЛР1 на5 сторінках, ЛР2 на9; титули, таблиці, усі сторінки візуально перевірені; без номерів і колонтитулів |
+| Звіти | PDF ЛР1 на 8 сторінках, ЛР2 на 13; титули, таблиці, усі сторінки візуально перевірені; без номерів і колонтитулів |
 | Фізичне обладнання | Недоступне у формі B; фронти, струм, абсолютна точність та фізична power-loss atomicity не підтверджені |
 | Підготовка ЛР3–4 | docs/tasks.md: періоди/deadlines, журнал CRC/recovery, S1/S2/S3, вимірювання, same-day порівняння й6 RTOS дослідів; реалізація не виконувалася |
 
