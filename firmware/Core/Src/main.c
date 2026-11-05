@@ -24,6 +24,7 @@
 
 #include <stdio.h>
 #include "board.h"
+#include "lab3_io.h"
 
 /* USER CODE END Includes */
 
@@ -83,6 +84,7 @@ int __io_putchar(int ch)
 int main(void)
 {
   /* USER CODE BEGIN 1 */
+  perf_paint();
 
   /* USER CODE END 1 */
 
