@@ -10,3 +10,7 @@ gcov -b -c thermal-*.gcno
 
 cd ../..
 python3 tools/coverage.py
+gcc -std=c11 -Wall -Wextra -Werror -Ifirmware/App -Ifirmware/Devices tests/test_batch.c firmware/App/batch.c firmware/Devices/sd_stream.c -o tests/build/batch
+./tests/build/batch
+gcc -std=c11 -Wall -Wextra -Werror -Ifirmware/Platform tests/test_timer_extend.c -o tests/build/timer_extend
+./tests/build/timer_extend
