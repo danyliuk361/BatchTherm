@@ -1,5 +1,7 @@
 # Архітектура ЛР2
 
+Цей опис зафіксовано для ревізії lab2. Для поточної прошивки див. [архітектуру задач ЛР3](lab3-tasks.md) і [базову лінію](baseline-lab4.md).
+
 ```mermaid
 flowchart TB
   main[Core: HAL startup / SysTick / USART2 IRQ] --> board[Platform: board / storage bring-up]

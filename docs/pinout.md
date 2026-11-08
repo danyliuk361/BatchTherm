@@ -1,4 +1,4 @@
-# BatchTherm: підключення ЛР2
+# BatchTherm: підключення
 
 Плата Nucleo-C031C6, STM32C031C6 LQFP48. Вимкнути живлення перед фізичним монтажем, спільна GND, усі цифрові й аналогові входи 3.3 V. diagram.json - схема форми B, Platform - єдине місце pin definitions. Контакт тут моделює кнопка: натиснута = CLOSED; відпущена = OPEN.
 
@@ -10,9 +10,10 @@
 | PB9 / 48 | CN5.9 D14/SDA; morpho PB9 | GPIO OD LOW / input release; AF6 доступна, не обрана | BMP180 SDA | 4.7k до 3V3 + internal pull-up | DS13867 табл.15; UM2953 табл.11 |
 | PA2 / 13 | morpho PA2 | USART2_TX AF1 | UART RX монітора | 3.3 V push-pull | DS13867 табл.13 с.35; UM2953 табл.12 |
 | PA3 / 14 | morpho PA3 | USART2_RX AF1 | UART TX монітора | 3.3 V | Ті самі документи |
-| PA5 / 16 | CN5.6 D13 | GPIO output | вбудований LED | штатна обв’язка | UM2953 §6.7 |
+| PA5 / 16 | CN5.6 D13 | GPIO output | вбудований LED, у ЛР3 SOAK і канал D0 у S2 | штатна обв’язка | UM2953 §6.7 |
 | PA8 / 28 | morpho PA8 | GPIO output | analyzer ADC_MARK | маркер обрамлює ADC conversion | DS13867 табл.12 |
-| PA9 / 29 | CN9 D8 / morpho PA9 | GPIO output | analyzer LID_DB | фільтрований контакт | DS13867 табл.12; UM2953 табл.12 |
+| PA9 / 29 | CN9 D8 / morpho PA9 | GPIO output | analyzer BATCH_ACTIVE у ЛР3; LID_DB у lab2 | стан активної партії у ЛР3 | DS13867 табл.12; UM2953 табл.12 |
+| PA10 | morpho PA10 | GPIO output | analyzer SD_BUSY у ЛР3 | транзакція SD в роботі | DS13867; RM0490 |
 | PB1 / 20 | CN8.4 A3 / morpho PB1 | GPIO output | microSD CS | HIGH між транзакціями | DS13867 табл.12 |
 | PB3 / 42 | D3 / morpho PB3 | GPIO output; SPI1 AF0 доступна | microSD SCK | SPI mode0, idle LOW | DS13867 табл.15 |
 | PB4 / 43 | D5 / morpho PB4 | GPIO input; SPI1 AF0 доступна | microSD DO/MISO | input pull-up | DS13867 табл.15 |

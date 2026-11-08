@@ -74,7 +74,7 @@
       "top": -180,
       "left": 290,
       "attrs": {
-        "channelNames": "SCL,SDA,UART_TX,ADC_MARK,LID_RAW,LID_DB,LED,UART_RX",
+        "channelNames": "SCL,SDA,UART_TX,ADC_MARK,LID_RAW,BATCH_ACTIVE,SD_BUSY,UART_RX",
         "bufferSize": "1000000"
       }
     },
@@ -227,7 +227,7 @@
     ],
     [
       "logic:D6",
-      "nucleo:PA5",
+      "nucleo:PA10",
       "blue",
       []
     ],
