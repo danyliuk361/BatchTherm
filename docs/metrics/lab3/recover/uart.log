@@ -1,0 +1,32 @@
+BOOT product=BatchTherm lab=3 build=f6b5827-0ba44211a1db core=48000000 units=dC
+SD init=0 t=62 ocr=c0ff8000
+BMP t=177 result=0 temp=240 ut=29028 addr=77
+LID t=189 us=189453 closed=0
+FIRST t=244 us=244495 n=250 a=240
+HEART t=1056 us=1055972 hb=1 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=1 rx=0 err=0 rearm=0 w=16
+COMMIT seq=2 id=1 phase=5 why=7 t=1746 elapsed_us=535735
+RECOVERY id=1 phase=5 why=7
+JOURNAL ready=2 t=1755 last_id=1
+ACK cmd=status t=1782 lat_us=173 id=1 phase=5 why=7 j=2 sd=1 l=0 nv=1 av=1
+EXPORT begin=2
+HEART t=2022 us=2022068 hb=2 phase=5 why=7 n=250 nv=1 a=240 av=1 l=0 j=2 rx=0 err=0 rearm=0 w=30
+REC seq=1 id=1 t=898 phase=1 why=0 hold=0 ntc=250 bmp=240 min=250 max=250 p=600/20/30/350
+REC seq=2 id=1 t=1209 phase=5 why=7 hold=0 ntc=250 bmp=240 min=250 max=250 p=600/20/30/350
+EXPORT end=2
+MET name=loop n=775 min=94 max=123710 sum=2832529
+MET name=lid n=186 min=34 max=3181 sum=9540
+MET name=ntc n=29 min=1175 max=1188 sum=34360
+MET name=bmp n=15 min=31305 max=115265 sum=560195
+MET name=rx n=5 min=89 max=7932 sum=10128
+MET name=sd n=203 min=796 max=27098 sum=2109262
+MET name=heart n=2 min=10356 max=10384 sum=20740
+MET name=adc_gate n=29 min=1124 max=1127 sum=32602
+MET name=lid_period n=185 min=972 max=123722 sum=2828924
+MET name=ntc_period n=28 min=18394 max=126874 sum=2746923
+MET name=bmp_period n=14 min=145281 max=222875 sum=2746935
+MET name=lid_latency n=0 min=0 max=0 sum=0
+MET name=status_latency n=1 min=173 max=173 sum=173
+MET name=abort_latency n=0 min=0 max=0 sum=0
+TOTAL t=2972 us=2972398 elapsed_us=2972410 busy_us=2744225 stack=696 heap=0 alloc_attempts=0 miss_lid=392 miss_ntc=0 miss_bmp=0
+COUNTS adc=29 bmp=15 errors=0 cmd=3 rejected=0 rx_overflow=0 rx_errors=0 rx_rearm=0
+HEART t=3042 us=3042488 hb=3 phase=5 why=7 n=250 nv=1 a=240 av=1 l=0 j=2 rx=0 err=0 rearm=0 w=46

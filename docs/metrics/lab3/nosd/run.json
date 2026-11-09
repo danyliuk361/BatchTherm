@@ -1,0 +1,23 @@
+{
+  "mode": "nosd",
+  "started": "2026-11-09T12:46:02.264Z",
+  "pid": 53632,
+  "version": "4.1.0",
+  "elf_sha256": "91b42eea234e59243f39c5b5d0fd25c30985f1ef102d2bd078ce653006308403",
+  "hex_sha256": "4033be960cc9149a571e98bf0b67da9f244b62fb7c2a47b7f742a24d89ed559d",
+  "diagram_sha256": "d99a9c0ce1779b5becc1d51c3f069bf95c35568d3c76982bfcb54c7ab295fd7c",
+  "sd_before_sha256": "5647f05ec18958947d32874eeb788fa396a05d0bab7c1b71f112ceb7e9b31eee",
+  "browser_transport": "separate Chromium process, CDP pipe",
+  "status": "captured",
+  "measure_end_ms": 0,
+  "ended": "2026-11-09T12:46:06.687Z",
+  "uart_bytes": 1143,
+  "images": [
+    "wokwi"
+  ],
+  "events": [
+    "sim:run",
+    "sim:stop",
+    "vcd:ready"
+  ]
+}

@@ -1,0 +1,85 @@
+BOOT product=BatchTherm lab=3 build=f6b5827-0ba44211a1db core=48000000 units=dC
+SD init=0 t=62 ocr=c0ff8000
+BMP t=177 result=0 temp=240 ut=29028 addr=77
+LID t=189 us=189453 closed=0
+FIRST t=244 us=244495 n=250 a=240
+JOURNAL ready=0 t=710 last_id=0
+LID t=870 us=869682 closed=1
+WINDOW t=882 us=881994 stack=712 alloc_attempts=0
+HEART t=1042 us=1042529 hb=1 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=15
+HEART t=2042 us=2042508 hb=2 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=31
+HEART t=3042 us=3042488 hb=3 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=46
+HEART t=4042 us=4042466 hb=4 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=61
+HEART t=5042 us=5042446 hb=5 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=76
+HEART t=6042 us=6042424 hb=6 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=92
+HEART t=7042 us=7042404 hb=7 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=107
+HEART t=8042 us=8042383 hb=8 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=122
+HEART t=9042 us=9042363 hb=9 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=137
+HEART t=10042 us=10042341 hb=10 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=153
+HEART t=11042 us=11042320 hb=11 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=168
+HEART t=12042 us=12042299 hb=12 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=183
+HEART t=13042 us=13042279 hb=13 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=199
+HEART t=14042 us=14042258 hb=14 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=214
+HEART t=15042 us=15042238 hb=15 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=229
+HEART t=16042 us=16042216 hb=16 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=244
+HEART t=17042 us=17042195 hb=17 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=260
+HEART t=18042 us=18042174 hb=18 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=275
+HEART t=19042 us=19042154 hb=19 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=290
+HEART t=20042 us=20042134 hb=20 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=305
+HEART t=21042 us=21042113 hb=21 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=321
+HEART t=22042 us=22042092 hb=22 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=336
+HEART t=23042 us=23042071 hb=23 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=351
+HEART t=24042 us=24042051 hb=24 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=366
+HEART t=25042 us=25042028 hb=25 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=382
+HEART t=26042 us=26042008 hb=26 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=397
+HEART t=27042 us=27041988 hb=27 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=412
+HEART t=28042 us=28041967 hb=28 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=427
+HEART t=29042 us=29041946 hb=29 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=443
+HEART t=30042 us=30041925 hb=30 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=458
+HEART t=31042 us=31041904 hb=31 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=473
+HEART t=32042 us=32041884 hb=32 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=488
+HEART t=33042 us=33041862 hb=33 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=504
+HEART t=34042 us=34041841 hb=34 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=519
+HEART t=35042 us=35041821 hb=35 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=534
+HEART t=36042 us=36041800 hb=36 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=549
+HEART t=37042 us=37041778 hb=37 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=565
+HEART t=38042 us=38041759 hb=38 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=580
+HEART t=39042 us=39041737 hb=39 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=595
+HEART t=40042 us=40041717 hb=40 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=610
+HEART t=41042 us=41041695 hb=41 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=626
+HEART t=42042 us=42041675 hb=42 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=641
+HEART t=43042 us=43041655 hb=43 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=656
+HEART t=44042 us=44041634 hb=44 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=672
+HEART t=45042 us=45041612 hb=45 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=687
+HEART t=46042 us=46041591 hb=46 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=702
+HEART t=47042 us=47041571 hb=47 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=717
+HEART t=48042 us=48041549 hb=48 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=733
+HEART t=49042 us=49041529 hb=49 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=748
+HEART t=50042 us=50041508 hb=50 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=763
+HEART t=51042 us=51041488 hb=51 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=778
+HEART t=52042 us=52041467 hb=52 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=794
+HEART t=53042 us=53041446 hb=53 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=809
+HEART t=54042 us=54041425 hb=54 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=824
+HEART t=55042 us=55041405 hb=55 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=839
+HEART t=56042 us=56041383 hb=56 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=855
+HEART t=57042 us=57041362 hb=57 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=870
+HEART t=58042 us=58041342 hb=58 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=885
+HEART t=59042 us=59041321 hb=59 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=900
+HEART t=60042 us=60041299 hb=60 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=916
+HEART t=61042 us=61041279 hb=61 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=931
+MET name=loop n=511090 min=94 max=43848 sum=60191507
+MET name=lid n=10411 min=27 max=30 sum=286942
+MET name=ntc n=602 min=1184 max=1185 sum=713323
+MET name=bmp n=301 min=31449 max=31827 sum=9478143
+MET name=rx n=2 min=91 max=6069 sum=6160
+MET name=sd n=0 min=0 max=0 sum=0
+MET name=heart n=61 min=10350 max=10897 sum=659301
+MET name=adc_gate n=602 min=1123 max=1124 sum=676647
+MET name=lid_period n=10410 min=1213 max=43851 sum=60190398
+MET name=ntc_period n=601 min=68065 max=131912 sum=60098739
+MET name=bmp_period n=300 min=198621 max=201374 sum=59998712
+MET name=lid_latency n=0 min=0 max=0 sum=0
+MET name=status_latency n=0 min=0 max=0 sum=0
+MET name=abort_latency n=0 min=0 max=0 sum=0
+TOTAL t=61155 us=61153997 elapsed_us=60272015 busy_us=11143869 stack=712 heap=0 alloc_attempts=0 miss_lid=1629 miss_ntc=0 miss_bmp=0
+COUNTS adc=611 bmp=306 errors=0 cmd=2 rejected=0 rx_overflow=0 rx_errors=0 rx_rearm=0

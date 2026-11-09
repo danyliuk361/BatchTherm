@@ -1,0 +1,25 @@
+{
+  "mode": "s2",
+  "started": "2026-11-09T12:55:16.887Z",
+  "pid": 99875,
+  "version": "4.1.0",
+  "elf_sha256": "91b42eea234e59243f39c5b5d0fd25c30985f1ef102d2bd078ce653006308403",
+  "hex_sha256": "4033be960cc9149a571e98bf0b67da9f244b62fb7c2a47b7f742a24d89ed559d",
+  "diagram_sha256": "e246f5565df63fc237554f4fb969cc2f240a3998bd71b3eb2fafa708a1f9e1a3",
+  "sd_before_sha256": "5647f05ec18958947d32874eeb788fa396a05d0bab7c1b71f112ceb7e9b31eee",
+  "browser_transport": "separate Chromium process, CDP pipe",
+  "status": "captured",
+  "measure_start_ms": 2042,
+  "measure_end_ms": 3604042,
+  "ended": "2026-11-09T13:55:26.255Z",
+  "uart_bytes": 442937,
+  "images": [
+    "wokwi"
+  ],
+  "events": [
+    "sim:run",
+    "sdcard:export",
+    "sim:stop",
+    "vcd:ready"
+  ]
+}

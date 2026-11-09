@@ -1,0 +1,61 @@
+BOOT product=BatchTherm lab=3 build=f6b5827-0ba44211a1db core=48000000 units=dC
+SD init=0 t=62 ocr=c0ff8000
+BMP t=177 result=0 temp=240 ut=29028 addr=77
+LID t=189 us=189453 closed=0
+FIRST t=244 us=244495 n=250 a=240
+JOURNAL ready=0 t=710 last_id=0
+ACK cmd=status t=715 lat_us=192 id=0 phase=0 why=0 j=0 sd=1 l=0 nv=1 av=1
+ERR cmd=start why=LID t=748
+LID t=895 us=894673 closed=1
+ERR cmd=profile why=RANGE t=933
+ACK cmd=profile target=600 band=20 hold_s=5 cool=350
+EV t=998 us=998486 id=1 phase=1 why=0 hold=0 queued=1
+HEART t=1060 us=1059994 hb=1 phase=1 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=16
+COMMIT seq=1 id=1 phase=1 why=0 t=1551 elapsed_us=545287
+ACK cmd=start id=1 seq=1
+ERR cmd=profile why=ACTIVE t=1583
+EV t=1811 us=1811116 id=1 phase=2 why=0 hold=0 queued=1
+EV t=2013 us=2012919 id=1 phase=1 why=11 hold=0 queued=1
+HEART t=2063 us=2062978 hb=2 phase=1 why=11 n=630 nv=1 a=240 av=1 l=1 j=1 rx=0 err=0 rearm=0 w=31
+EV t=2215 us=2215366 id=1 phase=2 why=0 hold=0 queued=1
+COMMIT seq=2 id=1 phase=2 why=0 t=2375 elapsed_us=525466
+COMMIT seq=3 id=1 phase=1 why=11 t=2919 elapsed_us=535884
+HEART t=3057 us=3056959 hb=3 phase=2 why=0 n=620 nv=1 a=240 av=1 l=1 j=3 rx=0 err=0 rearm=0 w=46
+COMMIT seq=4 id=1 phase=2 why=0 t=3471 elapsed_us=545173
+HEART t=4042 us=4042467 hb=4 phase=2 why=0 n=620 nv=1 a=240 av=1 l=1 j=4 rx=0 err=0 rearm=0 w=61
+HEART t=5042 us=5042446 hb=5 phase=2 why=0 n=620 nv=1 a=240 av=1 l=1 j=4 rx=0 err=0 rearm=0 w=76
+HEART t=6042 us=6042424 hb=6 phase=2 why=0 n=620 nv=1 a=240 av=1 l=1 j=4 rx=0 err=0 rearm=0 w=92
+HEART t=7042 us=7042404 hb=7 phase=2 why=0 n=620 nv=1 a=240 av=1 l=1 j=4 rx=0 err=0 rearm=0 w=107
+EV t=7311 us=7310868 id=1 phase=3 why=0 hold=5096 queued=1
+EV t=7513 us=7512797 id=1 phase=4 why=0 hold=5096 queued=1
+COMMIT seq=5 id=1 phase=3 why=0 t=7859 elapsed_us=540019
+HEART t=8061 us=8060853 hb=8 phase=4 why=0 n=250 nv=1 a=240 av=1 l=1 j=5 rx=0 err=0 rearm=0 w=122
+COMMIT seq=6 id=1 phase=4 why=0 t=8379 elapsed_us=512446
+EXPORT begin=6
+REC seq=1 id=1 t=998 phase=1 why=0 hold=0 ntc=250 bmp=240 min=250 max=250 p=600/20/5/350
+HEART t=9063 us=9062805 hb=9 phase=4 why=0 n=250 nv=1 a=240 av=1 l=1 j=6 rx=0 err=0 rearm=0 w=138
+REC seq=2 id=1 t=1811 phase=2 why=0 hold=0 ntc=600 bmp=240 min=250 max=600 p=600/20/5/350
+REC seq=3 id=1 t=2013 phase=1 why=11 hold=0 ntc=630 bmp=240 min=250 max=630 p=600/20/5/350
+HEART t=10063 us=10062784 hb=10 phase=4 why=0 n=250 nv=1 a=240 av=1 l=1 j=6 rx=0 err=0 rearm=0 w=153
+REC seq=4 id=1 t=2215 phase=2 why=0 hold=0 ntc=580 bmp=240 min=250 max=630 p=600/20/5/350
+REC seq=5 id=1 t=7311 phase=3 why=0 hold=5096 ntc=620 bmp=240 min=250 max=630 p=600/20/5/350
+HEART t=11058 us=11058349 hb=11 phase=4 why=0 n=250 nv=1 a=240 av=1 l=1 j=6 rx=0 err=0 rearm=0 w=168
+REC seq=6 id=1 t=7513 phase=4 why=0 hold=5096 ntc=250 bmp=240 min=250 max=630 p=600/20/5/350
+EXPORT end=6
+ERR cmd=line why=OVERFLOW_OR_LENGTH t=11572
+MET name=loop n=38136 min=92 max=123710 sum=11532206
+MET name=lid n=1234 min=27 max=3204 sum=41021
+MET name=ntc n=116 min=1175 max=7780 sum=176882
+MET name=bmp n=58 min=31232 max=115265 sum=1912679
+MET name=rx n=39 min=88 max=7858 sum=42960
+MET name=sd n=572 min=796 max=27361 sum=5548375
+MET name=heart n=11 min=10356 max=10842 sum=115597
+MET name=adc_gate n=116 min=1123 max=1258 sum=137717
+MET name=lid_period n=1233 min=166 max=123722 sum=11528781
+MET name=ntc_period n=115 min=18394 max=132038 sum=11455151
+MET name=bmp_period n=57 min=145281 max=211496 sum=11346666
+MET name=lid_latency n=0 min=0 max=0 sum=0
+MET name=status_latency n=1 min=192 max=192 sum=192
+MET name=abort_latency n=0 min=0 max=0 sum=0
+TOTAL t=11674 us=11674274 elapsed_us=11674286 busy_us=7837514 stack=712 heap=0 alloc_attempts=0 miss_lid=1084 miss_ntc=0 miss_bmp=0
+COUNTS adc=116 bmp=58 errors=0 cmd=8 rejected=4 rx_overflow=0 rx_errors=0 rx_rearm=0

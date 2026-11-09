@@ -1,0 +1,23 @@
+BOOT product=BatchTherm lab=3 build=f6b5827-0ba44211a1db core=48000000 units=dC
+SD init=3 t=31 ocr=0
+BMP t=145 result=0 temp=240 ut=29028 addr=77
+LID t=150 us=150424 closed=0
+FIRST t=242 us=242500 n=250 a=240
+LID t=360 us=359676 closed=1
+ERR cmd=start why=SD t=398
+MET name=loop n=2148 min=94 max=116583 sum=375823
+MET name=lid n=48 min=27 max=3181 sum=7868
+MET name=ntc n=5 min=1176 max=1186 sum=5912
+MET name=bmp n=3 min=31442 max=115163 sum=178445
+MET name=rx n=2 min=88 max=3057 sum=3145
+MET name=sd n=0 min=0 max=0 sum=0
+MET name=heart n=0 min=0 max=0 sum=0
+MET name=adc_gate n=5 min=1124 max=1125 sum=5621
+MET name=lid_period n=47 min=3337 max=116595 sum=375828
+MET name=ntc_period n=4 min=56166 max=119736 sum=375827
+MET name=bmp_period n=2 min=175915 max=199924 sum=375839
+MET name=lid_latency n=0 min=0 max=0 sum=0
+MET name=status_latency n=0 min=0 max=0 sum=0
+MET name=abort_latency n=0 min=0 max=0 sum=0
+TOTAL t=512 us=511854 elapsed_us=511866 busy_us=195370 stack=560 heap=0 alloc_attempts=0 miss_lid=33 miss_ntc=0 miss_bmp=0
+COUNTS adc=5 bmp=3 errors=0 cmd=2 rejected=1 rx_overflow=0 rx_errors=0 rx_rearm=0

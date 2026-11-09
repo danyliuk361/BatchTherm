@@ -1,0 +1,4 @@
+{"utc":"2026-11-09T12:45:56.120Z","mcu_last_heartbeat_ms":0,"action":"lid","closed":true}
+{"utc":"2026-11-09T12:45:56.467Z","mcu_last_heartbeat_ms":0,"action":"uart","text":"start\n","paced":false}
+{"utc":"2026-11-09T12:45:56.586Z","mcu_last_heartbeat_ms":0,"action":"startup_sda_release"}
+{"utc":"2026-11-09T12:45:59.718Z","mcu_last_heartbeat_ms":4042,"action":"uart","text":"stats\n","paced":false}

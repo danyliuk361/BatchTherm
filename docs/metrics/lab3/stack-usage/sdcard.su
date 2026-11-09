@@ -1,0 +1,6 @@
+Devices/sdcard.c:2:16:tx	8	static
+Devices/sdcard.c:5:13:end	8	static
+Devices/sdcard.c:9:16:command	24	static
+Devices/sdcard.c:23:11:sd_initialize	32	static
+Devices/sdcard.c:62:11:sd_read_sector	32	static
+Devices/sdcard.c:89:11:sd_write_sector	24	static

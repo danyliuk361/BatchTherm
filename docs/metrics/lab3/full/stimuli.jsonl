@@ -1,0 +1,3 @@
+{"utc":"2026-11-09T12:52:58.095Z","mcu_last_heartbeat_ms":262055,"action":"lid","closed":true}
+{"utc":"2026-11-09T12:52:58.187Z","mcu_last_heartbeat_ms":262055,"action":"uart","text":"start\n","paced":false}
+{"utc":"2026-11-09T12:52:58.223Z","mcu_last_heartbeat_ms":262055,"action":"uart","text":"stats\n","paced":false}

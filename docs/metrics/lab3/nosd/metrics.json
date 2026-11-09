@@ -1,0 +1,250 @@
+{
+  "run": {
+    "mode": "nosd",
+    "started": "2026-11-09T12:46:02.264Z",
+    "pid": 53632,
+    "version": "4.1.0",
+    "elf_sha256": "91b42eea234e59243f39c5b5d0fd25c30985f1ef102d2bd078ce653006308403",
+    "hex_sha256": "4033be960cc9149a571e98bf0b67da9f244b62fb7c2a47b7f742a24d89ed559d",
+    "diagram_sha256": "d99a9c0ce1779b5becc1d51c3f069bf95c35568d3c76982bfcb54c7ab295fd7c",
+    "sd_before_sha256": "5647f05ec18958947d32874eeb788fa396a05d0bab7c1b71f112ceb7e9b31eee",
+    "browser_transport": "separate Chromium process, CDP pipe",
+    "status": "captured",
+    "measure_end_ms": 0,
+    "ended": "2026-11-09T12:46:06.687Z",
+    "uart_bytes": 1143,
+    "images": [
+      "wokwi"
+    ],
+    "events": [
+      "sim:run",
+      "sim:stop",
+      "vcd:ready"
+    ]
+  },
+  "first": [
+    {
+      "t": 242,
+      "us": 242500,
+      "n": 250,
+      "a": 240
+    }
+  ],
+  "boot": [
+    {
+      "product": "BatchTherm",
+      "lab": 3,
+      "build": "f6b5827-0ba44211a1db",
+      "core": 48000000,
+      "units": "dC"
+    }
+  ],
+  "heart_n": 0,
+  "first_heart": null,
+  "last_heart": null,
+  "largest_heartbeat_gap_ms": 0,
+  "events": [],
+  "commits": [],
+  "counts": [
+    {
+      "adc": 5,
+      "bmp": 3,
+      "errors": 0,
+      "cmd": 2,
+      "rejected": 1,
+      "rx_overflow": 0,
+      "rx_errors": 0,
+      "rx_rearm": 0
+    }
+  ],
+  "metrics": {
+    "loop": {
+      "name": "loop",
+      "n": 2148,
+      "min": 94,
+      "max": 116583,
+      "sum": 375823,
+      "avg": 174.964
+    },
+    "lid": {
+      "name": "lid",
+      "n": 48,
+      "min": 27,
+      "max": 3181,
+      "sum": 7868,
+      "avg": 163.917
+    },
+    "ntc": {
+      "name": "ntc",
+      "n": 5,
+      "min": 1176,
+      "max": 1186,
+      "sum": 5912,
+      "avg": 1182.4
+    },
+    "bmp": {
+      "name": "bmp",
+      "n": 3,
+      "min": 31442,
+      "max": 115163,
+      "sum": 178445,
+      "avg": 59481.667
+    },
+    "rx": {
+      "name": "rx",
+      "n": 2,
+      "min": 88,
+      "max": 3057,
+      "sum": 3145,
+      "avg": 1572.5
+    },
+    "sd": {
+      "name": "sd",
+      "n": 0,
+      "min": 0,
+      "max": 0,
+      "sum": 0,
+      "avg": null
+    },
+    "heart": {
+      "name": "heart",
+      "n": 0,
+      "min": 0,
+      "max": 0,
+      "sum": 0,
+      "avg": null
+    },
+    "adc_gate": {
+      "name": "adc_gate",
+      "n": 5,
+      "min": 1124,
+      "max": 1125,
+      "sum": 5621,
+      "avg": 1124.2
+    },
+    "lid_period": {
+      "name": "lid_period",
+      "n": 47,
+      "min": 3337,
+      "max": 116595,
+      "sum": 375828,
+      "avg": 7996.34
+    },
+    "ntc_period": {
+      "name": "ntc_period",
+      "n": 4,
+      "min": 56166,
+      "max": 119736,
+      "sum": 375827,
+      "avg": 93956.75
+    },
+    "bmp_period": {
+      "name": "bmp_period",
+      "n": 2,
+      "min": 175915,
+      "max": 199924,
+      "sum": 375839,
+      "avg": 187919.5
+    },
+    "lid_latency": {
+      "name": "lid_latency",
+      "n": 0,
+      "min": 0,
+      "max": 0,
+      "sum": 0,
+      "avg": null
+    },
+    "status_latency": {
+      "name": "status_latency",
+      "n": 0,
+      "min": 0,
+      "max": 0,
+      "sum": 0,
+      "avg": null
+    },
+    "abort_latency": {
+      "name": "abort_latency",
+      "n": 0,
+      "min": 0,
+      "max": 0,
+      "sum": 0,
+      "avg": null
+    }
+  },
+  "total": {
+    "t": 512,
+    "us": 511854,
+    "elapsed_us": 511866,
+    "busy_us": 195370,
+    "stack": 560,
+    "heap": 0,
+    "alloc_attempts": 0,
+    "miss_lid": 33,
+    "miss_ntc": 0,
+    "miss_bmp": 0
+  },
+  "busy_percent": 38.168,
+  "status_ack_us": {
+    "n": 0
+  },
+  "abort_ack_us": {
+    "n": 0
+  },
+  "lid_poll_reaction_us": {
+    "n": 0
+  },
+  "sector_commit_us": {
+    "n": 0
+  },
+  "rejections": [
+    {
+      "cmd": "start",
+      "why": "SD",
+      "t": 398
+    }
+  ],
+  "bmp_status": [
+    {
+      "t": 145,
+      "result": 0,
+      "temp": 240,
+      "ut": 29028,
+      "addr": 77
+    }
+  ],
+  "export": [],
+  "recovery": [],
+  "hold_mcu_ms": {
+    "n": 0
+  },
+  "hold_samples_mcu_ms": [],
+  "gpio": {
+    "soak_width_us": {
+      "n": 0
+    },
+    "soak_samples_us": [],
+    "adc_width_us": {
+      "n": 7,
+      "min": 1109.975,
+      "avg": 1110.025,
+      "max": 1110.15,
+      "p99": 1110.15
+    },
+    "adc_period_us": {
+      "n": 6,
+      "min": 56165.75,
+      "avg": 95972.608,
+      "max": 124473.175,
+      "p99": 124473.175
+    },
+    "sd_busy_us": {
+      "n": 0
+    },
+    "lid_latency_us": {
+      "n": 0
+    },
+    "lid_during_sd": 0,
+    "reaction_points": [],
+    "vcd_end_us": 649971.775
+  }
+}

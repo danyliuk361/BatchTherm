@@ -1,0 +1,4 @@
+App/quality.c:2:6:lid_observe	0	static
+App/quality.c:13:6:sample_observe	8	static
+App/quality.c:45:6:thermal_usable	8	static
+App/quality.c:50:6:thermal_in_band	8	static

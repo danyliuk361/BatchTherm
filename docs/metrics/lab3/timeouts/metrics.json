@@ -1,0 +1,508 @@
+{
+  "run": {
+    "mode": "timeouts",
+    "started": "2026-11-09T12:43:58.173Z",
+    "pid": 44120,
+    "version": "4.1.0",
+    "elf_sha256": "91b42eea234e59243f39c5b5d0fd25c30985f1ef102d2bd078ce653006308403",
+    "hex_sha256": "4033be960cc9149a571e98bf0b67da9f244b62fb7c2a47b7f742a24d89ed559d",
+    "diagram_sha256": "6313df76ef6ce34ffb4c05ef0765c3d9705988a6a93f37d3eec9020171eb8429",
+    "sd_before_sha256": "5647f05ec18958947d32874eeb788fa396a05d0bab7c1b71f112ceb7e9b31eee",
+    "browser_transport": "separate Chromium process, CDP pipe",
+    "status": "captured",
+    "measure_end_ms": 368114,
+    "ended": "2026-11-09T12:50:11.606Z",
+    "uart_bytes": 40696,
+    "images": [
+      "wokwi"
+    ],
+    "events": [
+      "sim:run",
+      "sdcard:export",
+      "sim:stop",
+      "vcd:ready"
+    ]
+  },
+  "first": [
+    {
+      "t": 244,
+      "us": 244495,
+      "n": 250,
+      "a": 240
+    }
+  ],
+  "boot": [
+    {
+      "product": "BatchTherm",
+      "lab": 3,
+      "build": "f6b5827-0ba44211a1db",
+      "core": 48000000,
+      "units": "dC"
+    }
+  ],
+  "heart_n": 368,
+  "first_heart": {
+    "t": 1065,
+    "us": 1065000,
+    "hb": 1,
+    "phase": 1,
+    "why": 0,
+    "n": 250,
+    "nv": 1,
+    "a": 240,
+    "av": 1,
+    "l": 1,
+    "j": 0,
+    "rx": 0,
+    "err": 0,
+    "rearm": 0,
+    "w": 16
+  },
+  "last_heart": {
+    "t": 368114,
+    "us": 368106936,
+    "hb": 368,
+    "phase": 5,
+    "why": 6,
+    "n": 600,
+    "nv": 1,
+    "a": 240,
+    "av": 1,
+    "l": 1,
+    "j": 6,
+    "rx": 0,
+    "err": 0,
+    "rearm": 0,
+    "w": 5616
+  },
+  "largest_heartbeat_gap_ms": 1072,
+  "events": [
+    {
+      "t": 915,
+      "us": 915135,
+      "id": 1,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 180915,
+      "us": 180910998,
+      "id": 1,
+      "phase": 5,
+      "why": 5,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 181547,
+      "us": 181542963,
+      "id": 3,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 182411,
+      "us": 182407409,
+      "id": 3,
+      "phase": 2,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 187411,
+      "us": 187407310,
+      "id": 3,
+      "phase": 3,
+      "why": 0,
+      "hold": 5000,
+      "queued": 1
+    },
+    {
+      "t": 367411,
+      "us": 367403547,
+      "id": 3,
+      "phase": 5,
+      "why": 6,
+      "hold": 5000,
+      "queued": 1
+    }
+  ],
+  "commits": [
+    {
+      "seq": 1,
+      "id": 1,
+      "phase": 1,
+      "why": 0,
+      "t": 1466,
+      "elapsed_us": 544338
+    },
+    {
+      "seq": 2,
+      "id": 1,
+      "phase": 5,
+      "why": 5,
+      "t": 181467,
+      "elapsed_us": 544949
+    },
+    {
+      "seq": 3,
+      "id": 3,
+      "phase": 1,
+      "why": 0,
+      "t": 182100,
+      "elapsed_us": 545955
+    },
+    {
+      "seq": 4,
+      "id": 3,
+      "phase": 2,
+      "why": 0,
+      "t": 182954,
+      "elapsed_us": 502829
+    },
+    {
+      "seq": 5,
+      "id": 3,
+      "phase": 3,
+      "why": 0,
+      "t": 187954,
+      "elapsed_us": 502826
+    },
+    {
+      "seq": 6,
+      "id": 3,
+      "phase": 5,
+      "why": 6,
+      "t": 367954,
+      "elapsed_us": 502816
+    }
+  ],
+  "counts": [
+    {
+      "adc": 3680,
+      "bmp": 1840,
+      "errors": 0,
+      "cmd": 4,
+      "rejected": 0,
+      "rx_overflow": 0,
+      "rx_errors": 0,
+      "rx_rearm": 0
+    }
+  ],
+  "metrics": {
+    "loop": {
+      "name": "loop",
+      "n": 3088588,
+      "min": 93,
+      "max": 123710,
+      "sum": 367904519,
+      "avg": 119.117
+    },
+    "lid": {
+      "name": "lid",
+      "n": 63137,
+      "min": 27,
+      "max": 3203,
+      "sum": 1746521,
+      "avg": 27.662
+    },
+    "ntc": {
+      "name": "ntc",
+      "n": 3680,
+      "min": 1175,
+      "max": 8275,
+      "sum": 4645691,
+      "avg": 1262.416
+    },
+    "bmp": {
+      "name": "bmp",
+      "n": 1840,
+      "min": 31312,
+      "max": 115265,
+      "sum": 57886912,
+      "avg": 31460.278
+    },
+    "rx": {
+      "name": "rx",
+      "n": 10,
+      "min": 88,
+      "max": 6721,
+      "sum": 19992,
+      "avg": 1999.2
+    },
+    "sd": {
+      "name": "sd",
+      "n": 344,
+      "min": 796,
+      "max": 18136,
+      "sum": 3015922,
+      "avg": 8767.215
+    },
+    "heart": {
+      "name": "heart",
+      "n": 367,
+      "min": 10354,
+      "max": 11413,
+      "sum": 4126735,
+      "avg": 11244.51
+    },
+    "adc_gate": {
+      "name": "adc_gate",
+      "n": 3680,
+      "min": 1123,
+      "max": 1249,
+      "sum": 4362873,
+      "avg": 1185.563
+    },
+    "lid_period": {
+      "name": "lid_period",
+      "n": 63136,
+      "min": 168,
+      "max": 123722,
+      "sum": 367901393,
+      "avg": 5827.125
+    },
+    "ntc_period": {
+      "name": "ntc_period",
+      "n": 3679,
+      "min": 18394,
+      "max": 142941,
+      "sum": 367846948,
+      "avg": 99985.58
+    },
+    "bmp_period": {
+      "name": "bmp_period",
+      "n": 1839,
+      "min": 145281,
+      "max": 210029,
+      "sum": 367737910,
+      "avg": 199966.237
+    },
+    "lid_latency": {
+      "name": "lid_latency",
+      "n": 0,
+      "min": 0,
+      "max": 0,
+      "sum": 0,
+      "avg": null
+    },
+    "status_latency": {
+      "name": "status_latency",
+      "n": 0,
+      "min": 0,
+      "max": 0,
+      "sum": 0,
+      "avg": null
+    },
+    "abort_latency": {
+      "name": "abort_latency",
+      "n": 0,
+      "min": 0,
+      "max": 0,
+      "sum": 0,
+      "avg": null
+    }
+  },
+  "total": {
+    "t": 368056,
+    "us": 368048893,
+    "elapsed_us": 368048905,
+    "busy_us": 71441773,
+    "stack": 712,
+    "heap": 0,
+    "alloc_attempts": 0,
+    "miss_lid": 10457,
+    "miss_ntc": 0,
+    "miss_bmp": 0
+  },
+  "busy_percent": 19.411,
+  "status_ack_us": {
+    "n": 0
+  },
+  "abort_ack_us": {
+    "n": 0
+  },
+  "lid_poll_reaction_us": {
+    "n": 0
+  },
+  "sector_commit_us": {
+    "n": 6,
+    "min": 502816,
+    "avg": 523952.167,
+    "max": 545955,
+    "p99": 545955
+  },
+  "rejections": [],
+  "bmp_status": [
+    {
+      "t": 177,
+      "result": 0,
+      "temp": 240,
+      "ut": 29028,
+      "addr": 77
+    }
+  ],
+  "export": [],
+  "recovery": [],
+  "hold_mcu_ms": {
+    "n": 1,
+    "min": 5000,
+    "avg": 5000,
+    "max": 5000,
+    "p99": 5000
+  },
+  "hold_samples_mcu_ms": [
+    5000
+  ],
+  "gpio": {
+    "soak_width_us": {
+      "n": 0
+    },
+    "soak_samples_us": [],
+    "adc_width_us": {
+      "n": 3682,
+      "min": 1109.725,
+      "avg": 1171.576,
+      "max": 1234.475,
+      "p99": 1232.0
+    },
+    "adc_period_us": {
+      "n": 3681,
+      "min": 18396.575,
+      "avg": 99987.137,
+      "max": 160962.25,
+      "p99": 131921.75
+    },
+    "sd_busy_us": {
+      "n": 7,
+      "min": 502785.525,
+      "avg": 524418.189,
+      "max": 545924.625,
+      "p99": 545924.625
+    },
+    "lid_latency_us": {
+      "n": 0
+    },
+    "lid_during_sd": 0,
+    "reaction_points": [],
+    "vcd_end_us": 368221929.9
+  },
+  "journal": {
+    "records": [
+      {
+        "seq": 1,
+        "id": 1,
+        "t": 915,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 2,
+        "id": 1,
+        "t": 180915,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 5
+      },
+      {
+        "seq": 3,
+        "id": 3,
+        "t": 181547,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 4,
+        "id": 3,
+        "t": 182411,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 600,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 2,
+        "why": 0
+      },
+      {
+        "seq": 5,
+        "id": 3,
+        "t": 187411,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 600,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 3,
+        "why": 0
+      },
+      {
+        "seq": 6,
+        "id": 3,
+        "t": 367411,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 600,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 5,
+        "why": 6
+      }
+    ],
+    "crc_or_seal_errors": []
+  }
+}

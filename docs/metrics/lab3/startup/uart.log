@@ -1,0 +1,29 @@
+BOOT product=BatchTherm lab=3 build=f6b5827-0ba44211a1db core=48000000 units=dC
+SD init=0 t=62 ocr=c0ff8000
+BMP t=68 result=2 temp=0 ut=0 addr=77
+LID t=96 us=96051 closed=0
+JOURNAL ready=0 t=499 last_id=0
+LID t=725 us=724679 closed=1
+ERR cmd=start why=BMP t=831
+BMP t=1121 result=0 temp=240 ut=29028 addr=77
+FIRST t=1126 us=1126398 n=250 a=240
+HEART t=1130 us=1130419 hb=1 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=17
+HEART t=2042 us=2042508 hb=2 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=31
+HEART t=3042 us=3042487 hb=3 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=46
+HEART t=4042 us=4042466 hb=4 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=61
+MET name=loop n=29777 min=94 max=131137 sum=4015862
+MET name=lid n=645 min=24 max=3200 sum=24392
+MET name=ntc n=41 min=1180 max=1190 sum=48612
+MET name=bmp n=21 min=730 max=115356 sum=595337
+MET name=rx n=3 min=101 max=3097 sum=3388
+MET name=sd n=38 min=795 max=18135 sum=414849
+MET name=heart n=4 min=10347 max=10388 sum=41501
+MET name=adc_gate n=41 min=1124 max=1124 sum=46084
+MET name=lid_period n=644 min=963 max=131145 sum=4013866
+MET name=ntc_period n=40 min=45862 max=131145 sum=3943875
+MET name=bmp_period n=20 min=148055 max=205196 sum=3943887
+MET name=lid_latency n=0 min=0 max=0 sum=0
+MET name=status_latency n=0 min=0 max=0 sum=0
+MET name=abort_latency n=0 min=0 max=0 sum=0
+TOTAL t=4155 us=4154925 elapsed_us=4154937 busy_us=1128079 stack=712 heap=0 alloc_attempts=0 miss_lid=170 miss_ntc=0 miss_bmp=0
+COUNTS adc=41 bmp=21 errors=5 cmd=2 rejected=1 rx_overflow=0 rx_errors=0 rx_rearm=0

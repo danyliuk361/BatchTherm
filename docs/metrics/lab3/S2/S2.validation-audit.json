@@ -1,0 +1,19 @@
+{
+  "method": "Same raw capture; count PA5 rises inside the S2 window, wholly while PA9 BATCH_ACTIVE=1",
+  "validator_v1": "validator-v1/S2.result.json",
+  "validator_v2": "S2.result.json",
+  "firmware_changed": false,
+  "raw_changed": false,
+  "validator_source_sha256": "5fb5e28599545ac70130c610744c40140f651b3b48d1446f8ef459c97c1a71c7",
+  "excluded_pulses": [
+    {
+      "start_us": 2062.275,
+      "end_us": 2067363.85,
+      "width_us": 2065301.575,
+      "starts_before_window": true,
+      "starts_with_active_batch": false,
+      "crosses_end_of_batch": false
+    }
+  ],
+  "pairwise_hold_width_difference_max_ms": 0.7607500000012806
+}

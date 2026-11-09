@@ -1,0 +1,14 @@
+Platform/storage_bringup.c:7:13:pause_spi	8	static
+Platform/storage_bringup.c:27:13:select_card	8	static
+Platform/storage_bringup.c:32:17:now	8	static
+Platform/storage_bringup.c:82:13:media_error	24	static
+Platform/storage_bringup.c:11:16:transfer	24	static
+Platform/storage_bringup.c:45:6:storage_fault	0	static
+Platform/storage_bringup.c:46:10:storage_count	0	static
+Platform/storage_bringup.c:47:10:storage_space	0	static
+Platform/storage_bringup.c:48:6:storage_ready	0	static
+Platform/storage_bringup.c:49:6:storage_push	24	static
+Platform/storage_bringup.c:88:13:end_scan	40	static
+Platform/storage_bringup.c:57:6:storage_export	16	static
+Platform/storage_bringup.c:64:6:storage_init	40	static
+Platform/storage_bringup.c:98:6:storage_poll	128	static

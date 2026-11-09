@@ -1,0 +1,22 @@
+{
+  "rx_framing_errors": 0,
+  "tx_framing_errors": 1,
+  "rx_bytes": 4223,
+  "tx_bytes": 47006,
+  "tx_matches_uart_log": true,
+  "status_commands_at_pin": 600,
+  "status_acks_on_wire": 478,
+  "status_interarrival_us": {
+    "n": 599,
+    "min": 16500.14999999851,
+    "avg": 24985.488,
+    "max": 3016712.875,
+    "p99": 33400.34999999404
+  },
+  "status_latency_us_when_fifo_pairs_complete": null,
+  "example_ack": {
+    "bytes": 80,
+    "wire_us_to_stop_center": 7863.84,
+    "expected_us_to_stop_center": 6940.104
+  }
+}

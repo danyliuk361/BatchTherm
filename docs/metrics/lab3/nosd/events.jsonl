@@ -1,0 +1,3 @@
+{"utc":"2026-11-09T12:46:03.836Z","command":"sim:run"}
+{"utc":"2026-11-09T12:46:04.596Z","command":"sim:stop"}
+{"utc":"2026-11-09T12:46:04.598Z","command":"vcd:ready","bytes":122201}

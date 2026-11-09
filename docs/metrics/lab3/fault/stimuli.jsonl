@@ -1,0 +1,15 @@
+{"utc":"2026-11-09T12:45:22.461Z","mcu_last_heartbeat_ms":0,"action":"lid","closed":true}
+{"utc":"2026-11-09T12:45:22.591Z","mcu_last_heartbeat_ms":0,"action":"uart","text":"start\n","paced":false}
+{"utc":"2026-11-09T12:45:23.186Z","mcu_last_heartbeat_ms":1065,"action":"uart","text":"nack\n","paced":false}
+{"utc":"2026-11-09T12:45:23.221Z","mcu_last_heartbeat_ms":1065,"action":"uart","text":"start\n","paced":false}
+{"utc":"2026-11-09T12:45:23.256Z","mcu_last_heartbeat_ms":1065,"action":"uart","text":"recover\n","paced":false}
+{"utc":"2026-11-09T12:45:24.769Z","mcu_last_heartbeat_ms":3011,"action":"sda_short","low":true}
+{"utc":"2026-11-09T12:45:24.866Z","mcu_last_heartbeat_ms":3011,"action":"uart","text":"measure\n","paced":false}
+{"utc":"2026-11-09T12:45:31.730Z","mcu_last_heartbeat_ms":10011,"action":"uart","text":"stats\n","paced":false}
+{"utc":"2026-11-09T12:45:31.832Z","mcu_last_heartbeat_ms":10011,"action":"sda_timeout_measurement_end"}
+{"utc":"2026-11-09T12:45:31.866Z","mcu_last_heartbeat_ms":10011,"action":"sda_short","low":false}
+{"utc":"2026-11-09T12:45:32.181Z","mcu_last_heartbeat_ms":10011,"action":"uart","text":"start\n","paced":false}
+{"utc":"2026-11-09T12:45:32.833Z","mcu_last_heartbeat_ms":11025,"action":"ntc","c":-5}
+{"utc":"2026-11-09T12:45:32.916Z","mcu_last_heartbeat_ms":11025,"action":"uart","text":"start\n","paced":false}
+{"utc":"2026-11-09T12:45:32.956Z","mcu_last_heartbeat_ms":11025,"action":"ntc","c":25}
+{"utc":"2026-11-09T12:45:35.715Z","mcu_last_heartbeat_ms":14011,"action":"uart","text":"stats\n","paced":false}

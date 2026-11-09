@@ -1,8 +1,8 @@
 [wokwi]
 version = 1
-firmware = 'firmware/build/firmware.hex'
-elf = 'firmware/build/firmware.elf'
-vcdFile = 'docs/captures/lab2/live.vcd'
+firmware = 'docs/evidence/lab3/firmware.hex'
+elf = 'docs/evidence/lab3/firmware.elf'
+vcdFile = 'docs/captures/lab3/live.vcd'
 
 [[sdcard]]
 part = 'storage'

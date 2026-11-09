@@ -1,0 +1,11 @@
+App/batch.c:89:13:put	0	static
+App/batch.c:92:17:get	0	static
+App/batch.c:80:17:crc32.constprop	20	static
+App/batch.c:4:6:profile_valid	16	static
+App/batch.c:10:6:batch_active	0	static
+App/batch.c:20:6:batch_begin	40	static
+App/batch.c:24:6:batch_interrupt	8	static
+App/batch.c:31:6:batch_deadline	8	static
+App/batch.c:41:6:batch_frame	24	static
+App/batch.c:97:6:journal_encode	24	static
+App/batch.c:119:6:journal_decode	80	static

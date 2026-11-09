@@ -1,0 +1,7 @@
+Platform/lab3_io.c:47:14:number	48	static
+Platform/lab3_io.c:11:6:perf_paint	0	static
+Platform/lab3_io.c:16:10:perf_stack	0	static
+Platform/lab3_io.c:21:6:perf_start	24	static
+Platform/lab3_io.c:31:10:perf_us	24	static
+Platform/lab3_io.c:39:10:perf_wraps	0	static
+Platform/lab3_io.c:54:6:bt_log	216	static

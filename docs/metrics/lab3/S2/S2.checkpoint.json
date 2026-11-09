@@ -1,0 +1,7 @@
+{
+  "utc": "2026-11-09T12:58:21.873Z",
+  "start_ms": 2042,
+  "last_ms": 182042,
+  "heart": "HEART t=182042 us=182039109 hb=182 phase=4 why=0 n=250 nv=1 a=240 av=1 l=1 j=8 rx=0 err=0 rearm=0 w=2777",
+  "uart_bytes": 21568
+}

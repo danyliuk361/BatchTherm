@@ -1,0 +1,577 @@
+BOOT product=BatchTherm lab=3 build=f6b5827-0ba44211a1db core=48000000 units=dC
+SD init=0 t=62 ocr=c0ff8000
+BMP t=177 result=0 temp=240 ut=29028 addr=77
+LID t=189 us=189453 closed=0
+FIRST t=244 us=244495 n=250 a=240
+HEART t=1056 us=1055972 hb=1 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=1 rx=0 err=0 rearm=0 w=16
+HEART t=2063 us=2062950 hb=2 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=3 rx=0 err=0 rearm=0 w=31
+HEART t=3057 us=3056930 hb=3 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=5 rx=0 err=0 rearm=0 w=46
+HEART t=4064 us=4063908 hb=4 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=7 rx=0 err=0 rearm=0 w=62
+HEART t=5058 us=5057888 hb=5 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=9 rx=0 err=0 rearm=0 w=77
+HEART t=6065 us=6064868 hb=6 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=11 rx=0 err=0 rearm=0 w=92
+HEART t=7059 us=7058846 hb=7 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=13 rx=0 err=0 rearm=0 w=107
+HEART t=8066 us=8065826 hb=8 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=15 rx=0 err=0 rearm=0 w=123
+HEART t=9060 us=9059805 hb=9 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=17 rx=0 err=0 rearm=0 w=138
+HEART t=10067 us=10066785 hb=10 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=19 rx=0 err=0 rearm=0 w=153
+HEART t=11062 us=11061764 hb=11 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=21 rx=0 err=0 rearm=0 w=168
+HEART t=12057 us=12056743 hb=12 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=23 rx=0 err=0 rearm=0 w=183
+HEART t=13064 us=13063722 hb=13 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=25 rx=0 err=0 rearm=0 w=199
+HEART t=14043 us=14043058 hb=14 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=27 rx=0 err=0 rearm=0 w=214
+HEART t=15061 us=15061263 hb=15 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=29 rx=0 err=0 rearm=0 w=229
+HEART t=16058 us=16057660 hb=16 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=30 rx=0 err=0 rearm=0 w=245
+HEART t=17065 us=17064638 hb=17 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=32 rx=0 err=0 rearm=0 w=260
+HEART t=18059 us=18058618 hb=18 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=34 rx=0 err=0 rearm=0 w=275
+HEART t=19066 us=19065596 hb=19 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=36 rx=0 err=0 rearm=0 w=290
+HEART t=20060 us=20059576 hb=20 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=38 rx=0 err=0 rearm=0 w=306
+HEART t=21067 us=21066555 hb=21 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=40 rx=0 err=0 rearm=0 w=321
+HEART t=22061 us=22060535 hb=22 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=42 rx=0 err=0 rearm=0 w=336
+HEART t=23056 us=23055514 hb=23 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=44 rx=0 err=0 rearm=0 w=351
+HEART t=24063 us=24062492 hb=24 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=46 rx=0 err=0 rearm=0 w=367
+HEART t=25058 us=25057472 hb=25 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=48 rx=0 err=0 rearm=0 w=382
+HEART t=26065 us=26064450 hb=26 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=50 rx=0 err=0 rearm=0 w=397
+HEART t=27060 us=27059431 hb=27 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=52 rx=0 err=0 rearm=0 w=412
+HEART t=28067 us=28066409 hb=28 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=54 rx=0 err=0 rearm=0 w=428
+HEART t=29062 us=29061389 hb=29 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=56 rx=0 err=0 rearm=0 w=443
+HEART t=30057 us=30056367 hb=30 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=58 rx=0 err=0 rearm=0 w=458
+HEART t=31064 us=31063346 hb=31 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=60 rx=0 err=0 rearm=0 w=473
+HEART t=32059 us=32058326 hb=32 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=62 rx=0 err=0 rearm=0 w=489
+HEART t=33067 us=33066305 hb=33 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=64 rx=0 err=0 rearm=0 w=504
+JOURNAL ready=64 t=33489 last_id=64
+LID t=33610 us=33609014 closed=1
+HEART t=34042 us=34041842 hb=34 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=64 rx=0 err=0 rearm=0 w=519
+HEART t=35042 us=35041820 hb=35 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=64 rx=0 err=0 rearm=0 w=534
+WINDOW t=35065 us=35064524 stack=712 alloc_attempts=0
+EXPORT begin=64
+ACK cmd=status t=35126 lat_us=11271 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35147 lat_us=15731 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35169 lat_us=20975 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35190 lat_us=25757 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35245 lat_us=63778 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35266 lat_us=51951 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35288 lat_us=56744 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35309 lat_us=61162 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35332 lat_us=67336 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35353 lat_us=72127 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35375 lat_us=60315 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35396 lat_us=64762 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35451 lat_us=103074 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35472 lat_us=107974 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35494 lat_us=112804 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35517 lat_us=102235 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35538 lat_us=107242 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35560 lat_us=112145 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35582 lat_us=117138 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35603 lat_us=121764 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35658 lat_us=143368 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35679 lat_us=148058 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35701 lat_us=153010 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35723 lat_us=158770 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35745 lat_us=163478 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35766 lat_us=151745 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35788 lat_us=156650 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35809 lat_us=161288 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35864 lat_us=199222 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35886 lat_us=204608 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35907 lat_us=209141 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+REC seq=1 id=1 t=1000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=35943 lat_us=212310 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35959 lat_us=211495 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35969 lat_us=204567 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35979 lat_us=197361 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35988 lat_us=173709 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35998 lat_us=166695 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36007 lat_us=159569 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36063 lat_us=198356 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+HEART t=36084 us=36083930 hb=36 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=64 rx=0 err=0 rearm=0 w=550
+ACK cmd=status t=36096 lat_us=214323 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36118 lat_us=203864 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36140 lat_us=208881 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36161 lat_us=213477 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36183 lat_us=218535 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36204 lat_us=223078 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36260 lat_us=245352 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36282 lat_us=250406 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36303 lat_us=254936 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36326 lat_us=261083 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36347 lat_us=265822 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36369 lat_us=254417 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36391 lat_us=259332 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36446 lat_us=298046 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36468 lat_us=303121 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36489 lat_us=308042 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36512 lat_us=297116 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36533 lat_us=302153 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36555 lat_us=307173 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36577 lat_us=311998 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36598 lat_us=316602 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36653 lat_us=338440 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36674 lat_us=343366 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36696 lat_us=347950 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36719 lat_us=354199 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36740 lat_us=359118 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36762 lat_us=347100 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+REC seq=2 id=2 t=2000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ERR cmd=line why=OVERFLOW_OR_LENGTH t=36868
+ACK cmd=status t=36880 lat_us=48595 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36889 lat_us=41392 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36899 lat_us=34257 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36908 lat_us=27015 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36919 lat_us=4448 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36941 lat_us=10077 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36962 lat_us=14560 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36984 lat_us=19521 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37005 lat_us=23931 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37060 lat_us=45326 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+HEART t=37081 us=37080866 hb=37 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=64 rx=6 err=0 rearm=0 w=565
+ACK cmd=status t=37092 lat_us=61359 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37115 lat_us=67388 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37137 lat_us=72176 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37158 lat_us=77066 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37179 lat_us=64863 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37200 lat_us=69342 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37256 lat_us=108119 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37277 lat_us=112804 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37298 lat_us=117354 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37321 lat_us=106780 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37343 lat_us=111777 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37365 lat_us=116743 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37386 lat_us=121744 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37407 lat_us=126225 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37462 lat_us=147414 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37484 lat_us=152348 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37505 lat_us=156870 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37528 lat_us=163104 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37549 lat_us=168051 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37571 lat_us=156353 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37592 lat_us=161247 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37648 lat_us=200009 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37669 lat_us=205032 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37691 lat_us=209941 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37714 lat_us=199106 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37736 lat_us=204399 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+REC seq=3 id=3 t=3000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=37771 lat_us=223002 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37787 lat_us=222496 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37797 lat_us=215488 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37806 lat_us=191668 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37849 lat_us=217704 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37858 lat_us=210703 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37868 lat_us=203687 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37890 lat_us=208596 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37912 lat_us=197762 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37934 lat_us=202729 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37956 lat_us=207751 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37977 lat_us=212609 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37998 lat_us=217191 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38054 lat_us=239399 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+HEART t=38075 us=38074958 hb=38 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=64 rx=6 err=0 rearm=0 w=580
+ACK cmd=status t=38087 lat_us=255516 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38108 lat_us=260432 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38131 lat_us=266463 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38153 lat_us=271502 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38174 lat_us=259820 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38196 lat_us=264452 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38251 lat_us=303094 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38273 lat_us=308025 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38294 lat_us=312686 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38317 lat_us=302246 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38338 lat_us=307268 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38360 lat_us=312181 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38382 lat_us=317176 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38403 lat_us=321823 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38458 lat_us=359987 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38479 lat_us=348067 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38500 lat_us=352648 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38523 lat_us=358895 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38545 lat_us=363377 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ERR cmd=line why=OVERFLOW_OR_LENGTH t=38592
+ACK cmd=status t=38609 lat_us=11682 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38664 lat_us=32626 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+REC seq=4 id=4 t=4000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=38699 lat_us=51334 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38716 lat_us=52034 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38726 lat_us=44798 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38735 lat_us=21075 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38745 lat_us=13836 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38754 lat_us=6626 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38777 lat_us=12256 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38798 lat_us=16804 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38853 lat_us=38374 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38874 lat_us=43273 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38896 lat_us=47753 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38918 lat_us=53876 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38940 lat_us=58663 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38961 lat_us=46406 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38982 lat_us=51352 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39004 lat_us=55764 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39059 lat_us=94467 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+HEART t=39080 us=39079480 hb=39 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=64 rx=12 err=0 rearm=0 w=596
+ACK cmd=status t=39092 lat_us=110430 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39114 lat_us=99790 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39136 lat_us=104757 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39157 lat_us=109665 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39179 lat_us=114254 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39200 lat_us=118945 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39256 lat_us=141463 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39277 lat_us=146079 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39299 lat_us=151055 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39321 lat_us=156920 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39343 lat_us=161825 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39365 lat_us=150095 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39386 lat_us=155089 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39407 lat_us=159617 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39463 lat_us=198457 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39485 lat_us=203415 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39506 lat_us=207956 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39528 lat_us=197269 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39550 lat_us=202235 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39572 lat_us=207145 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+REC seq=5 id=5 t=5000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=39607 lat_us=225690 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39657 lat_us=242352 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39667 lat_us=235428 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39676 lat_us=228314 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39686 lat_us=221266 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39695 lat_us=214256 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39705 lat_us=190539 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39728 lat_us=196679 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39749 lat_us=201647 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39771 lat_us=206661 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39793 lat_us=211567 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39848 lat_us=233347 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39869 lat_us=238470 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39891 lat_us=243277 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39914 lat_us=249139 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39936 lat_us=254429 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39957 lat_us=242642 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39978 lat_us=247361 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40000 lat_us=252427 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40055 lat_us=290440 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+HEART t=40076 us=40075918 hb=40 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=64 rx=12 err=0 rearm=0 w=611
+ACK cmd=status t=40088 lat_us=306503 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40109 lat_us=294450 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40132 lat_us=300639 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40153 lat_us=305661 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40175 lat_us=310476 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40196 lat_us=315249 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40251 lat_us=336435 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40272 lat_us=341362 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40294 lat_us=346139 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40317 lat_us=352296 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40338 lat_us=357313 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40360 lat_us=362225 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ERR cmd=line why=OVERFLOW_OR_LENGTH t=40454
+ACK cmd=status t=40472 lat_us=40479 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40493 lat_us=45262 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+REC seq=6 id=6 t=6000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=40529 lat_us=64834 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40545 lat_us=63929 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40555 lat_us=40136 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40564 lat_us=33159 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40574 lat_us=26137 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40583 lat_us=18934 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40593 lat_us=11693 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40648 lat_us=33522 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40669 lat_us=38218 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40691 lat_us=43113 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40713 lat_us=48800 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40735 lat_us=53689 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40756 lat_us=58476 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40777 lat_us=46390 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40799 lat_us=50883 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40854 lat_us=89417 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40875 lat_us=94321 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40897 lat_us=82056 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40919 lat_us=88078 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40941 lat_us=92976 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40962 lat_us=97464 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40984 lat_us=102345 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41005 lat_us=90371 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41060 lat_us=128710 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+HEART t=41081 us=41080941 hb=41 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=64 rx=18 err=0 rearm=0 w=626
+ACK cmd=status t=41093 lat_us=144903 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41116 lat_us=151040 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41137 lat_us=156046 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41159 lat_us=144247 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41180 lat_us=148832 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41201 lat_us=153719 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41257 lat_us=192506 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41278 lat_us=196980 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41299 lat_us=184965 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41322 lat_us=191097 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41344 lat_us=195977 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41365 lat_us=201072 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41387 lat_us=205991 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41408 lat_us=193821 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+REC seq=7 id=7 t=7000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=41477 lat_us=245800 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41493 lat_us=244985 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41502 lat_us=237879 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41513 lat_us=232007 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41523 lat_us=208381 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41533 lat_us=201442 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41542 lat_us=194335 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41563 lat_us=198930 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41585 lat_us=204198 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41607 lat_us=192137 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41662 lat_us=230796 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41684 lat_us=235748 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41705 lat_us=240380 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41728 lat_us=246528 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41749 lat_us=234768 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41771 lat_us=239787 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41792 lat_us=244714 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41848 lat_us=283392 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41870 lat_us=288422 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41891 lat_us=276743 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41914 lat_us=282513 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41936 lat_us=287819 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41957 lat_us=292741 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41979 lat_us=297468 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42000 lat_us=285451 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42055 lat_us=323786 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+HEART t=42076 us=42075880 hb=42 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=64 rx=18 err=0 rearm=0 w=642
+ACK cmd=status t=42088 lat_us=339890 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42109 lat_us=344535 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42132 lat_us=350738 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42153 lat_us=338966 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42175 lat_us=343987 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42196 lat_us=348551 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ERR cmd=line why=OVERFLOW_OR_LENGTH t=42276
+ACK cmd=status t=42294 lat_us=12802 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42317 lat_us=2162 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42338 lat_us=6817 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+REC seq=8 id=8 t=8000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=42373 lat_us=25059 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42389 lat_us=24199 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42398 lat_us=16964 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42444 lat_us=29471 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42465 lat_us=34369 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42487 lat_us=39157 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42508 lat_us=43675 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42530 lat_us=49366 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42552 lat_us=37947 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42574 lat_us=42736 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42595 lat_us=47265 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42650 lat_us=85465 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42671 lat_us=90271 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42693 lat_us=78472 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42716 lat_us=84604 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42737 lat_us=89395 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42759 lat_us=94197 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42780 lat_us=98645 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42801 lat_us=86523 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42856 lat_us=124860 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42877 lat_us=129396 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42899 lat_us=134089 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42921 lat_us=140223 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42943 lat_us=128527 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42965 lat_us=133485 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42986 lat_us=138490 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43007 lat_us=143022 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43063 lat_us=181855 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+HEART t=43084 us=43083923 hb=43 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=64 rx=31 err=0 rearm=0 w=657
+ACK cmd=status t=43096 lat_us=181238 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43118 lat_us=187380 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43140 lat_us=192387 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43161 lat_us=196973 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43183 lat_us=201935 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43204 lat_us=189871 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43260 lat_us=228850 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+REC seq=9 id=9 t=9000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=43295 lat_us=247345 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43312 lat_us=247706 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43322 lat_us=240615 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43332 lat_us=217280 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43341 lat_us=210273 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43351 lat_us=203098 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43361 lat_us=196103 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43382 lat_us=201156 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43403 lat_us=188997 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43459 lat_us=227844 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43480 lat_us=232424 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43502 lat_us=237720 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43525 lat_us=243588 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43546 lat_us=231468 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43568 lat_us=236518 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43589 lat_us=241428 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43644 lat_us=279438 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43666 lat_us=284465 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43687 lat_us=272889 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43708 lat_us=277428 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43731 lat_us=283541 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43753 lat_us=288564 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43775 lat_us=293480 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43796 lat_us=298167 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43851 lat_us=319733 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43872 lat_us=324762 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43894 lat_us=329396 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43917 lat_us=335555 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43938 lat_us=323968 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43960 lat_us=328892 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43982 lat_us=333878 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44003 lat_us=338417 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+HEART t=44071 us=44070226 hb=44 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=64 rx=37 err=0 rearm=0 w=672
+ERR cmd=line why=OVERFLOW_OR_LENGTH t=44082
+ACK cmd=status t=44099 lat_us=18192 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44122 lat_us=7699 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44143 lat_us=12376 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44165 lat_us=17289 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+REC seq=10 id=10 t=10000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=44200 lat_us=35988 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44250 lat_us=68819 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44259 lat_us=61607 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44269 lat_us=37861 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44278 lat_us=30632 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44288 lat_us=23610 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44297 lat_us=16376 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44320 lat_us=5682 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44342 lat_us=10463 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44363 lat_us=15051 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44384 lat_us=19820 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44405 lat_us=24331 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44461 lat_us=46515 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44482 lat_us=51461 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44504 lat_us=55778 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44526 lat_us=61907 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44548 lat_us=66779 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44569 lat_us=54984 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44591 lat_us=59779 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44646 lat_us=98109 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44667 lat_us=102943 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44689 lat_us=107946 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44711 lat_us=97102 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44733 lat_us=101940 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44755 lat_us=106853 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44776 lat_us=111862 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44798 lat_us=116510 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44853 lat_us=138503 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44874 lat_us=143412 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44896 lat_us=147967 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44918 lat_us=153884 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44940 lat_us=158791 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44961 lat_us=146684 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44983 lat_us=151738 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45004 lat_us=156371 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45060 lat_us=195499 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+HEART t=45081 us=45080910 hb=45 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=64 rx=37 err=0 rearm=0 w=687
+ACK cmd=status t=45093 lat_us=211609 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45116 lat_us=217755 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+REC seq=11 id=11 t=11000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=45151 lat_us=219968 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45167 lat_us=219473 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45177 lat_us=212461 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45187 lat_us=205448 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45196 lat_us=181731 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45206 lat_us=174615 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45249 lat_us=201094 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45271 lat_us=206121 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45292 lat_us=211128 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45315 lat_us=200569 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45337 lat_us=205595 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45358 lat_us=210402 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45380 lat_us=215141 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45401 lat_us=220111 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45456 lat_us=241486 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45477 lat_us=246192 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45498 lat_us=250780 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45521 lat_us=256923 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45543 lat_us=261843 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45565 lat_us=250265 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45586 lat_us=254801 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45607 lat_us=259820 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45663 lat_us=298537 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45685 lat_us=303565 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45706 lat_us=308215 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45728 lat_us=297380 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45750 lat_us=302491 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45772 lat_us=307517 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45793 lat_us=312438 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45848 lat_us=333532 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45870 lat_us=338460 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45891 lat_us=343383 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45914 lat_us=349254 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45936 lat_us=337906 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45957 lat_us=342828 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45979 lat_us=347458 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46000 lat_us=352157 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+REC seq=12 id=12 t=12000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+HEART t=46082 us=46081151 hb=46 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=64 rx=50 err=0 rearm=0 w=703
+ERR cmd=line why=OVERFLOW_OR_LENGTH t=46093
+ACK cmd=status t=46105 lat_us=23749 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46116 lat_us=1411 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46141 lat_us=9812 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46162 lat_us=14163 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46183 lat_us=19122 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46205 lat_us=23527 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46260 lat_us=45462 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46281 lat_us=50391 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46303 lat_us=54820 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46325 lat_us=60950 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46346 lat_us=65427 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46368 lat_us=53716 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46390 lat_us=58517 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46445 lat_us=97257 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46466 lat_us=102038 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46488 lat_us=106669 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46509 lat_us=94875 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46532 lat_us=101025 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46554 lat_us=105938 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46575 lat_us=110834 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46597 lat_us=98829 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46652 lat_us=137553 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46673 lat_us=142471 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46695 lat_us=147071 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46718 lat_us=153214 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46739 lat_us=158224 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46761 lat_us=146098 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46782 lat_us=151152 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46803 lat_us=155686 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46859 lat_us=194445 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46880 lat_us=199126 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46902 lat_us=187434 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46925 lat_us=193577 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+REC seq=13 id=13 t=13000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=46960 lat_us=212372 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46976 lat_us=211673 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46986 lat_us=204657 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46995 lat_us=180847 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=47005 lat_us=173832 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=47048 lat_us=200142 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+HEART t=47057 us=47056856 hb=47 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=64 rx=50 err=0 rearm=0 w=718
+ACK cmd=status t=47069 lat_us=204233 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=47090 lat_us=208873 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=47112 lat_us=198044 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=47134 lat_us=202579 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=47155 lat_us=207122 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=47176 lat_us=211765 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=47197 lat_us=216299 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=47251 lat_us=237160 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=47273 lat_us=241696 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=47294 lat_us=246240 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=47316 lat_us=252113 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+REC seq=14 id=14 t=14000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+HEART t=48067 us=48066465 hb=48 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=64 rx=50 err=0 rearm=0 w=733
+REC seq=15 id=15 t=15000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+REC seq=16 id=16 t=16000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+HEART t=49057 us=49056445 hb=49 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=64 rx=50 err=0 rearm=0 w=748
+REC seq=17 id=17 t=17000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+REC seq=18 id=18 t=18000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+HEART t=50060 us=50059424 hb=50 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=64 rx=50 err=0 rearm=0 w=763
+ACK cmd=status t=50097 lat_us=15828 id=0 phase=0 why=0 j=64 sd=1 l=1 nv=1 av=1
+MET name=loop n=980 min=94 max=71392 sum=15060502
+MET name=lid n=688 min=27 max=83 sum=19287
+MET name=ntc n=151 min=1184 max=1562 sum=184907
+MET name=bmp n=75 min=31495 max=32951 sum=2416380
+MET name=rx n=489 min=33 max=9027 sum=4161662
+MET name=sd n=711 min=794 max=26729 sum=7981581
+MET name=heart n=15 min=10990 max=11475 sum=167039
+MET name=adc_gate n=151 min=1122 max=1501 sum=175627
+MET name=lid_period n=687 min=962 max=71391 sum=15060514
+MET name=ntc_period n=150 min=68412 max=122498 sum=15008228
+MET name=bmp_period n=74 min=184229 max=222998 sum=14803248
+MET name=lid_latency n=0 min=0 max=0 sum=0
+MET name=status_latency n=478 min=1411 max=363377 sum=82355239
+MET name=abort_latency n=0 min=0 max=0 sum=0
+TOTAL t=50209 us=50208807 elapsed_us=15144295 busy_us=14930856 stack=788 heap=0 alloc_attempts=0 miss_lid=2325 miss_ntc=0 miss_bmp=0
+COUNTS adc=502 bmp=251 errors=0 cmd=481 rejected=6 rx_overflow=50 rx_errors=0 rx_rearm=0

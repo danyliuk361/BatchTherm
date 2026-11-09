@@ -3,3 +3,8 @@
 *.elf binary
 *.bin binary
 *.img binary
+
+# Preserve recorded bytes across Git checkout settings so SHA-256 checks pass.
+docs/captures/lab3/** -text
+docs/evidence/lab3/** -text
+docs/metrics/lab3/** -text

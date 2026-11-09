@@ -1,0 +1,72 @@
+BOOT product=BatchTherm lab=3 build=f6b5827-0ba44211a1db core=48000000 units=dC
+SD init=0 t=62 ocr=c0ff8000
+BMP t=177 result=0 temp=240 ut=29028 addr=77
+LID t=189 us=189453 closed=0
+FIRST t=244 us=244495 n=250 a=240
+JOURNAL ready=0 t=710 last_id=0
+LID t=870 us=869683 closed=1
+EV t=915 us=915048 id=1 phase=1 why=0 hold=0 queued=1
+HEART t=1065 us=1065000 hb=1 phase=1 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=16
+COMMIT seq=1 id=1 phase=1 why=0 t=1466 elapsed_us=544432
+ACK cmd=start id=1 seq=1
+FAULT addr=76 t=1498
+EV t=1505 us=1504786 id=1 phase=5 why=3 hold=0 queued=1
+BMP t=1511 result=1 temp=240 ut=29028 addr=76
+ERR cmd=start why=BMP t=1540
+FAULT addr=77 t=1569
+BMP t=1694 result=0 temp=240 ut=29028 addr=77
+HEART t=2034 us=2033849 hb=2 phase=5 why=3 n=250 nv=1 a=240 av=1 l=1 j=1 rx=0 err=0 rearm=0 w=31
+COMMIT seq=2 id=1 phase=5 why=3 t=2153 elapsed_us=636352
+HEART t=3011 us=3010964 hb=3 phase=5 why=3 n=250 nv=1 a=240 av=1 l=1 j=2 rx=0 err=0 rearm=0 w=45
+BMP t=3169 result=2 temp=240 ut=29028 addr=77
+WINDOW t=3182 us=3181770 stack=712 alloc_attempts=0
+HEART t=4011 us=4010836 hb=4 phase=5 why=3 n=250 nv=1 a=240 av=0 l=1 j=2 rx=0 err=0 rearm=0 w=61
+HEART t=5011 us=5010813 hb=5 phase=5 why=3 n=250 nv=1 a=240 av=0 l=1 j=2 rx=0 err=0 rearm=0 w=76
+HEART t=6011 us=6010869 hb=6 phase=5 why=3 n=250 nv=1 a=240 av=0 l=1 j=2 rx=0 err=0 rearm=0 w=91
+HEART t=7010 us=7009531 hb=7 phase=5 why=3 n=250 nv=1 a=240 av=0 l=1 j=2 rx=0 err=0 rearm=0 w=106
+HEART t=8011 us=8010840 hb=8 phase=5 why=3 n=250 nv=1 a=240 av=0 l=1 j=2 rx=0 err=0 rearm=0 w=122
+HEART t=9011 us=9010820 hb=9 phase=5 why=3 n=250 nv=1 a=240 av=0 l=1 j=2 rx=0 err=0 rearm=0 w=137
+HEART t=10011 us=10010808 hb=10 phase=5 why=3 n=250 nv=1 a=240 av=0 l=1 j=2 rx=0 err=0 rearm=0 w=152
+MET name=loop n=69232 min=94 max=12244 sum=6859845
+MET name=lid n=1363 min=27 max=30 sum=37502
+MET name=ntc n=69 min=1189 max=1190 sum=82055
+MET name=bmp n=34 min=728 max=728 sum=24752
+MET name=rx n=2 min=113 max=6554 sum=6667
+MET name=sd n=0 min=0 max=0 sum=0
+MET name=heart n=7 min=10384 max=10823 sum=73526
+MET name=adc_gate n=69 min=1123 max=1124 sum=77555
+MET name=lid_period n=1362 min=1587 max=16659 sum=6856425
+MET name=ntc_period n=68 min=89447 max=110578 sum=6799866
+MET name=bmp_period n=33 min=199989 max=200025 sum=6599878
+MET name=lid_latency n=0 min=0 max=0 sum=0
+MET name=status_latency n=0 min=0 max=0 sum=0
+MET name=abort_latency n=0 min=0 max=0 sum=0
+TOTAL t=10119 us=10119390 elapsed_us=6937632 busy_us=224502 stack=712 heap=0 alloc_attempts=0 miss_lid=10 miss_ntc=0 miss_bmp=0
+COUNTS adc=100 bmp=52 errors=36 cmd=6 rejected=1 rx_overflow=0 rx_errors=0 rx_rearm=0
+BMP t=10478 result=0 temp=240 ut=29028 addr=77
+EV t=10498 us=10498054 id=3 phase=1 why=0 hold=0 queued=1
+HEART t=11025 us=11025314 hb=11 phase=1 why=0 n=250 nv=1 a=240 av=1 l=1 j=2 rx=0 err=0 rearm=0 w=168
+COMMIT seq=3 id=3 phase=1 why=0 t=11053 elapsed_us=546792
+ACK cmd=start id=3 seq=3
+EV t=11211 us=11210821 id=3 phase=5 why=2 hold=0 queued=1
+ERR cmd=start why=NTC t=11240
+COMMIT seq=4 id=3 phase=5 why=2 t=11724 elapsed_us=505708
+HEART t=12011 us=12010777 hb=12 phase=5 why=2 n=250 nv=1 a=240 av=1 l=1 j=4 rx=0 err=0 rearm=0 w=183
+HEART t=13011 us=13010757 hb=13 phase=5 why=2 n=250 nv=1 a=240 av=1 l=1 j=4 rx=0 err=0 rearm=0 w=198
+HEART t=14011 us=14010735 hb=14 phase=5 why=2 n=250 nv=1 a=240 av=1 l=1 j=4 rx=0 err=0 rearm=0 w=213
+MET name=loop n=92221 min=92 max=115004 sum=10842831
+MET name=lid n=1897 min=27 max=30 sum=52228
+MET name=ntc n=109 min=1176 max=7565 sum=135903
+MET name=bmp n=54 min=728 max=114864 sum=712473
+MET name=rx n=7 min=101 max=94563 sum=111215
+MET name=sd n=102 min=797 max=14784 sum=868019
+MET name=heart n=11 min=10384 max=10841 sum=116874
+MET name=adc_gate n=109 min=1123 max=1200 sum=122596
+MET name=lid_period n=1896 min=1397 max=118981 sum=10841332
+MET name=ntc_period n=108 min=30814 max=174012 sum=10799798
+MET name=bmp_period n=53 min=192422 max=210319 sum=10599800
+MET name=lid_latency n=0 min=0 max=0 sum=0
+MET name=status_latency n=0 min=0 max=0 sum=0
+MET name=abort_latency n=0 min=0 max=0 sum=0
+TOTAL t=14107 us=14106335 elapsed_us=10924577 busy_us=1996712 stack=712 heap=0 alloc_attempts=0 miss_lid=273 miss_ntc=0 miss_bmp=0
+COUNTS adc=140 bmp=72 errors=38 cmd=9 rejected=2 rx_overflow=0 rx_errors=0 rx_rearm=0

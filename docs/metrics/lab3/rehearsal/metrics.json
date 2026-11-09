@@ -1,0 +1,584 @@
+{
+  "run": {
+    "mode": "rehearsal",
+    "started": "2026-11-09T12:41:11.250Z",
+    "pid": 25573,
+    "version": "4.1.0",
+    "elf_sha256": "91b42eea234e59243f39c5b5d0fd25c30985f1ef102d2bd078ce653006308403",
+    "hex_sha256": "4033be960cc9149a571e98bf0b67da9f244b62fb7c2a47b7f742a24d89ed559d",
+    "diagram_sha256": "6313df76ef6ce34ffb4c05ef0765c3d9705988a6a93f37d3eec9020171eb8429",
+    "sd_before_sha256": "5647f05ec18958947d32874eeb788fa396a05d0bab7c1b71f112ceb7e9b31eee",
+    "browser_transport": "separate Chromium process, CDP pipe",
+    "status": "captured",
+    "measure_start_ms": 2042,
+    "measure_end_ms": 244042,
+    "ended": "2026-11-09T12:45:19.993Z",
+    "uart_bytes": 29575,
+    "images": [
+      "wokwi"
+    ],
+    "events": [
+      "sim:run",
+      "sdcard:export",
+      "sim:stop",
+      "vcd:ready"
+    ]
+  },
+  "first": [
+    {
+      "t": 244,
+      "us": 244495,
+      "n": 250,
+      "a": 240
+    }
+  ],
+  "boot": [
+    {
+      "product": "BatchTherm",
+      "lab": 3,
+      "build": "f6b5827-0ba44211a1db",
+      "core": 48000000,
+      "units": "dC"
+    }
+  ],
+  "heart_n": 244,
+  "first_heart": {
+    "t": 1042,
+    "us": 1042530,
+    "hb": 1,
+    "phase": 0,
+    "why": 0,
+    "n": 250,
+    "nv": 1,
+    "a": 240,
+    "av": 1,
+    "l": 1,
+    "j": 0,
+    "rx": 0,
+    "err": 0,
+    "rearm": 0,
+    "w": 15
+  },
+  "last_heart": {
+    "t": 244042,
+    "us": 244037792,
+    "hb": 244,
+    "phase": 4,
+    "why": 0,
+    "n": 250,
+    "nv": 1,
+    "a": 240,
+    "av": 1,
+    "l": 1,
+    "j": 8,
+    "rx": 0,
+    "err": 0,
+    "rearm": 0,
+    "w": 3723
+  },
+  "largest_heartbeat_gap_ms": 1000,
+  "events": [
+    {
+      "t": 2065,
+      "us": 2065113,
+      "id": 1,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 10311,
+      "us": 10310797,
+      "id": 1,
+      "phase": 2,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 40311,
+      "us": 40310340,
+      "id": 1,
+      "phase": 3,
+      "why": 0,
+      "hold": 30000,
+      "queued": 1
+    },
+    {
+      "t": 57211,
+      "us": 57209843,
+      "id": 1,
+      "phase": 4,
+      "why": 0,
+      "hold": 30000,
+      "queued": 1
+    },
+    {
+      "t": 122123,
+      "us": 122120137,
+      "id": 5,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 130211,
+      "us": 130208444,
+      "id": 5,
+      "phase": 2,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 160211,
+      "us": 160207681,
+      "id": 5,
+      "phase": 3,
+      "why": 0,
+      "hold": 30000,
+      "queued": 1
+    },
+    {
+      "t": 177211,
+      "us": 177207389,
+      "id": 5,
+      "phase": 4,
+      "why": 0,
+      "hold": 30000,
+      "queued": 1
+    }
+  ],
+  "commits": [
+    {
+      "seq": 1,
+      "id": 1,
+      "phase": 1,
+      "why": 0,
+      "t": 2575,
+      "elapsed_us": 502679
+    },
+    {
+      "seq": 2,
+      "id": 1,
+      "phase": 2,
+      "why": 0,
+      "t": 10853,
+      "elapsed_us": 534736
+    },
+    {
+      "seq": 3,
+      "id": 1,
+      "phase": 3,
+      "why": 0,
+      "t": 40854,
+      "elapsed_us": 534940
+    },
+    {
+      "seq": 4,
+      "id": 1,
+      "phase": 4,
+      "why": 0,
+      "t": 57753,
+      "elapsed_us": 502693
+    },
+    {
+      "seq": 5,
+      "id": 5,
+      "phase": 1,
+      "why": 0,
+      "t": 122665,
+      "elapsed_us": 535048
+    },
+    {
+      "seq": 6,
+      "id": 5,
+      "phase": 2,
+      "why": 0,
+      "t": 130754,
+      "elapsed_us": 502831
+    },
+    {
+      "seq": 7,
+      "id": 5,
+      "phase": 3,
+      "why": 0,
+      "t": 160754,
+      "elapsed_us": 502842
+    },
+    {
+      "seq": 8,
+      "id": 5,
+      "phase": 4,
+      "why": 0,
+      "t": 177753,
+      "elapsed_us": 502690
+    }
+  ],
+  "counts": [
+    {
+      "adc": 2441,
+      "bmp": 1221,
+      "errors": 0,
+      "cmd": 27,
+      "rejected": 0,
+      "rx_overflow": 0,
+      "rx_errors": 0,
+      "rx_rearm": 0
+    }
+  ],
+  "metrics": {
+    "loop": {
+      "name": "loop",
+      "n": 2024571,
+      "min": 92,
+      "max": 49811,
+      "sum": 243169586,
+      "avg": 120.109
+    },
+    "lid": {
+      "name": "lid",
+      "n": 41515,
+      "min": 27,
+      "max": 95,
+      "sum": 1144125,
+      "avg": 27.559
+    },
+    "ntc": {
+      "name": "ntc",
+      "n": 2432,
+      "min": 1184,
+      "max": 8381,
+      "sum": 3050511,
+      "avg": 1254.322
+    },
+    "bmp": {
+      "name": "bmp",
+      "n": 1216,
+      "min": 31302,
+      "max": 32188,
+      "sum": 38241349,
+      "avg": 31448.478
+    },
+    "rx": {
+      "name": "rx",
+      "n": 53,
+      "min": 89,
+      "max": 8622,
+      "sum": 211866,
+      "avg": 3997.472
+    },
+    "sd": {
+      "name": "sd",
+      "n": 408,
+      "min": 797,
+      "max": 14785,
+      "sum": 3466118,
+      "avg": 8495.387
+    },
+    "heart": {
+      "name": "heart",
+      "n": 244,
+      "min": 10350,
+      "max": 11393,
+      "sum": 2724943,
+      "avg": 11167.799
+    },
+    "adc_gate": {
+      "name": "adc_gate",
+      "n": 2432,
+      "min": 1123,
+      "max": 1248,
+      "sum": 2848128,
+      "avg": 1171.105
+    },
+    "lid_period": {
+      "name": "lid_period",
+      "n": 41514,
+      "min": 169,
+      "max": 54730,
+      "sum": 243166884,
+      "avg": 5857.467
+    },
+    "ntc_period": {
+      "name": "ntc_period",
+      "n": 2431,
+      "min": 68064,
+      "max": 131958,
+      "sum": 243095251,
+      "avg": 99998.046
+    },
+    "bmp_period": {
+      "name": "bmp_period",
+      "n": 1215,
+      "min": 189581,
+      "max": 211725,
+      "sum": 242995224,
+      "avg": 199996.069
+    },
+    "lid_latency": {
+      "name": "lid_latency",
+      "n": 0,
+      "min": 0,
+      "max": 0,
+      "sum": 0,
+      "avg": null
+    },
+    "status_latency": {
+      "name": "status_latency",
+      "n": 23,
+      "min": 82,
+      "max": 473,
+      "sum": 3441,
+      "avg": 149.609
+    },
+    "abort_latency": {
+      "name": "abort_latency",
+      "n": 0,
+      "min": 0,
+      "max": 0,
+      "sum": 0,
+      "avg": null
+    }
+  },
+  "total": {
+    "t": 244141,
+    "us": 244136723,
+    "elapsed_us": 243254742,
+    "busy_us": 48838912,
+    "stack": 712,
+    "heap": 0,
+    "alloc_attempts": 0,
+    "miss_lid": 7121,
+    "miss_ntc": 0,
+    "miss_bmp": 0
+  },
+  "busy_percent": 20.077,
+  "status_ack_us": {
+    "n": 23,
+    "min": 82,
+    "avg": 149.609,
+    "max": 473,
+    "p99": 473
+  },
+  "abort_ack_us": {
+    "n": 0
+  },
+  "lid_poll_reaction_us": {
+    "n": 0
+  },
+  "sector_commit_us": {
+    "n": 8,
+    "min": 502679,
+    "avg": 514807.375,
+    "max": 535048,
+    "p99": 535048
+  },
+  "rejections": [],
+  "bmp_status": [
+    {
+      "t": 177,
+      "result": 0,
+      "temp": 240,
+      "ut": 29028,
+      "addr": 77
+    }
+  ],
+  "export": [],
+  "recovery": [],
+  "hold_mcu_ms": {
+    "n": 2,
+    "min": 30000,
+    "avg": 30000,
+    "max": 30000,
+    "p99": 30000
+  },
+  "hold_samples_mcu_ms": [
+    30000,
+    30000
+  ],
+  "gpio": {
+    "soak_width_us": {
+      "n": 0
+    },
+    "soak_samples_us": [],
+    "adc_width_us": {
+      "n": 2422,
+      "min": 1109.725,
+      "avg": 1157.279,
+      "max": 1234.45,
+      "p99": 1232.0
+    },
+    "adc_period_us": {
+      "n": 2421,
+      "min": 43484.45,
+      "avg": 99994.049,
+      "max": 156514.375,
+      "p99": 131952.75
+    },
+    "sd_busy_us": {
+      "n": 9,
+      "min": 502648.775,
+      "avg": 516179.144,
+      "max": 535017.85,
+      "p99": 535017.85
+    },
+    "lid_latency_us": {
+      "n": 0
+    },
+    "lid_during_sd": 0,
+    "reaction_points": [],
+    "vcd_end_us": 244275707.65
+  },
+  "journal": {
+    "records": [
+      {
+        "seq": 1,
+        "id": 1,
+        "t": 2065,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 2,
+        "id": 1,
+        "t": 10311,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 600,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 2,
+        "why": 0
+      },
+      {
+        "seq": 3,
+        "id": 1,
+        "t": 40311,
+        "hold": 30000,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 600,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 3,
+        "why": 0
+      },
+      {
+        "seq": 4,
+        "id": 1,
+        "t": 57211,
+        "hold": 30000,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 5,
+        "id": 5,
+        "t": 122123,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 6,
+        "id": 5,
+        "t": 130211,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 600,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 2,
+        "why": 0
+      },
+      {
+        "seq": 7,
+        "id": 5,
+        "t": 160211,
+        "hold": 30000,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 600,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 3,
+        "why": 0
+      },
+      {
+        "seq": 8,
+        "id": 5,
+        "t": 177211,
+        "hold": 30000,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      }
+    ],
+    "crc_or_seal_errors": []
+  }
+}

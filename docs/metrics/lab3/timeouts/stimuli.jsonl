@@ -1,0 +1,6 @@
+{"utc":"2026-11-09T12:44:01.719Z","mcu_last_heartbeat_ms":0,"action":"lid","closed":true}
+{"utc":"2026-11-09T12:44:01.824Z","mcu_last_heartbeat_ms":0,"action":"uart","text":"start\n","paced":false}
+{"utc":"2026-11-09T12:47:02.500Z","mcu_last_heartbeat_ms":181065,"action":"uart","text":"profile 600 20 5 350\n","paced":false}
+{"utc":"2026-11-09T12:47:02.533Z","mcu_last_heartbeat_ms":181065,"action":"uart","text":"start\n","paced":false}
+{"utc":"2026-11-09T12:47:03.201Z","mcu_last_heartbeat_ms":182057,"action":"ntc","c":60}
+{"utc":"2026-11-09T12:50:09.011Z","mcu_last_heartbeat_ms":367042,"action":"uart","text":"stats\n","paced":false}

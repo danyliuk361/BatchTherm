@@ -1,0 +1,4 @@
+{"utc":"2026-11-09T12:44:00.981Z","command":"sim:run"}
+{"utc":"2026-11-09T12:50:09.444Z","command":"sdcard:export","received":true}
+{"utc":"2026-11-09T12:50:09.449Z","command":"sim:stop"}
+{"utc":"2026-11-09T12:50:09.452Z","command":"vcd:ready","bytes":126133}

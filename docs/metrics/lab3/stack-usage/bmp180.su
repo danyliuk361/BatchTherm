@@ -1,0 +1,3 @@
+Devices/bmp180.c:5:11:bmp180_open	56	static
+Devices/bmp180.c:25:11:bmp180_compensate	40	static
+Devices/bmp180.c:39:11:bmp180_measure	40	static

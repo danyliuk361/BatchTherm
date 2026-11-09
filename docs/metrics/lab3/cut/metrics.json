@@ -1,0 +1,201 @@
+{
+  "run": {
+    "mode": "cut",
+    "started": "2026-11-09T12:46:06.967Z",
+    "pid": 53986,
+    "version": "4.1.0",
+    "elf_sha256": "91b42eea234e59243f39c5b5d0fd25c30985f1ef102d2bd078ce653006308403",
+    "hex_sha256": "4033be960cc9149a571e98bf0b67da9f244b62fb7c2a47b7f742a24d89ed559d",
+    "diagram_sha256": "742245d361fbf3866214bb6b973d7a3b2ddf41b65c2d05cc79bdde04e4fa0c7a",
+    "sd_before_sha256": "5647f05ec18958947d32874eeb788fa396a05d0bab7c1b71f112ceb7e9b31eee",
+    "browser_transport": "separate Chromium process, CDP pipe",
+    "status": "captured",
+    "measure_end_ms": 1062,
+    "ended": "2026-11-09T12:46:12.319Z",
+    "uart_bytes": 578,
+    "images": [
+      "wokwi"
+    ],
+    "events": [
+      "sim:run",
+      "sdcard:export",
+      "sim:stop",
+      "vcd:ready"
+    ]
+  },
+  "first": [
+    {
+      "t": 244,
+      "us": 244495,
+      "n": 250,
+      "a": 240
+    }
+  ],
+  "boot": [
+    {
+      "product": "BatchTherm",
+      "lab": 3,
+      "build": "f6b5827-0ba44211a1db",
+      "core": 48000000,
+      "units": "dC"
+    }
+  ],
+  "heart_n": 1,
+  "first_heart": {
+    "t": 1062,
+    "us": 1061999,
+    "hb": 1,
+    "phase": 1,
+    "why": 0,
+    "n": 250,
+    "nv": 1,
+    "a": 240,
+    "av": 1,
+    "l": 1,
+    "j": 0,
+    "rx": 0,
+    "err": 0,
+    "rearm": 0,
+    "w": 16
+  },
+  "last_heart": {
+    "t": 1062,
+    "us": 1061999,
+    "hb": 1,
+    "phase": 1,
+    "why": 0,
+    "n": 250,
+    "nv": 1,
+    "a": 240,
+    "av": 1,
+    "l": 1,
+    "j": 0,
+    "rx": 0,
+    "err": 0,
+    "rearm": 0,
+    "w": 16
+  },
+  "largest_heartbeat_gap_ms": 0,
+  "events": [
+    {
+      "t": 898,
+      "us": 898331,
+      "id": 1,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 1465,
+      "us": 1465145,
+      "id": 1,
+      "phase": 5,
+      "why": 4,
+      "hold": 0,
+      "queued": 1
+    }
+  ],
+  "commits": [
+    {
+      "seq": 1,
+      "id": 1,
+      "phase": 1,
+      "why": 0,
+      "t": 1450,
+      "elapsed_us": 545050
+    }
+  ],
+  "counts": [],
+  "metrics": {},
+  "total": {},
+  "busy_percent": null,
+  "status_ack_us": {
+    "n": 0
+  },
+  "abort_ack_us": {
+    "n": 0
+  },
+  "lid_poll_reaction_us": {
+    "n": 0
+  },
+  "sector_commit_us": {
+    "n": 1,
+    "min": 545050,
+    "avg": 545050,
+    "max": 545050,
+    "p99": 545050
+  },
+  "rejections": [],
+  "bmp_status": [
+    {
+      "t": 177,
+      "result": 0,
+      "temp": 240,
+      "ut": 29028,
+      "addr": 77
+    }
+  ],
+  "export": [],
+  "recovery": [],
+  "hold_mcu_ms": {
+    "n": 0
+  },
+  "hold_samples_mcu_ms": [],
+  "gpio": {
+    "soak_width_us": {
+      "n": 0
+    },
+    "soak_samples_us": [],
+    "adc_width_us": {
+      "n": 17,
+      "min": 1109.95,
+      "avg": 1110.287,
+      "max": 1112.475,
+      "p99": 1112.475
+    },
+    "adc_period_us": {
+      "n": 16,
+      "min": 18396.575,
+      "avg": 97224.372,
+      "max": 126878.0,
+      "p99": 126878.0
+    },
+    "sd_busy_us": {
+      "n": 2,
+      "min": 527396.025,
+      "avg": 536207.713,
+      "max": 545019.4,
+      "p99": 545019.4
+    },
+    "lid_latency_us": {
+      "n": 0
+    },
+    "lid_during_sd": 0,
+    "reaction_points": [],
+    "vcd_end_us": 1716581.825
+  },
+  "journal": {
+    "records": [
+      {
+        "seq": 1,
+        "id": 1,
+        "t": 898,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      }
+    ],
+    "crc_or_seal_errors": []
+  }
+}

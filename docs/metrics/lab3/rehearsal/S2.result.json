@@ -1,0 +1,28 @@
+{
+  "valid": true,
+  "checks": {
+    "capture_completed": true,
+    "one_boot": true,
+    "continuous_mcu_duration": true,
+    "heartbeat_contiguous": true,
+    "timer_wraps_observed": true,
+    "no_wrapped_metric_intervals": true,
+    "complete_task_metrics": true,
+    "no_rx_errors_or_overflow": true,
+    "both_channels_valid": true,
+    "no_heap_growth": true,
+    "journal_crc_sequence": true,
+    "all_batches_finished": true,
+    "recorded_status_traffic": true,
+    "raw_vcd_present": true
+  },
+  "start_ms": 2042,
+  "end_ms": 244042,
+  "elapsed_mcu_ms": 242000,
+  "required_ms": 240000,
+  "completed_batches": 2,
+  "journal_records": 8,
+  "elf_sha256": "91b42eea234e59243f39c5b5d0fd25c30985f1ef102d2bd078ce653006308403",
+  "hex_sha256": "4033be960cc9149a571e98bf0b67da9f244b62fb7c2a47b7f742a24d89ed559d",
+  "timing_and_evidence": "metrics.json"
+}

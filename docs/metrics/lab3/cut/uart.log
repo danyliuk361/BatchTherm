@@ -1,0 +1,12 @@
+BOOT product=BatchTherm lab=3 build=f6b5827-0ba44211a1db core=48000000 units=dC
+SD init=0 t=62 ocr=c0ff8000
+BMP t=177 result=0 temp=240 ut=29028 addr=77
+LID t=189 us=189453 closed=0
+FIRST t=244 us=244495 n=250 a=240
+JOURNAL ready=0 t=710 last_id=0
+LID t=870 us=869682 closed=1
+EV t=898 us=898331 id=1 phase=1 why=0 hold=0 queued=1
+HEART t=1062 us=1061999 hb=1 phase=1 why=0 n=250 nv=1 a=240 av=1 l=1 j=0 rx=0 err=0 rearm=0 w=16
+COMMIT seq=1 id=1 phase=1 why=0 t=1450 elapsed_us=545050
+ACK cmd=start id=1 seq=1
+EV t=1465 us=1465145 id=1 phase=5 why=4 hold=0 queued=1

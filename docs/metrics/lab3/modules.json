@@ -1,0 +1,46 @@
+{
+  "HAL, startup and platform glue": {
+    "flash": 9059,
+    "ram": 164
+  },
+  "Compiler and C/math libraries": {
+    "flash": 7754,
+    "ram": 424
+  },
+  "board": {
+    "flash": 7255,
+    "ram": 1256
+  },
+  "lab3_io": {
+    "flash": 597,
+    "ram": 16
+  },
+  "batch": {
+    "flash": 1114,
+    "ram": 0
+  },
+  "sd_stream": {
+    "flash": 432,
+    "ram": 0
+  },
+  "storage_bringup": {
+    "flash": 1782,
+    "ram": 1100
+  },
+  "sdcard": {
+    "flash": 386,
+    "ram": 0
+  },
+  "bmp180": {
+    "flash": 402,
+    "ram": 0
+  },
+  "ntc": {
+    "flash": 180,
+    "ram": 0
+  },
+  "quality": {
+    "flash": 136,
+    "ram": 0
+  }
+}

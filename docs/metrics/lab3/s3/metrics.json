@@ -1,0 +1,4277 @@
+{
+  "run": {
+    "mode": "s3",
+    "started": "2026-11-09T12:42:17.189Z",
+    "pid": 33180,
+    "version": "4.1.0",
+    "elf_sha256": "91b42eea234e59243f39c5b5d0fd25c30985f1ef102d2bd078ce653006308403",
+    "hex_sha256": "4033be960cc9149a571e98bf0b67da9f244b62fb7c2a47b7f742a24d89ed559d",
+    "diagram_sha256": "742245d361fbf3866214bb6b973d7a3b2ddf41b65c2d05cc79bdde04e4fa0c7a",
+    "sd_before_sha256": "d0fd6e83934d26e1fc67a3dd05053971e042f84031733851c550719db1a1de18",
+    "browser_transport": "separate Chromium process, CDP pipe",
+    "status": "captured",
+    "measure_start_ms": 35042,
+    "measure_end_ms": 119055,
+    "ended": "2026-11-09T12:44:20.385Z",
+    "uart_bytes": 102675,
+    "images": [
+      "s3-9",
+      "s3-29",
+      "wokwi"
+    ],
+    "events": [
+      "sim:run",
+      "sdcard:export",
+      "sim:stop",
+      "vcd:ready"
+    ]
+  },
+  "first": [
+    {
+      "t": 244,
+      "us": 244495,
+      "n": 250,
+      "a": 240
+    }
+  ],
+  "boot": [
+    {
+      "product": "BatchTherm",
+      "lab": 3,
+      "build": "f6b5827-0ba44211a1db",
+      "core": 48000000,
+      "units": "dC"
+    }
+  ],
+  "heart_n": 119,
+  "first_heart": {
+    "t": 1056,
+    "us": 1055972,
+    "hb": 1,
+    "phase": 0,
+    "why": 0,
+    "n": 250,
+    "nv": 1,
+    "a": 240,
+    "av": 1,
+    "l": 0,
+    "j": 1,
+    "rx": 0,
+    "err": 0,
+    "rearm": 0,
+    "w": 16
+  },
+  "last_heart": {
+    "t": 119055,
+    "us": 119052759,
+    "hb": 119,
+    "phase": 5,
+    "why": 4,
+    "n": 250,
+    "nv": 1,
+    "a": 240,
+    "av": 1,
+    "l": 1,
+    "j": 138,
+    "rx": 0,
+    "err": 0,
+    "rearm": 0,
+    "w": 1816
+  },
+  "largest_heartbeat_gap_ms": 1037,
+  "events": [
+    {
+      "t": 35124,
+      "us": 35123798,
+      "id": 65,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 35304,
+      "us": 35303236,
+      "id": 65,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 36967,
+      "us": 36966740,
+      "id": 67,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 37298,
+      "us": 37297196,
+      "id": 67,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 38781,
+      "us": 38780843,
+      "id": 69,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 39162,
+      "us": 39161105,
+      "id": 69,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 40653,
+      "us": 40652461,
+      "id": 71,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 40906,
+      "us": 40905127,
+      "id": 71,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 42507,
+      "us": 42506069,
+      "id": 73,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 42794,
+      "us": 42793456,
+      "id": 73,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 44345,
+      "us": 44344277,
+      "id": 75,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 44729,
+      "us": 44727895,
+      "id": 75,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 46174,
+      "us": 46173001,
+      "id": 77,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 46481,
+      "us": 46479795,
+      "id": 77,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 48004,
+      "us": 48003491,
+      "id": 79,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 48344,
+      "us": 48342901,
+      "id": 79,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 49854,
+      "us": 49852683,
+      "id": 81,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 50087,
+      "us": 50085746,
+      "id": 81,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 51661,
+      "us": 51659785,
+      "id": 83,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 51990,
+      "us": 51989554,
+      "id": 83,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 53672,
+      "us": 53670833,
+      "id": 85,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 54036,
+      "us": 54034701,
+      "id": 85,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 55355,
+      "us": 55353731,
+      "id": 87,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 55582,
+      "us": 55580593,
+      "id": 87,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 57172,
+      "us": 57170700,
+      "id": 89,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 57694,
+      "us": 57692547,
+      "id": 89,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 59009,
+      "us": 59007478,
+      "id": 91,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 59233,
+      "us": 59231795,
+      "id": 91,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 60844,
+      "us": 60842777,
+      "id": 93,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 61130,
+      "us": 61128952,
+      "id": 93,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 62706,
+      "us": 62705000,
+      "id": 95,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 63109,
+      "us": 63107956,
+      "id": 95,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 64523,
+      "us": 64521753,
+      "id": 97,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 64750,
+      "us": 64748552,
+      "id": 97,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 66335,
+      "us": 66333950,
+      "id": 99,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 66671,
+      "us": 66669757,
+      "id": 99,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 68247,
+      "us": 68245298,
+      "id": 101,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 68691,
+      "us": 68689418,
+      "id": 101,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 70044,
+      "us": 70042261,
+      "id": 103,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 70330,
+      "us": 70328564,
+      "id": 103,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 71877,
+      "us": 71875318,
+      "id": 105,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 72210,
+      "us": 72208898,
+      "id": 105,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 73720,
+      "us": 73718580,
+      "id": 107,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 73934,
+      "us": 73933093,
+      "id": 107,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 75537,
+      "us": 75535195,
+      "id": 109,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 75861,
+      "us": 75859669,
+      "id": 109,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 77409,
+      "us": 77407667,
+      "id": 111,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 77793,
+      "us": 77791821,
+      "id": 111,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 79245,
+      "us": 79243071,
+      "id": 113,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 79510,
+      "us": 79508515,
+      "id": 113,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 81104,
+      "us": 81102668,
+      "id": 115,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 81463,
+      "us": 81461550,
+      "id": 115,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 82940,
+      "us": 82938276,
+      "id": 117,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 83140,
+      "us": 83138540,
+      "id": 117,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 84748,
+      "us": 84746108,
+      "id": 119,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 85079,
+      "us": 85077728,
+      "id": 119,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 86604,
+      "us": 86602502,
+      "id": 121,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 86950,
+      "us": 86948415,
+      "id": 121,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 88447,
+      "us": 88444878,
+      "id": 123,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 88697,
+      "us": 88695077,
+      "id": 123,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 89740,
+      "us": 89738111,
+      "id": 125,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 90026,
+      "us": 90024617,
+      "id": 125,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 91531,
+      "us": 91529790,
+      "id": 127,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 91928,
+      "us": 91925980,
+      "id": 127,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 93403,
+      "us": 93401501,
+      "id": 129,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 93663,
+      "us": 93661415,
+      "id": 129,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 95255,
+      "us": 95253180,
+      "id": 131,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 95580,
+      "us": 95578770,
+      "id": 131,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 97071,
+      "us": 97068988,
+      "id": 133,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 97290,
+      "us": 97288070,
+      "id": 133,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 98920,
+      "us": 98918350,
+      "id": 135,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 99230,
+      "us": 99228678,
+      "id": 135,
+      "phase": 5,
+      "why": 1,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 100754,
+      "us": 100752278,
+      "id": 137,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 101975,
+      "us": 101973334,
+      "id": 137,
+      "phase": 5,
+      "why": 4,
+      "hold": 0,
+      "queued": 1
+    }
+  ],
+  "commits": [
+    {
+      "seq": 65,
+      "id": 65,
+      "phase": 1,
+      "why": 0,
+      "t": 36336,
+      "elapsed_us": 599477
+    },
+    {
+      "seq": 66,
+      "id": 65,
+      "phase": 5,
+      "why": 1,
+      "t": 36936,
+      "elapsed_us": 589265
+    },
+    {
+      "seq": 67,
+      "id": 67,
+      "phase": 1,
+      "why": 0,
+      "t": 38166,
+      "elapsed_us": 600430
+    },
+    {
+      "seq": 68,
+      "id": 67,
+      "phase": 5,
+      "why": 1,
+      "t": 38765,
+      "elapsed_us": 588874
+    },
+    {
+      "seq": 69,
+      "id": 69,
+      "phase": 1,
+      "why": 0,
+      "t": 39983,
+      "elapsed_us": 588358
+    },
+    {
+      "seq": 70,
+      "id": 69,
+      "phase": 5,
+      "why": 1,
+      "t": 40593,
+      "elapsed_us": 600132
+    },
+    {
+      "seq": 71,
+      "id": 71,
+      "phase": 1,
+      "why": 0,
+      "t": 41810,
+      "elapsed_us": 546479
+    },
+    {
+      "seq": 72,
+      "id": 71,
+      "phase": 5,
+      "why": 1,
+      "t": 42463,
+      "elapsed_us": 600424
+    },
+    {
+      "seq": 73,
+      "id": 73,
+      "phase": 1,
+      "why": 0,
+      "t": 43680,
+      "elapsed_us": 588569
+    },
+    {
+      "seq": 74,
+      "id": 73,
+      "phase": 5,
+      "why": 1,
+      "t": 44291,
+      "elapsed_us": 600140
+    },
+    {
+      "seq": 75,
+      "id": 75,
+      "phase": 1,
+      "why": 0,
+      "t": 45509,
+      "elapsed_us": 599807
+    },
+    {
+      "seq": 76,
+      "id": 75,
+      "phase": 5,
+      "why": 1,
+      "t": 46130,
+      "elapsed_us": 599978
+    },
+    {
+      "seq": 77,
+      "id": 77,
+      "phase": 1,
+      "why": 0,
+      "t": 47348,
+      "elapsed_us": 599845
+    },
+    {
+      "seq": 78,
+      "id": 77,
+      "phase": 5,
+      "why": 1,
+      "t": 47948,
+      "elapsed_us": 589267
+    },
+    {
+      "seq": 79,
+      "id": 79,
+      "phase": 1,
+      "why": 0,
+      "t": 49176,
+      "elapsed_us": 600522
+    },
+    {
+      "seq": 80,
+      "id": 79,
+      "phase": 5,
+      "why": 1,
+      "t": 49776,
+      "elapsed_us": 588814
+    },
+    {
+      "seq": 81,
+      "id": 81,
+      "phase": 1,
+      "why": 0,
+      "t": 50993,
+      "elapsed_us": 589223
+    },
+    {
+      "seq": 82,
+      "id": 81,
+      "phase": 5,
+      "why": 1,
+      "t": 51604,
+      "elapsed_us": 600135
+    },
+    {
+      "seq": 83,
+      "id": 83,
+      "phase": 1,
+      "why": 0,
+      "t": 52864,
+      "elapsed_us": 588313
+    },
+    {
+      "seq": 84,
+      "id": 83,
+      "phase": 5,
+      "why": 1,
+      "t": 53475,
+      "elapsed_us": 600693
+    },
+    {
+      "seq": 85,
+      "id": 85,
+      "phase": 1,
+      "why": 0,
+      "t": 54691,
+      "elapsed_us": 602604
+    },
+    {
+      "seq": 86,
+      "id": 85,
+      "phase": 5,
+      "why": 1,
+      "t": 55301,
+      "elapsed_us": 598901
+    },
+    {
+      "seq": 87,
+      "id": 87,
+      "phase": 1,
+      "why": 0,
+      "t": 56529,
+      "elapsed_us": 599954
+    },
+    {
+      "seq": 88,
+      "id": 87,
+      "phase": 5,
+      "why": 1,
+      "t": 57140,
+      "elapsed_us": 600208
+    },
+    {
+      "seq": 89,
+      "id": 89,
+      "phase": 1,
+      "why": 0,
+      "t": 58357,
+      "elapsed_us": 602614
+    },
+    {
+      "seq": 90,
+      "id": 89,
+      "phase": 5,
+      "why": 1,
+      "t": 58956,
+      "elapsed_us": 588253
+    },
+    {
+      "seq": 91,
+      "id": 91,
+      "phase": 1,
+      "why": 0,
+      "t": 60193,
+      "elapsed_us": 600467
+    },
+    {
+      "seq": 92,
+      "id": 91,
+      "phase": 5,
+      "why": 1,
+      "t": 60793,
+      "elapsed_us": 588879
+    },
+    {
+      "seq": 93,
+      "id": 93,
+      "phase": 1,
+      "why": 0,
+      "t": 62010,
+      "elapsed_us": 555417
+    },
+    {
+      "seq": 94,
+      "id": 93,
+      "phase": 5,
+      "why": 1,
+      "t": 62653,
+      "elapsed_us": 599528
+    },
+    {
+      "seq": 95,
+      "id": 95,
+      "phase": 1,
+      "why": 0,
+      "t": 63870,
+      "elapsed_us": 580042
+    },
+    {
+      "seq": 96,
+      "id": 95,
+      "phase": 5,
+      "why": 1,
+      "t": 64482,
+      "elapsed_us": 600210
+    },
+    {
+      "seq": 97,
+      "id": 97,
+      "phase": 1,
+      "why": 0,
+      "t": 65709,
+      "elapsed_us": 587384
+    },
+    {
+      "seq": 98,
+      "id": 97,
+      "phase": 5,
+      "why": 1,
+      "t": 66321,
+      "elapsed_us": 600028
+    },
+    {
+      "seq": 99,
+      "id": 99,
+      "phase": 1,
+      "why": 0,
+      "t": 67537,
+      "elapsed_us": 598916
+    },
+    {
+      "seq": 100,
+      "id": 99,
+      "phase": 5,
+      "why": 1,
+      "t": 68147,
+      "elapsed_us": 599445
+    },
+    {
+      "seq": 101,
+      "id": 101,
+      "phase": 1,
+      "why": 0,
+      "t": 69369,
+      "elapsed_us": 604372
+    },
+    {
+      "seq": 102,
+      "id": 101,
+      "phase": 5,
+      "why": 1,
+      "t": 69970,
+      "elapsed_us": 589835
+    },
+    {
+      "seq": 103,
+      "id": 103,
+      "phase": 1,
+      "why": 0,
+      "t": 71210,
+      "elapsed_us": 600250
+    },
+    {
+      "seq": 104,
+      "id": 103,
+      "phase": 5,
+      "why": 1,
+      "t": 71845,
+      "elapsed_us": 590268
+    },
+    {
+      "seq": 105,
+      "id": 105,
+      "phase": 1,
+      "why": 0,
+      "t": 73078,
+      "elapsed_us": 601516
+    },
+    {
+      "seq": 106,
+      "id": 105,
+      "phase": 5,
+      "why": 1,
+      "t": 73678,
+      "elapsed_us": 580678
+    },
+    {
+      "seq": 107,
+      "id": 107,
+      "phase": 1,
+      "why": 0,
+      "t": 74908,
+      "elapsed_us": 588801
+    },
+    {
+      "seq": 108,
+      "id": 107,
+      "phase": 5,
+      "why": 1,
+      "t": 75522,
+      "elapsed_us": 601590
+    },
+    {
+      "seq": 109,
+      "id": 109,
+      "phase": 1,
+      "why": 0,
+      "t": 76743,
+      "elapsed_us": 590016
+    },
+    {
+      "seq": 110,
+      "id": 109,
+      "phase": 5,
+      "why": 1,
+      "t": 77356,
+      "elapsed_us": 601461
+    },
+    {
+      "seq": 111,
+      "id": 111,
+      "phase": 1,
+      "why": 0,
+      "t": 78577,
+      "elapsed_us": 601203
+    },
+    {
+      "seq": 112,
+      "id": 111,
+      "phase": 5,
+      "why": 1,
+      "t": 79197,
+      "elapsed_us": 600372
+    },
+    {
+      "seq": 113,
+      "id": 113,
+      "phase": 1,
+      "why": 0,
+      "t": 80450,
+      "elapsed_us": 633461
+    },
+    {
+      "seq": 114,
+      "id": 113,
+      "phase": 5,
+      "why": 1,
+      "t": 81064,
+      "elapsed_us": 601968
+    },
+    {
+      "seq": 115,
+      "id": 115,
+      "phase": 1,
+      "why": 0,
+      "t": 82293,
+      "elapsed_us": 600776
+    },
+    {
+      "seq": 116,
+      "id": 115,
+      "phase": 5,
+      "why": 1,
+      "t": 82894,
+      "elapsed_us": 589809
+    },
+    {
+      "seq": 117,
+      "id": 117,
+      "phase": 1,
+      "why": 0,
+      "t": 84128,
+      "elapsed_us": 601828
+    },
+    {
+      "seq": 118,
+      "id": 117,
+      "phase": 5,
+      "why": 1,
+      "t": 84730,
+      "elapsed_us": 590241
+    },
+    {
+      "seq": 119,
+      "id": 119,
+      "phase": 1,
+      "why": 0,
+      "t": 85951,
+      "elapsed_us": 590269
+    },
+    {
+      "seq": 120,
+      "id": 119,
+      "phase": 5,
+      "why": 1,
+      "t": 86564,
+      "elapsed_us": 601471
+    },
+    {
+      "seq": 121,
+      "id": 121,
+      "phase": 1,
+      "why": 0,
+      "t": 87793,
+      "elapsed_us": 589305
+    },
+    {
+      "seq": 122,
+      "id": 121,
+      "phase": 5,
+      "why": 1,
+      "t": 88406,
+      "elapsed_us": 601409
+    },
+    {
+      "seq": 123,
+      "id": 123,
+      "phase": 1,
+      "why": 0,
+      "t": 89073,
+      "elapsed_us": 618371
+    },
+    {
+      "seq": 124,
+      "id": 123,
+      "phase": 5,
+      "why": 1,
+      "t": 89672,
+      "elapsed_us": 579834
+    },
+    {
+      "seq": 125,
+      "id": 125,
+      "phase": 1,
+      "why": 0,
+      "t": 90903,
+      "elapsed_us": 590381
+    },
+    {
+      "seq": 126,
+      "id": 125,
+      "phase": 5,
+      "why": 1,
+      "t": 91516,
+      "elapsed_us": 600598
+    },
+    {
+      "seq": 127,
+      "id": 127,
+      "phase": 1,
+      "why": 0,
+      "t": 92738,
+      "elapsed_us": 590380
+    },
+    {
+      "seq": 128,
+      "id": 127,
+      "phase": 5,
+      "why": 1,
+      "t": 93350,
+      "elapsed_us": 600480
+    },
+    {
+      "seq": 129,
+      "id": 129,
+      "phase": 1,
+      "why": 0,
+      "t": 94571,
+      "elapsed_us": 601538
+    },
+    {
+      "seq": 130,
+      "id": 129,
+      "phase": 5,
+      "why": 1,
+      "t": 95191,
+      "elapsed_us": 600183
+    },
+    {
+      "seq": 131,
+      "id": 131,
+      "phase": 1,
+      "why": 0,
+      "t": 96411,
+      "elapsed_us": 600638
+    },
+    {
+      "seq": 132,
+      "id": 131,
+      "phase": 5,
+      "why": 1,
+      "t": 97045,
+      "elapsed_us": 590264
+    },
+    {
+      "seq": 133,
+      "id": 133,
+      "phase": 1,
+      "why": 0,
+      "t": 98277,
+      "elapsed_us": 601124
+    },
+    {
+      "seq": 134,
+      "id": 133,
+      "phase": 5,
+      "why": 1,
+      "t": 98878,
+      "elapsed_us": 581048
+    },
+    {
+      "seq": 135,
+      "id": 135,
+      "phase": 1,
+      "why": 0,
+      "t": 100121,
+      "elapsed_us": 601899
+    },
+    {
+      "seq": 136,
+      "id": 135,
+      "phase": 5,
+      "why": 1,
+      "t": 100722,
+      "elapsed_us": 589733
+    },
+    {
+      "seq": 137,
+      "id": 137,
+      "phase": 1,
+      "why": 0,
+      "t": 101928,
+      "elapsed_us": 590674
+    },
+    {
+      "seq": 138,
+      "id": 137,
+      "phase": 5,
+      "why": 4,
+      "t": 103147,
+      "elapsed_us": 602660
+    }
+  ],
+  "counts": [
+    {
+      "adc": 1192,
+      "bmp": 596,
+      "errors": 0,
+      "cmd": 882,
+      "rejected": 0,
+      "rx_overflow": 0,
+      "rx_errors": 0,
+      "rx_rearm": 0
+    }
+  ],
+  "metrics": {
+    "loop": {
+      "name": "loop",
+      "n": 6845,
+      "min": 94,
+      "max": 78781,
+      "sum": 84090587,
+      "avg": 12284.965
+    },
+    "lid": {
+      "name": "lid",
+      "n": 5001,
+      "min": 26,
+      "max": 14526,
+      "sum": 788838,
+      "avg": 157.736
+    },
+    "ntc": {
+      "name": "ntc",
+      "n": 841,
+      "min": 1183,
+      "max": 1571,
+      "sum": 1006541,
+      "avg": 1196.838
+    },
+    "bmp": {
+      "name": "bmp",
+      "n": 420,
+      "min": 31217,
+      "max": 32573,
+      "sum": 13342208,
+      "avg": 31767.162
+    },
+    "rx": {
+      "name": "rx",
+      "n": 892,
+      "min": 88,
+      "max": 8945,
+      "sum": 7566190,
+      "avg": 8482.276
+    },
+    "sd": {
+      "name": "sd",
+      "n": 6206,
+      "min": 794,
+      "max": 27825,
+      "sum": 59509622,
+      "avg": 9589.046
+    },
+    "heart": {
+      "name": "heart",
+      "n": 84,
+      "min": 10990,
+      "max": 11588,
+      "sum": 942728,
+      "avg": 11222.952
+    },
+    "adc_gate": {
+      "name": "adc_gate",
+      "n": 841,
+      "min": 1120,
+      "max": 1502,
+      "sum": 953898,
+      "avg": 1134.243
+    },
+    "lid_period": {
+      "name": "lid_period",
+      "n": 5000,
+      "min": 965,
+      "max": 78781,
+      "sum": 84090016,
+      "avg": 16818.003
+    },
+    "ntc_period": {
+      "name": "ntc_period",
+      "n": 840,
+      "min": 67429,
+      "max": 126416,
+      "sum": 84002583,
+      "avg": 100003.075
+    },
+    "bmp_period": {
+      "name": "bmp_period",
+      "n": 419,
+      "min": 164491,
+      "max": 231003,
+      "sum": 83788159,
+      "avg": 199971.74
+    },
+    "lid_latency": {
+      "name": "lid_latency",
+      "n": 36,
+      "min": 25240,
+      "max": 69763,
+      "sum": 1236978,
+      "avg": 34360.5
+    },
+    "status_latency": {
+      "name": "status_latency",
+      "n": 841,
+      "min": 89,
+      "max": 64217,
+      "sum": 8645913,
+      "avg": 10280.515
+    },
+    "abort_latency": {
+      "name": "abort_latency",
+      "n": 1,
+      "min": 1190370,
+      "max": 1190370,
+      "sum": 1190370,
+      "avg": 1190370.0
+    }
+  },
+  "total": {
+    "t": 119263,
+    "us": 119260413,
+    "elapsed_us": 84179568,
+    "busy_us": 83156127,
+    "stack": 812,
+    "heap": 0,
+    "alloc_attempts": 0,
+    "miss_lid": 11819,
+    "miss_ntc": 0,
+    "miss_bmp": 0
+  },
+  "busy_percent": 98.784,
+  "status_ack_us": {
+    "n": 841,
+    "min": 89,
+    "avg": 10280.515,
+    "max": 64217,
+    "p99": 40212
+  },
+  "abort_ack_us": {
+    "n": 1,
+    "min": 1190370,
+    "avg": 1190370,
+    "max": 1190370,
+    "p99": 1190370
+  },
+  "lid_poll_reaction_us": {
+    "n": 36,
+    "min": 25240,
+    "avg": 34360.5,
+    "max": 69763,
+    "p99": 69763
+  },
+  "sector_commit_us": {
+    "n": 74,
+    "min": 546479,
+    "avg": 595301.338,
+    "max": 633461,
+    "p99": 633461
+  },
+  "rejections": [],
+  "bmp_status": [
+    {
+      "t": 177,
+      "result": 0,
+      "temp": 240,
+      "ut": 29028,
+      "addr": 77
+    }
+  ],
+  "export": [
+    {
+      "begin": 64
+    },
+    {
+      "end": 64
+    }
+  ],
+  "recovery": [],
+  "hold_mcu_ms": {
+    "n": 0
+  },
+  "hold_samples_mcu_ms": [],
+  "gpio": {
+    "soak_width_us": {
+      "n": 0
+    },
+    "soak_samples_us": [],
+    "adc_width_us": {
+      "n": 843,
+      "min": 1106.15,
+      "avg": 1119.92,
+      "max": 1486.95,
+      "p99": 1484.5
+    },
+    "adc_period_us": {
+      "n": 842,
+      "min": 33344.65,
+      "avg": 100010.907,
+      "max": 173495.775,
+      "p99": 118364.225
+    },
+    "sd_busy_us": {
+      "n": 203,
+      "min": 485462.375,
+      "avg": 565096.45,
+      "max": 633430.575,
+      "p99": 611893.925
+    },
+    "lid_latency_us": {
+      "n": 36,
+      "min": 23559.625,
+      "avg": 45695.943,
+      "max": 89466.075,
+      "p99": 89466.075
+    },
+    "lid_during_sd": 36,
+    "reaction_points": [
+      {
+        "edge_us": 35267685.025,
+        "response_us": 35301485.625,
+        "latency_us": 33800.6,
+        "during_sd": true
+      },
+      {
+        "edge_us": 37217694.775,
+        "response_us": 37295445.575,
+        "latency_us": 77750.8,
+        "during_sd": true
+      },
+      {
+        "edge_us": 39117545.75,
+        "response_us": 39159343.75,
+        "latency_us": 41798.0,
+        "during_sd": true
+      },
+      {
+        "edge_us": 40834163.375,
+        "response_us": 40903374.675,
+        "latency_us": 69211.3,
+        "during_sd": true
+      },
+      {
+        "edge_us": 42767611.55,
+        "response_us": 42791684.075,
+        "latency_us": 24072.525,
+        "during_sd": true
+      },
+      {
+        "edge_us": 44700766.925,
+        "response_us": 44726125.525,
+        "latency_us": 25358.6,
+        "during_sd": true
+      },
+      {
+        "edge_us": 46400573.475,
+        "response_us": 46478029.525,
+        "latency_us": 77456.05,
+        "during_sd": true
+      },
+      {
+        "edge_us": 48300340.775,
+        "response_us": 48341143.2,
+        "latency_us": 40802.425,
+        "during_sd": true
+      },
+      {
+        "edge_us": 50017301.075,
+        "response_us": 50083982.275,
+        "latency_us": 66681.2,
+        "during_sd": true
+      },
+      {
+        "edge_us": 51950534.575,
+        "response_us": 51987782.75,
+        "latency_us": 37248.175,
+        "during_sd": true
+      },
+      {
+        "edge_us": 54000665.975,
+        "response_us": 54032936.225,
+        "latency_us": 32270.25,
+        "during_sd": true
+      },
+      {
+        "edge_us": 55549804.1,
+        "response_us": 55578830.4,
+        "latency_us": 29026.3,
+        "during_sd": true
+      },
+      {
+        "edge_us": 57649723.375,
+        "response_us": 57690785.9,
+        "latency_us": 41062.525,
+        "during_sd": true
+      },
+      {
+        "edge_us": 59183374.425,
+        "response_us": 59230034.6,
+        "latency_us": 46660.175,
+        "during_sd": true
+      },
+      {
+        "edge_us": 61083138.15,
+        "response_us": 61127183.325,
+        "latency_us": 44045.175,
+        "during_sd": true
+      },
+      {
+        "edge_us": 63016721.525,
+        "response_us": 63106187.6,
+        "latency_us": 89466.075,
+        "during_sd": true
+      },
+      {
+        "edge_us": 64716547.225,
+        "response_us": 64746794.15,
+        "latency_us": 30246.925,
+        "during_sd": true
+      },
+      {
+        "edge_us": 66617163.8,
+        "response_us": 66667985.9,
+        "latency_us": 50822.1,
+        "during_sd": true
+      },
+      {
+        "edge_us": 68616705.75,
+        "response_us": 68687553.05,
+        "latency_us": 70847.3,
+        "during_sd": true
+      },
+      {
+        "edge_us": 70285290.8,
+        "response_us": 70326696.65,
+        "latency_us": 41405.85,
+        "during_sd": true
+      },
+      {
+        "edge_us": 72166396.95,
+        "response_us": 72207022.75,
+        "latency_us": 40625.8,
+        "during_sd": true
+      },
+      {
+        "edge_us": 73899642.75,
+        "response_us": 73931210.575,
+        "latency_us": 31567.825,
+        "during_sd": true
+      },
+      {
+        "edge_us": 75799544.625,
+        "response_us": 75857794.425,
+        "latency_us": 58249.8,
+        "during_sd": true
+      },
+      {
+        "edge_us": 77766390.55,
+        "response_us": 77789950.175,
+        "latency_us": 23559.625,
+        "during_sd": true
+      },
+      {
+        "edge_us": 79466286.175,
+        "response_us": 79506639.15,
+        "latency_us": 40352.975,
+        "during_sd": true
+      },
+      {
+        "edge_us": 81399535.45,
+        "response_us": 81459677.975,
+        "latency_us": 60142.525,
+        "during_sd": true
+      },
+      {
+        "edge_us": 83099894.4,
+        "response_us": 83136674.3,
+        "latency_us": 36779.9,
+        "during_sd": true
+      },
+      {
+        "edge_us": 84999352.45,
+        "response_us": 85075848.7,
+        "latency_us": 76496.25,
+        "during_sd": true
+      },
+      {
+        "edge_us": 86916045.1,
+        "response_us": 86946547.675,
+        "latency_us": 30502.575,
+        "during_sd": true
+      },
+      {
+        "edge_us": 88649468.8,
+        "response_us": 88693205.275,
+        "latency_us": 43736.475,
+        "during_sd": true
+      },
+      {
+        "edge_us": 89982475.8,
+        "response_us": 90022619.825,
+        "latency_us": 40144.025,
+        "during_sd": true
+      },
+      {
+        "edge_us": 91882473.075,
+        "response_us": 91923980.725,
+        "latency_us": 41507.65,
+        "during_sd": true
+      },
+      {
+        "edge_us": 93616760.75,
+        "response_us": 93659422.8,
+        "latency_us": 42662.05,
+        "during_sd": true
+      },
+      {
+        "edge_us": 95549073.35,
+        "response_us": 95576692.875,
+        "latency_us": 27619.525,
+        "during_sd": true
+      },
+      {
+        "edge_us": 97249087.2,
+        "response_us": 97285955.25,
+        "latency_us": 36868.05,
+        "during_sd": true
+      },
+      {
+        "edge_us": 99182350.775,
+        "response_us": 99226557.325,
+        "latency_us": 44206.55,
+        "during_sd": true
+      }
+    ],
+    "vcd_end_us": 119379510.45
+  },
+  "journal": {
+    "records": [
+      {
+        "seq": 1,
+        "id": 1,
+        "t": 1000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 2,
+        "id": 2,
+        "t": 2000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 3,
+        "id": 3,
+        "t": 3000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 4,
+        "id": 4,
+        "t": 4000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 5,
+        "id": 5,
+        "t": 5000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 6,
+        "id": 6,
+        "t": 6000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 7,
+        "id": 7,
+        "t": 7000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 8,
+        "id": 8,
+        "t": 8000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 9,
+        "id": 9,
+        "t": 9000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 10,
+        "id": 10,
+        "t": 10000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 11,
+        "id": 11,
+        "t": 11000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 12,
+        "id": 12,
+        "t": 12000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 13,
+        "id": 13,
+        "t": 13000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 14,
+        "id": 14,
+        "t": 14000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 15,
+        "id": 15,
+        "t": 15000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 16,
+        "id": 16,
+        "t": 16000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 17,
+        "id": 17,
+        "t": 17000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 18,
+        "id": 18,
+        "t": 18000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 19,
+        "id": 19,
+        "t": 19000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 20,
+        "id": 20,
+        "t": 20000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 21,
+        "id": 21,
+        "t": 21000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 22,
+        "id": 22,
+        "t": 22000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 23,
+        "id": 23,
+        "t": 23000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 24,
+        "id": 24,
+        "t": 24000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 25,
+        "id": 25,
+        "t": 25000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 26,
+        "id": 26,
+        "t": 26000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 27,
+        "id": 27,
+        "t": 27000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 28,
+        "id": 28,
+        "t": 28000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 29,
+        "id": 29,
+        "t": 29000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 30,
+        "id": 30,
+        "t": 30000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 31,
+        "id": 31,
+        "t": 31000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 32,
+        "id": 32,
+        "t": 32000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 33,
+        "id": 33,
+        "t": 33000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 34,
+        "id": 34,
+        "t": 34000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 35,
+        "id": 35,
+        "t": 35000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 36,
+        "id": 36,
+        "t": 36000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 37,
+        "id": 37,
+        "t": 37000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 38,
+        "id": 38,
+        "t": 38000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 39,
+        "id": 39,
+        "t": 39000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 40,
+        "id": 40,
+        "t": 40000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 41,
+        "id": 41,
+        "t": 41000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 42,
+        "id": 42,
+        "t": 42000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 43,
+        "id": 43,
+        "t": 43000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 44,
+        "id": 44,
+        "t": 44000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 45,
+        "id": 45,
+        "t": 45000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 46,
+        "id": 46,
+        "t": 46000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 47,
+        "id": 47,
+        "t": 47000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 48,
+        "id": 48,
+        "t": 48000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 49,
+        "id": 49,
+        "t": 49000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 50,
+        "id": 50,
+        "t": 50000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 51,
+        "id": 51,
+        "t": 51000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 52,
+        "id": 52,
+        "t": 52000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 53,
+        "id": 53,
+        "t": 53000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 54,
+        "id": 54,
+        "t": 54000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 55,
+        "id": 55,
+        "t": 55000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 56,
+        "id": 56,
+        "t": 56000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 57,
+        "id": 57,
+        "t": 57000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 58,
+        "id": 58,
+        "t": 58000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 59,
+        "id": 59,
+        "t": 59000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 60,
+        "id": 60,
+        "t": 60000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 61,
+        "id": 61,
+        "t": 61000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 62,
+        "id": 62,
+        "t": 62000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 63,
+        "id": 63,
+        "t": 63000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 64,
+        "id": 64,
+        "t": 64000,
+        "hold": 5000,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 4,
+        "why": 0
+      },
+      {
+        "seq": 65,
+        "id": 65,
+        "t": 35124,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 66,
+        "id": 65,
+        "t": 35304,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 67,
+        "id": 67,
+        "t": 36967,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 68,
+        "id": 67,
+        "t": 37298,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 69,
+        "id": 69,
+        "t": 38781,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 70,
+        "id": 69,
+        "t": 39162,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 71,
+        "id": 71,
+        "t": 40653,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 72,
+        "id": 71,
+        "t": 40906,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 73,
+        "id": 73,
+        "t": 42507,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 74,
+        "id": 73,
+        "t": 42794,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 75,
+        "id": 75,
+        "t": 44345,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 76,
+        "id": 75,
+        "t": 44729,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 77,
+        "id": 77,
+        "t": 46174,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 78,
+        "id": 77,
+        "t": 46481,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 79,
+        "id": 79,
+        "t": 48004,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 80,
+        "id": 79,
+        "t": 48344,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 81,
+        "id": 81,
+        "t": 49854,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 82,
+        "id": 81,
+        "t": 50087,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 83,
+        "id": 83,
+        "t": 51661,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 84,
+        "id": 83,
+        "t": 51990,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 85,
+        "id": 85,
+        "t": 53672,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 86,
+        "id": 85,
+        "t": 54036,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 87,
+        "id": 87,
+        "t": 55355,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 88,
+        "id": 87,
+        "t": 55582,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 89,
+        "id": 89,
+        "t": 57172,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 90,
+        "id": 89,
+        "t": 57694,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 91,
+        "id": 91,
+        "t": 59009,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 92,
+        "id": 91,
+        "t": 59233,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 93,
+        "id": 93,
+        "t": 60844,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 94,
+        "id": 93,
+        "t": 61130,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 95,
+        "id": 95,
+        "t": 62706,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 96,
+        "id": 95,
+        "t": 63109,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 97,
+        "id": 97,
+        "t": 64523,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 98,
+        "id": 97,
+        "t": 64750,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 99,
+        "id": 99,
+        "t": 66335,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 100,
+        "id": 99,
+        "t": 66671,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 101,
+        "id": 101,
+        "t": 68247,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 102,
+        "id": 101,
+        "t": 68691,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 103,
+        "id": 103,
+        "t": 70044,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 104,
+        "id": 103,
+        "t": 70330,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 105,
+        "id": 105,
+        "t": 71877,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 106,
+        "id": 105,
+        "t": 72210,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 107,
+        "id": 107,
+        "t": 73720,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 108,
+        "id": 107,
+        "t": 73934,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 109,
+        "id": 109,
+        "t": 75537,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 110,
+        "id": 109,
+        "t": 75861,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 111,
+        "id": 111,
+        "t": 77409,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 112,
+        "id": 111,
+        "t": 77793,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 113,
+        "id": 113,
+        "t": 79245,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 114,
+        "id": 113,
+        "t": 79510,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 115,
+        "id": 115,
+        "t": 81104,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 116,
+        "id": 115,
+        "t": 81463,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 117,
+        "id": 117,
+        "t": 82940,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 118,
+        "id": 117,
+        "t": 83140,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 119,
+        "id": 119,
+        "t": 84748,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 120,
+        "id": 119,
+        "t": 85079,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 121,
+        "id": 121,
+        "t": 86604,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 122,
+        "id": 121,
+        "t": 86950,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 123,
+        "id": 123,
+        "t": 88447,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 124,
+        "id": 123,
+        "t": 88697,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 125,
+        "id": 125,
+        "t": 89740,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 126,
+        "id": 125,
+        "t": 90026,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 127,
+        "id": 127,
+        "t": 91531,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 128,
+        "id": 127,
+        "t": 91928,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 129,
+        "id": 129,
+        "t": 93403,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 130,
+        "id": 129,
+        "t": 93663,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 131,
+        "id": 131,
+        "t": 95255,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 132,
+        "id": 131,
+        "t": 95580,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 133,
+        "id": 133,
+        "t": 97071,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 134,
+        "id": 133,
+        "t": 97290,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 135,
+        "id": 135,
+        "t": 98920,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 136,
+        "id": 135,
+        "t": 99230,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 1
+      },
+      {
+        "seq": 137,
+        "id": 137,
+        "t": 100754,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 138,
+        "id": 137,
+        "t": 101975,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          30
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 5,
+        "why": 4
+      }
+    ],
+    "crc_or_seal_errors": []
+  }
+}

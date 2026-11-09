@@ -1,0 +1,298 @@
+{
+  "run": {
+    "mode": "startup",
+    "started": "2026-11-09T12:45:53.799Z",
+    "pid": 53217,
+    "version": "4.1.0",
+    "elf_sha256": "91b42eea234e59243f39c5b5d0fd25c30985f1ef102d2bd078ce653006308403",
+    "hex_sha256": "4033be960cc9149a571e98bf0b67da9f244b62fb7c2a47b7f742a24d89ed559d",
+    "diagram_sha256": "c1f094630957fb7c0331d01bcd39f27529c3fbacd4729d2e2419579c852c2833",
+    "sd_before_sha256": "5647f05ec18958947d32874eeb788fa396a05d0bab7c1b71f112ceb7e9b31eee",
+    "browser_transport": "separate Chromium process, CDP pipe",
+    "status": "captured",
+    "measure_end_ms": 4042,
+    "ended": "2026-11-09T12:46:02.036Z",
+    "uart_bytes": 1660,
+    "images": [
+      "wokwi"
+    ],
+    "events": [
+      "sim:run",
+      "sdcard:export",
+      "sim:stop",
+      "vcd:ready"
+    ]
+  },
+  "first": [
+    {
+      "t": 1126,
+      "us": 1126398,
+      "n": 250,
+      "a": 240
+    }
+  ],
+  "boot": [
+    {
+      "product": "BatchTherm",
+      "lab": 3,
+      "build": "f6b5827-0ba44211a1db",
+      "core": 48000000,
+      "units": "dC"
+    }
+  ],
+  "heart_n": 4,
+  "first_heart": {
+    "t": 1130,
+    "us": 1130419,
+    "hb": 1,
+    "phase": 0,
+    "why": 0,
+    "n": 250,
+    "nv": 1,
+    "a": 240,
+    "av": 1,
+    "l": 1,
+    "j": 0,
+    "rx": 0,
+    "err": 0,
+    "rearm": 0,
+    "w": 17
+  },
+  "last_heart": {
+    "t": 4042,
+    "us": 4042466,
+    "hb": 4,
+    "phase": 0,
+    "why": 0,
+    "n": 250,
+    "nv": 1,
+    "a": 240,
+    "av": 1,
+    "l": 1,
+    "j": 0,
+    "rx": 0,
+    "err": 0,
+    "rearm": 0,
+    "w": 61
+  },
+  "largest_heartbeat_gap_ms": 1000,
+  "events": [],
+  "commits": [],
+  "counts": [
+    {
+      "adc": 41,
+      "bmp": 21,
+      "errors": 5,
+      "cmd": 2,
+      "rejected": 1,
+      "rx_overflow": 0,
+      "rx_errors": 0,
+      "rx_rearm": 0
+    }
+  ],
+  "metrics": {
+    "loop": {
+      "name": "loop",
+      "n": 29777,
+      "min": 94,
+      "max": 131137,
+      "sum": 4015862,
+      "avg": 134.865
+    },
+    "lid": {
+      "name": "lid",
+      "n": 645,
+      "min": 24,
+      "max": 3200,
+      "sum": 24392,
+      "avg": 37.817
+    },
+    "ntc": {
+      "name": "ntc",
+      "n": 41,
+      "min": 1180,
+      "max": 1190,
+      "sum": 48612,
+      "avg": 1185.659
+    },
+    "bmp": {
+      "name": "bmp",
+      "n": 21,
+      "min": 730,
+      "max": 115356,
+      "sum": 595337,
+      "avg": 28349.381
+    },
+    "rx": {
+      "name": "rx",
+      "n": 3,
+      "min": 101,
+      "max": 3097,
+      "sum": 3388,
+      "avg": 1129.333
+    },
+    "sd": {
+      "name": "sd",
+      "n": 38,
+      "min": 795,
+      "max": 18135,
+      "sum": 414849,
+      "avg": 10917.079
+    },
+    "heart": {
+      "name": "heart",
+      "n": 4,
+      "min": 10347,
+      "max": 10388,
+      "sum": 41501,
+      "avg": 10375.25
+    },
+    "adc_gate": {
+      "name": "adc_gate",
+      "n": 41,
+      "min": 1124,
+      "max": 1124,
+      "sum": 46084,
+      "avg": 1124.0
+    },
+    "lid_period": {
+      "name": "lid_period",
+      "n": 644,
+      "min": 963,
+      "max": 131145,
+      "sum": 4013866,
+      "avg": 6232.711
+    },
+    "ntc_period": {
+      "name": "ntc_period",
+      "n": 40,
+      "min": 45862,
+      "max": 131145,
+      "sum": 3943875,
+      "avg": 98596.875
+    },
+    "bmp_period": {
+      "name": "bmp_period",
+      "n": 20,
+      "min": 148055,
+      "max": 205196,
+      "sum": 3943887,
+      "avg": 197194.35
+    },
+    "lid_latency": {
+      "name": "lid_latency",
+      "n": 0,
+      "min": 0,
+      "max": 0,
+      "sum": 0,
+      "avg": null
+    },
+    "status_latency": {
+      "name": "status_latency",
+      "n": 0,
+      "min": 0,
+      "max": 0,
+      "sum": 0,
+      "avg": null
+    },
+    "abort_latency": {
+      "name": "abort_latency",
+      "n": 0,
+      "min": 0,
+      "max": 0,
+      "sum": 0,
+      "avg": null
+    }
+  },
+  "total": {
+    "t": 4155,
+    "us": 4154925,
+    "elapsed_us": 4154937,
+    "busy_us": 1128079,
+    "stack": 712,
+    "heap": 0,
+    "alloc_attempts": 0,
+    "miss_lid": 170,
+    "miss_ntc": 0,
+    "miss_bmp": 0
+  },
+  "busy_percent": 27.15,
+  "status_ack_us": {
+    "n": 0
+  },
+  "abort_ack_us": {
+    "n": 0
+  },
+  "lid_poll_reaction_us": {
+    "n": 0
+  },
+  "sector_commit_us": {
+    "n": 0
+  },
+  "rejections": [
+    {
+      "cmd": "start",
+      "why": "BMP",
+      "t": 831
+    }
+  ],
+  "bmp_status": [
+    {
+      "t": 68,
+      "result": 2,
+      "temp": 0,
+      "ut": 0,
+      "addr": 77
+    },
+    {
+      "t": 1121,
+      "result": 0,
+      "temp": 240,
+      "ut": 29028,
+      "addr": 77
+    }
+  ],
+  "export": [],
+  "recovery": [],
+  "hold_mcu_ms": {
+    "n": 0
+  },
+  "hold_samples_mcu_ms": [],
+  "gpio": {
+    "soak_width_us": {
+      "n": 0
+    },
+    "soak_samples_us": [],
+    "adc_width_us": {
+      "n": 43,
+      "min": 1109.775,
+      "avg": 1109.982,
+      "max": 1110.175,
+      "p99": 1110.175
+    },
+    "adc_period_us": {
+      "n": 42,
+      "min": 31656.525,
+      "avg": 98664.863,
+      "max": 168386.55,
+      "p99": 168386.55
+    },
+    "sd_busy_us": {
+      "n": 1,
+      "min": 427112.075,
+      "avg": 427112.075,
+      "max": 427112.075,
+      "p99": 427112.075
+    },
+    "lid_latency_us": {
+      "n": 0
+    },
+    "lid_during_sd": 0,
+    "reaction_points": [],
+    "vcd_end_us": 4266503.925
+  },
+  "journal": {
+    "records": [],
+    "crc_or_seal_errors": []
+  }
+}

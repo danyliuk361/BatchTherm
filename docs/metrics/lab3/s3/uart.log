@@ -1,0 +1,1344 @@
+BOOT product=BatchTherm lab=3 build=f6b5827-0ba44211a1db core=48000000 units=dC
+SD init=0 t=62 ocr=c0ff8000
+BMP t=177 result=0 temp=240 ut=29028 addr=77
+LID t=189 us=189453 closed=0
+FIRST t=244 us=244495 n=250 a=240
+HEART t=1056 us=1055972 hb=1 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=1 rx=0 err=0 rearm=0 w=16
+HEART t=2063 us=2062950 hb=2 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=3 rx=0 err=0 rearm=0 w=31
+HEART t=3057 us=3056930 hb=3 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=5 rx=0 err=0 rearm=0 w=46
+HEART t=4064 us=4063908 hb=4 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=7 rx=0 err=0 rearm=0 w=62
+HEART t=5058 us=5057888 hb=5 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=9 rx=0 err=0 rearm=0 w=77
+HEART t=6065 us=6064868 hb=6 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=11 rx=0 err=0 rearm=0 w=92
+HEART t=7059 us=7058846 hb=7 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=13 rx=0 err=0 rearm=0 w=107
+HEART t=8066 us=8065826 hb=8 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=15 rx=0 err=0 rearm=0 w=123
+HEART t=9060 us=9059805 hb=9 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=17 rx=0 err=0 rearm=0 w=138
+HEART t=10067 us=10066785 hb=10 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=19 rx=0 err=0 rearm=0 w=153
+HEART t=11062 us=11061764 hb=11 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=21 rx=0 err=0 rearm=0 w=168
+HEART t=12057 us=12056743 hb=12 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=23 rx=0 err=0 rearm=0 w=183
+HEART t=13064 us=13063722 hb=13 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=25 rx=0 err=0 rearm=0 w=199
+HEART t=14043 us=14043058 hb=14 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=27 rx=0 err=0 rearm=0 w=214
+HEART t=15061 us=15061263 hb=15 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=29 rx=0 err=0 rearm=0 w=229
+HEART t=16058 us=16057660 hb=16 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=30 rx=0 err=0 rearm=0 w=245
+HEART t=17065 us=17064638 hb=17 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=32 rx=0 err=0 rearm=0 w=260
+HEART t=18059 us=18058618 hb=18 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=34 rx=0 err=0 rearm=0 w=275
+HEART t=19066 us=19065596 hb=19 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=36 rx=0 err=0 rearm=0 w=290
+HEART t=20060 us=20059576 hb=20 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=38 rx=0 err=0 rearm=0 w=306
+HEART t=21067 us=21066555 hb=21 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=40 rx=0 err=0 rearm=0 w=321
+HEART t=22061 us=22060535 hb=22 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=42 rx=0 err=0 rearm=0 w=336
+HEART t=23056 us=23055514 hb=23 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=44 rx=0 err=0 rearm=0 w=351
+HEART t=24063 us=24062492 hb=24 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=46 rx=0 err=0 rearm=0 w=367
+HEART t=25058 us=25057472 hb=25 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=48 rx=0 err=0 rearm=0 w=382
+HEART t=26065 us=26064450 hb=26 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=50 rx=0 err=0 rearm=0 w=397
+HEART t=27060 us=27059431 hb=27 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=52 rx=0 err=0 rearm=0 w=412
+HEART t=28067 us=28066409 hb=28 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=54 rx=0 err=0 rearm=0 w=428
+HEART t=29062 us=29061389 hb=29 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=56 rx=0 err=0 rearm=0 w=443
+HEART t=30057 us=30056367 hb=30 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=58 rx=0 err=0 rearm=0 w=458
+HEART t=31064 us=31063346 hb=31 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=60 rx=0 err=0 rearm=0 w=473
+HEART t=32059 us=32058326 hb=32 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=62 rx=0 err=0 rearm=0 w=489
+HEART t=33067 us=33066305 hb=33 phase=0 why=0 n=250 nv=1 a=240 av=1 l=0 j=64 rx=0 err=0 rearm=0 w=504
+JOURNAL ready=64 t=33489 last_id=64
+LID t=33610 us=33609014 closed=1
+HEART t=34042 us=34041842 hb=34 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=64 rx=0 err=0 rearm=0 w=519
+HEART t=35042 us=35041820 hb=35 phase=0 why=0 n=250 nv=1 a=240 av=1 l=1 j=64 rx=0 err=0 rearm=0 w=534
+WINDOW t=35082 us=35080857 stack=712 alloc_attempts=0
+EXPORT begin=64
+EV t=35124 us=35123798 id=65 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=35132 lat_us=16337 id=65 phase=1 why=0 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35253 lat_us=38971 id=65 phase=1 why=0 j=64 sd=1 l=1 nv=1 av=1
+REACT id=65 t=35300 latency_us=25254
+EV t=35304 us=35303236 id=65 phase=5 why=1 hold=0 queued=1
+LID t=35300 us=35309627 closed=0
+ACK cmd=status t=35316 lat_us=1158 id=65 phase=5 why=1 j=64 sd=1 l=0 nv=1 av=1
+ACK cmd=status t=35445 lat_us=30942 id=65 phase=5 why=1 j=64 sd=1 l=0 nv=1 av=1
+LID t=35492 us=35491164 closed=1
+ACK cmd=status t=35522 lat_us=8023 id=65 phase=5 why=1 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35652 lat_us=38060 id=65 phase=5 why=1 j=64 sd=1 l=1 nv=1 av=1
+REC seq=1 id=1 t=1000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=35727 lat_us=12160 id=65 phase=5 why=1 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35854 lat_us=40053 id=65 phase=5 why=1 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=35915 lat_us=722 id=65 phase=5 why=1 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36045 lat_us=31047 id=65 phase=5 why=1 j=64 sd=1 l=1 nv=1 av=1
+HEART t=36067 us=36065884 hb=36 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=64 rx=0 err=0 rearm=0 w=550
+ACK cmd=status t=36117 lat_us=2829 id=65 phase=5 why=1 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36247 lat_us=32940 id=65 phase=5 why=1 j=64 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36315 lat_us=738 id=65 phase=5 why=1 j=64 sd=1 l=1 nv=1 av=1
+COMMIT seq=65 id=65 phase=1 why=0 t=36336 elapsed_us=599477
+ACK cmd=start id=65 seq=65
+ACK cmd=status t=36452 lat_us=37934 id=65 phase=5 why=1 j=65 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36526 lat_us=11452 id=65 phase=5 why=1 j=65 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36643 lat_us=29029 id=65 phase=5 why=1 j=65 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36717 lat_us=2442 id=65 phase=5 why=1 j=65 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36847 lat_us=33024 id=65 phase=5 why=1 j=65 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=36915 lat_us=823 id=65 phase=5 why=1 j=65 sd=1 l=1 nv=1 av=1
+COMMIT seq=66 id=65 phase=5 why=1 t=36936 elapsed_us=589265
+EV t=36967 us=36966740 id=67 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=37045 lat_us=31116 id=67 phase=1 why=0 j=66 sd=1 l=1 nv=1 av=1
+HEART t=37067 us=37065838 hb=37 phase=1 why=0 n=250 nv=1 a=240 av=1 l=1 j=66 rx=0 err=0 rearm=0 w=565
+ACK cmd=status t=37117 lat_us=2804 id=67 phase=1 why=0 j=66 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37247 lat_us=33013 id=67 phase=1 why=0 j=66 sd=1 l=1 nv=1 av=1
+REACT id=67 t=37294 latency_us=25253
+EV t=37298 us=37297196 id=67 phase=5 why=1 hold=0 queued=1
+LID t=37294 us=37303587 closed=0
+ACK cmd=status t=37322 lat_us=7822 id=67 phase=5 why=1 j=66 sd=1 l=0 nv=1 av=1
+ACK cmd=status t=37452 lat_us=38105 id=67 phase=5 why=1 j=66 sd=1 l=0 nv=1 av=1
+LID t=37474 us=37472899 closed=1
+ACK cmd=status t=37517 lat_us=2348 id=67 phase=5 why=1 j=66 sd=1 l=1 nv=1 av=1
+REC seq=2 id=2 t=2000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=37645 lat_us=31099 id=67 phase=5 why=1 j=66 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37719 lat_us=4408 id=67 phase=5 why=1 j=66 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37849 lat_us=35095 id=67 phase=5 why=1 j=66 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=37923 lat_us=8508 id=67 phase=5 why=1 j=66 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38053 lat_us=38988 id=67 phase=5 why=1 j=66 sd=1 l=1 nv=1 av=1
+HEART t=38075 us=38073847 hb=38 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=66 rx=0 err=0 rearm=0 w=580
+ACK cmd=status t=38125 lat_us=10782 id=67 phase=5 why=1 j=66 sd=1 l=1 nv=1 av=1
+COMMIT seq=67 id=67 phase=1 why=0 t=38166 elapsed_us=600430
+ACK cmd=start id=67 seq=67
+ACK cmd=status t=38243 lat_us=29083 id=67 phase=5 why=1 j=67 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38317 lat_us=2388 id=67 phase=5 why=1 j=67 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38447 lat_us=33076 id=67 phase=5 why=1 j=67 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38521 lat_us=6486 id=67 phase=5 why=1 j=67 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38651 lat_us=37071 id=67 phase=5 why=1 j=67 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38725 lat_us=10487 id=67 phase=5 why=1 j=67 sd=1 l=1 nv=1 av=1
+COMMIT seq=68 id=67 phase=5 why=1 t=38765 elapsed_us=588874
+EV t=38781 us=38780843 id=69 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=38849 lat_us=35064 id=69 phase=1 why=0 j=68 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=38923 lat_us=8343 id=69 phase=1 why=0 j=68 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39052 lat_us=38059 id=69 phase=1 why=0 j=68 sd=1 l=1 nv=1 av=1
+HEART t=39074 us=39072798 hb=39 phase=1 why=0 n=250 nv=1 a=240 av=1 l=1 j=68 rx=0 err=0 rearm=0 w=596
+ACK cmd=status t=39124 lat_us=9741 id=69 phase=1 why=0 j=68 sd=1 l=1 nv=1 av=1
+REACT id=69 t=39158 latency_us=33746
+EV t=39162 us=39161105 id=69 phase=5 why=1 hold=0 queued=1
+LID t=39158 us=39167501 closed=0
+ACK cmd=status t=39243 lat_us=29054 id=69 phase=5 why=1 j=68 sd=1 l=0 nv=1 av=1
+LID t=39315 us=39314698 closed=1
+ACK cmd=status t=39320 lat_us=6039 id=69 phase=5 why=1 j=68 sd=1 l=1 nv=1 av=1
+REC seq=3 id=3 t=3000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=39448 lat_us=34048 id=69 phase=5 why=1 j=68 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39522 lat_us=7446 id=69 phase=5 why=1 j=68 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39652 lat_us=38041 id=69 phase=5 why=1 j=68 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39726 lat_us=11561 id=69 phase=5 why=1 j=68 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39843 lat_us=29036 id=69 phase=5 why=1 j=68 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=39917 lat_us=2449 id=69 phase=5 why=1 j=68 sd=1 l=1 nv=1 av=1
+COMMIT seq=69 id=69 phase=1 why=0 t=39983 elapsed_us=588358
+ACK cmd=start id=69 seq=69
+ACK cmd=status t=40048 lat_us=34030 id=69 phase=5 why=1 j=69 sd=1 l=1 nv=1 av=1
+HEART t=40070 us=40068796 hb=40 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=69 rx=0 err=0 rearm=0 w=611
+ACK cmd=status t=40120 lat_us=5900 id=69 phase=5 why=1 j=69 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40250 lat_us=36023 id=69 phase=5 why=1 j=69 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40324 lat_us=9535 id=69 phase=5 why=1 j=69 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40454 lat_us=40118 id=69 phase=5 why=1 j=69 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40515 lat_us=889 id=69 phase=5 why=1 j=69 sd=1 l=1 nv=1 av=1
+COMMIT seq=70 id=69 phase=5 why=1 t=40593 elapsed_us=600132
+ACK cmd=status t=40643 lat_us=29112 id=69 phase=5 why=1 j=70 sd=1 l=1 nv=1 av=1
+EV t=40653 us=40652461 id=71 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=40725 lat_us=10943 id=71 phase=1 why=0 j=70 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=40855 lat_us=41106 id=71 phase=1 why=0 j=70 sd=1 l=1 nv=1 av=1
+REACT id=71 t=40902 latency_us=25253
+EV t=40906 us=40905127 id=71 phase=5 why=1 hold=0 queued=1
+LID t=40902 us=40911517 closed=0
+ACK cmd=status t=40917 lat_us=3012 id=71 phase=5 why=1 j=70 sd=1 l=0 nv=1 av=1
+ACK cmd=status t=41047 lat_us=33091 id=71 phase=5 why=1 j=70 sd=1 l=0 nv=1 av=1
+HEART t=41068 us=41067735 hb=41 phase=5 why=1 n=250 nv=1 a=240 av=1 l=0 j=70 rx=0 err=0 rearm=0 w=626
+LID t=41105 us=41104069 closed=1
+ACK cmd=status t=41123 lat_us=8474 id=71 phase=5 why=1 j=70 sd=1 l=1 nv=1 av=1
+REC seq=4 id=4 t=4000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=41253 lat_us=39096 id=71 phase=5 why=1 j=70 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41324 lat_us=9885 id=71 phase=5 why=1 j=70 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41454 lat_us=40089 id=71 phase=5 why=1 j=70 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41515 lat_us=863 id=71 phase=5 why=1 j=70 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41645 lat_us=31083 id=71 phase=5 why=1 j=70 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41719 lat_us=4497 id=71 phase=5 why=1 j=70 sd=1 l=1 nv=1 av=1
+COMMIT seq=71 id=71 phase=1 why=0 t=41810 elapsed_us=546479
+ACK cmd=start id=71 seq=71
+ACK cmd=status t=41852 lat_us=38077 id=71 phase=5 why=1 j=71 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=41923 lat_us=8865 id=71 phase=5 why=1 j=71 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42053 lat_us=39071 id=71 phase=5 why=1 j=71 sd=1 l=1 nv=1 av=1
+HEART t=42075 us=42073763 hb=42 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=71 rx=0 err=0 rearm=0 w=641
+ACK cmd=status t=42125 lat_us=10866 id=71 phase=5 why=1 j=71 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42243 lat_us=29066 id=71 phase=5 why=1 j=71 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42317 lat_us=2481 id=71 phase=5 why=1 j=71 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42443 lat_us=29061 id=71 phase=5 why=1 j=71 sd=1 l=1 nv=1 av=1
+COMMIT seq=72 id=71 phase=5 why=1 t=42463 elapsed_us=600424
+EV t=42507 us=42506069 id=73 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=42528 lat_us=13146 id=73 phase=1 why=0 j=72 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42645 lat_us=31055 id=73 phase=1 why=0 j=72 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=42719 lat_us=4336 id=73 phase=1 why=0 j=72 sd=1 l=1 nv=1 av=1
+REACT id=73 t=42790 latency_us=25240
+EV t=42794 us=42793456 id=73 phase=5 why=1 hold=0 queued=1
+LID t=42790 us=42799859 closed=0
+ACK cmd=status t=42850 lat_us=36050 id=73 phase=5 why=1 j=72 sd=1 l=0 nv=1 av=1
+LID t=42909 us=42908629 closed=1
+ACK cmd=status t=42915 lat_us=414 id=73 phase=5 why=1 j=72 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43044 lat_us=30043 id=73 phase=5 why=1 j=72 sd=1 l=1 nv=1 av=1
+REC seq=5 id=5 t=5000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+HEART t=43079 us=43078264 hb=43 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=72 rx=0 err=0 rearm=0 w=657
+ACK cmd=status t=43115 lat_us=103 id=73 phase=5 why=1 j=72 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43244 lat_us=30037 id=73 phase=5 why=1 j=72 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43318 lat_us=3553 id=73 phase=5 why=1 j=72 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43448 lat_us=34031 id=73 phase=5 why=1 j=72 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43522 lat_us=7547 id=73 phase=5 why=1 j=72 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43654 lat_us=40123 id=73 phase=5 why=1 j=72 sd=1 l=1 nv=1 av=1
+COMMIT seq=73 id=73 phase=1 why=0 t=43680 elapsed_us=588569
+ACK cmd=start id=73 seq=73
+ACK cmd=status t=43727 lat_us=12131 id=73 phase=5 why=1 j=73 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43844 lat_us=30119 id=73 phase=5 why=1 j=73 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=43918 lat_us=3534 id=73 phase=5 why=1 j=73 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44048 lat_us=34113 id=73 phase=5 why=1 j=73 sd=1 l=1 nv=1 av=1
+HEART t=44070 us=44068722 hb=44 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=73 rx=0 err=0 rearm=0 w=672
+ACK cmd=status t=44120 lat_us=5909 id=73 phase=5 why=1 j=73 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44250 lat_us=36107 id=73 phase=5 why=1 j=73 sd=1 l=1 nv=1 av=1
+COMMIT seq=74 id=73 phase=5 why=1 t=44291 elapsed_us=600140
+ACK cmd=status t=44324 lat_us=9468 id=73 phase=5 why=1 j=74 sd=1 l=1 nv=1 av=1
+EV t=44345 us=44344277 id=75 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=44448 lat_us=34101 id=75 phase=1 why=0 j=74 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44522 lat_us=7482 id=75 phase=1 why=0 j=74 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=44651 lat_us=37095 id=75 phase=1 why=0 j=74 sd=1 l=1 nv=1 av=1
+REACT id=75 t=44725 latency_us=26865
+EV t=44729 us=44727895 id=75 phase=5 why=1 hold=0 queued=1
+LID t=44725 us=44734303 closed=0
+ACK cmd=status t=44739 lat_us=24566 id=75 phase=5 why=1 j=74 sd=1 l=0 nv=1 av=1
+ACK cmd=status t=44844 lat_us=30088 id=75 phase=5 why=1 j=74 sd=1 l=0 nv=1 av=1
+REC seq=6 id=6 t=6000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+LID t=44904 us=44903538 closed=1
+ACK cmd=status t=44920 lat_us=5440 id=75 phase=5 why=1 j=74 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45050 lat_us=36084 id=75 phase=5 why=1 j=74 sd=1 l=1 nv=1 av=1
+HEART t=45072 us=45070702 hb=45 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=74 rx=0 err=0 rearm=0 w=687
+ACK cmd=status t=45122 lat_us=7880 id=75 phase=5 why=1 j=74 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45252 lat_us=38078 id=75 phase=5 why=1 j=74 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45326 lat_us=11500 id=75 phase=5 why=1 j=74 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45443 lat_us=29071 id=75 phase=5 why=1 j=74 sd=1 l=1 nv=1 av=1
+COMMIT seq=75 id=75 phase=1 why=0 t=45509 elapsed_us=599807
+ACK cmd=start id=75 seq=75
+ACK cmd=status t=45520 lat_us=5746 id=75 phase=5 why=1 j=75 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45647 lat_us=33065 id=75 phase=5 why=1 j=75 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45721 lat_us=6580 id=75 phase=5 why=1 j=75 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45851 lat_us=37059 id=75 phase=5 why=1 j=75 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=45925 lat_us=10580 id=75 phase=5 why=1 j=75 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46055 lat_us=41053 id=75 phase=5 why=1 j=75 sd=1 l=1 nv=1 av=1
+HEART t=46077 us=46075686 hb=46 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=75 rx=0 err=0 rearm=0 w=703
+ACK cmd=status t=46115 lat_us=955 id=75 phase=5 why=1 j=75 sd=1 l=1 nv=1 av=1
+COMMIT seq=76 id=75 phase=5 why=1 t=46130 elapsed_us=599978
+EV t=46174 us=46173001 id=77 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=46251 lat_us=37148 id=77 phase=1 why=0 j=76 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46325 lat_us=10337 id=77 phase=1 why=0 j=76 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46455 lat_us=41142 id=77 phase=1 why=0 j=76 sd=1 l=1 nv=1 av=1
+REACT id=77 t=46477 latency_us=67707
+EV t=46481 us=46479795 id=77 phase=5 why=1 hold=0 queued=1
+LID t=46477 us=46486198 closed=0
+ACK cmd=status t=46518 lat_us=3395 id=77 phase=5 why=1 j=76 sd=1 l=0 nv=1 av=1
+ACK cmd=status t=46647 lat_us=33136 id=77 phase=5 why=1 j=76 sd=1 l=0 nv=1 av=1
+LID t=46669 us=46667709 closed=1
+REC seq=7 id=7 t=7000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=46738 lat_us=23659 id=77 phase=5 why=1 j=76 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46853 lat_us=39129 id=77 phase=5 why=1 j=76 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=46927 lat_us=12545 id=77 phase=5 why=1 j=76 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=47044 lat_us=30124 id=77 phase=5 why=1 j=76 sd=1 l=1 nv=1 av=1
+HEART t=47066 us=47064661 hb=47 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=76 rx=0 err=0 rearm=0 w=718
+ACK cmd=status t=47116 lat_us=1929 id=77 phase=5 why=1 j=76 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=47246 lat_us=32118 id=77 phase=5 why=1 j=76 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=47322 lat_us=7948 id=77 phase=5 why=1 j=76 sd=1 l=1 nv=1 av=1
+COMMIT seq=77 id=77 phase=1 why=0 t=47348 elapsed_us=599845
+ACK cmd=start id=77 seq=77
+ACK cmd=status t=47451 lat_us=37112 id=77 phase=5 why=1 j=77 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=47525 lat_us=10534 id=77 phase=5 why=1 j=77 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=47655 lat_us=41106 id=77 phase=5 why=1 j=77 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=47716 lat_us=1991 id=77 phase=5 why=1 j=77 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=47846 lat_us=32101 id=77 phase=5 why=1 j=77 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=47922 lat_us=7933 id=77 phase=5 why=1 j=77 sd=1 l=1 nv=1 av=1
+COMMIT seq=78 id=77 phase=5 why=1 t=47948 elapsed_us=589267
+EV t=48004 us=48003491 id=79 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=48056 lat_us=42094 id=79 phase=1 why=0 j=78 sd=1 l=1 nv=1 av=1
+HEART t=48078 us=48076614 hb=48 phase=1 why=0 n=250 nv=1 a=240 av=1 l=1 j=78 rx=0 err=0 rearm=0 w=733
+ACK cmd=status t=48116 lat_us=1294 id=79 phase=1 why=0 j=78 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=48245 lat_us=31089 id=79 phase=1 why=0 j=78 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=48319 lat_us=4471 id=79 phase=1 why=0 j=78 sd=1 l=1 nv=1 av=1
+REACT id=79 t=48340 latency_us=35361
+EV t=48344 us=48342901 id=79 phase=5 why=1 hold=0 queued=1
+LID t=48340 us=48349305 closed=0
+ACK cmd=status t=48450 lat_us=36172 id=79 phase=5 why=1 j=78 sd=1 l=0 nv=1 av=1
+LID t=48497 us=48495898 closed=1
+ACK cmd=status t=48515 lat_us=549 id=79 phase=5 why=1 j=78 sd=1 l=1 nv=1 av=1
+REC seq=8 id=8 t=8000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=48643 lat_us=29177 id=79 phase=5 why=1 j=78 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=48717 lat_us=2584 id=79 phase=5 why=1 j=78 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=48847 lat_us=33172 id=79 phase=5 why=1 j=78 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=48921 lat_us=6586 id=79 phase=5 why=1 j=78 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=49051 lat_us=37165 id=79 phase=5 why=1 j=78 sd=1 l=1 nv=1 av=1
+HEART t=49073 us=49071618 hb=49 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=78 rx=0 err=0 rearm=0 w=748
+ACK cmd=status t=49123 lat_us=8968 id=79 phase=5 why=1 j=78 sd=1 l=1 nv=1 av=1
+COMMIT seq=79 id=79 phase=1 why=0 t=49176 elapsed_us=600522
+ACK cmd=start id=79 seq=79
+ACK cmd=status t=49254 lat_us=40159 id=79 phase=5 why=1 j=79 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=49315 lat_us=927 id=79 phase=5 why=1 j=79 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=49445 lat_us=31154 id=79 phase=5 why=1 j=79 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=49519 lat_us=4570 id=79 phase=5 why=1 j=79 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=49649 lat_us=35148 id=79 phase=5 why=1 j=79 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=49723 lat_us=8665 id=79 phase=5 why=1 j=79 sd=1 l=1 nv=1 av=1
+COMMIT seq=80 id=79 phase=5 why=1 t=49776 elapsed_us=588814
+EV t=49854 us=49852683 id=81 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=49873 lat_us=57853 id=81 phase=1 why=0 j=80 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=49921 lat_us=6537 id=81 phase=1 why=0 j=80 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=50050 lat_us=36136 id=81 phase=1 why=0 j=80 sd=1 l=1 nv=1 av=1
+HEART t=50072 us=50070570 hb=50 phase=1 why=0 n=250 nv=1 a=240 av=1 l=1 j=80 rx=0 err=0 rearm=0 w=764
+REACT id=81 t=50083 latency_us=64847
+EV t=50087 us=50085746 id=81 phase=5 why=1 hold=0 queued=1
+LID t=50083 us=50092150 closed=0
+ACK cmd=status t=50124 lat_us=9517 id=81 phase=5 why=1 j=80 sd=1 l=0 nv=1 av=1
+ACK cmd=status t=50253 lat_us=39130 id=81 phase=5 why=1 j=80 sd=1 l=0 nv=1 av=1
+LID t=50275 us=50273635 closed=1
+ACK cmd=status t=50318 lat_us=3493 id=81 phase=5 why=1 j=80 sd=1 l=1 nv=1 av=1
+REC seq=9 id=9 t=9000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=50446 lat_us=32224 id=81 phase=5 why=1 j=80 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=50520 lat_us=5620 id=81 phase=5 why=1 j=80 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=50650 lat_us=36118 id=81 phase=5 why=1 j=80 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=50724 lat_us=9534 id=81 phase=5 why=1 j=80 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=50854 lat_us=40212 id=81 phase=5 why=1 j=80 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=50915 lat_us=988 id=81 phase=5 why=1 j=80 sd=1 l=1 nv=1 av=1
+COMMIT seq=81 id=81 phase=1 why=0 t=50993 elapsed_us=589223
+ACK cmd=start id=81 seq=81
+ACK cmd=status t=51046 lat_us=32207 id=81 phase=5 why=1 j=81 sd=1 l=1 nv=1 av=1
+HEART t=51068 us=51066572 hb=51 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=81 rx=0 err=0 rearm=0 w=779
+ACK cmd=status t=51118 lat_us=3994 id=81 phase=5 why=1 j=81 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=51248 lat_us=34199 id=81 phase=5 why=1 j=81 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=51322 lat_us=7612 id=81 phase=5 why=1 j=81 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=51452 lat_us=38195 id=81 phase=5 why=1 j=81 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=51526 lat_us=11514 id=81 phase=5 why=1 j=81 sd=1 l=1 nv=1 av=1
+COMMIT seq=82 id=81 phase=5 why=1 t=51604 elapsed_us=600135
+ACK cmd=status t=51645 lat_us=30511 id=81 phase=5 why=1 j=82 sd=1 l=1 nv=1 av=1
+EV t=51661 us=51659785 id=83 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=51724 lat_us=9614 id=83 phase=1 why=0 j=82 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=51854 lat_us=40183 id=83 phase=1 why=0 j=82 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=51915 lat_us=854 id=83 phase=1 why=0 j=82 sd=1 l=1 nv=1 av=1
+REACT id=83 t=51986 latency_us=25253
+EV t=51990 us=51989554 id=83 phase=5 why=1 hold=0 queued=1
+LID t=51986 us=51995956 closed=0
+ACK cmd=status t=52046 lat_us=32278 id=83 phase=5 why=1 j=82 sd=1 l=0 nv=1 av=1
+HEART t=52068 us=52066526 hb=52 phase=5 why=1 n=250 nv=1 a=240 av=1 l=0 j=82 rx=0 err=0 rearm=0 w=794
+LID t=52117 us=52115846 closed=1
+ACK cmd=status t=52122 lat_us=7672 id=83 phase=5 why=1 j=82 sd=1 l=1 nv=1 av=1
+REC seq=10 id=10 t=10000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=52265 lat_us=51170 id=83 phase=5 why=1 j=82 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=52324 lat_us=9332 id=83 phase=5 why=1 j=82 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=52453 lat_us=39166 id=83 phase=5 why=1 j=82 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=52527 lat_us=12604 id=83 phase=5 why=1 j=82 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=52644 lat_us=30160 id=83 phase=5 why=1 j=82 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=52718 lat_us=3574 id=83 phase=5 why=1 j=82 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=52843 lat_us=29254 id=83 phase=5 why=1 j=82 sd=1 l=1 nv=1 av=1
+COMMIT seq=83 id=83 phase=1 why=0 t=52864 elapsed_us=588313
+ACK cmd=start id=83 seq=83
+ACK cmd=status t=52923 lat_us=8361 id=83 phase=5 why=1 j=83 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=53053 lat_us=39248 id=83 phase=5 why=1 j=83 sd=1 l=1 nv=1 av=1
+HEART t=53075 us=53073535 hb=53 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=83 rx=0 err=0 rearm=0 w=809
+ACK cmd=status t=53125 lat_us=11046 id=83 phase=5 why=1 j=83 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=53243 lat_us=29242 id=83 phase=5 why=1 j=83 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=53317 lat_us=2657 id=83 phase=5 why=1 j=83 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=53449 lat_us=35236 id=83 phase=5 why=1 j=83 sd=1 l=1 nv=1 av=1
+COMMIT seq=84 id=83 phase=5 why=1 t=53475 elapsed_us=600693
+ACK cmd=status t=53520 lat_us=6065 id=83 phase=5 why=1 j=84 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=53650 lat_us=36231 id=83 phase=5 why=1 j=84 sd=1 l=1 nv=1 av=1
+EV t=53672 us=53670833 id=85 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=53718 lat_us=3523 id=85 phase=1 why=0 j=84 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=53847 lat_us=33224 id=85 phase=1 why=0 j=84 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=53921 lat_us=6503 id=85 phase=1 why=0 j=84 sd=1 l=1 nv=1 av=1
+REC seq=11 id=11 t=11000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+REACT id=85 t=54032 latency_us=26886
+EV t=54036 us=54034701 id=85 phase=5 why=1 hold=0 queued=1
+LID t=54032 us=54041098 closed=0
+ACK cmd=status t=54078 lat_us=64217 id=85 phase=5 why=1 j=84 sd=1 l=0 nv=1 av=1
+HEART t=54097 us=54095913 hb=54 phase=5 why=1 n=250 nv=1 a=240 av=1 l=0 j=84 rx=0 err=0 rearm=0 w=825
+ACK cmd=status t=54122 lat_us=8146 id=85 phase=5 why=1 j=84 sd=1 l=0 nv=1 av=1
+LID t=54169 us=54167671 closed=1
+ACK cmd=status t=54243 lat_us=29212 id=85 phase=5 why=1 j=84 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=54317 lat_us=2627 id=85 phase=5 why=1 j=84 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=54447 lat_us=33206 id=85 phase=5 why=1 j=84 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=54521 lat_us=6621 id=85 phase=5 why=1 j=84 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=54650 lat_us=19601 id=85 phase=5 why=1 j=84 sd=1 l=1 nv=1 av=1
+COMMIT seq=85 id=85 phase=1 why=0 t=54691 elapsed_us=602604
+ACK cmd=start id=85 seq=85
+ACK cmd=status t=54725 lat_us=10450 id=85 phase=5 why=1 j=85 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=54855 lat_us=7269 id=85 phase=5 why=1 j=85 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=54916 lat_us=1223 id=85 phase=5 why=1 j=85 sd=1 l=1 nv=1 av=1
+HEART t=55058 us=55056874 hb=55 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=85 rx=0 err=0 rearm=0 w=840
+ACK cmd=status t=55069 lat_us=4923 id=85 phase=5 why=1 j=85 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=55143 lat_us=11617 id=85 phase=5 why=1 j=85 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=55247 lat_us=33283 id=85 phase=5 why=1 j=85 sd=1 l=1 nv=1 av=1
+COMMIT seq=86 id=85 phase=5 why=1 t=55301 elapsed_us=598901
+ACK cmd=status t=55316 lat_us=1773 id=85 phase=5 why=1 j=86 sd=1 l=1 nv=1 av=1
+EV t=55355 us=55353731 id=87 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=55445 lat_us=31178 id=87 phase=1 why=0 j=86 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=55519 lat_us=4559 id=87 phase=1 why=0 j=86 sd=1 l=1 nv=1 av=1
+REACT id=87 t=55578 latency_us=25256
+EV t=55582 us=55580593 id=87 phase=5 why=1 hold=0 queued=1
+LID t=55578 us=55586991 closed=0
+ACK cmd=status t=55650 lat_us=36170 id=87 phase=5 why=1 j=86 sd=1 l=0 nv=1 av=1
+ACK cmd=status t=55724 lat_us=9584 id=87 phase=5 why=1 j=86 sd=1 l=0 nv=1 av=1
+LID t=55745 us=55743716 closed=1
+ACK cmd=status t=55845 lat_us=31165 id=87 phase=5 why=1 j=86 sd=1 l=1 nv=1 av=1
+REC seq=12 id=12 t=12000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=55920 lat_us=5468 id=87 phase=5 why=1 j=86 sd=1 l=1 nv=1 av=1
+HEART t=56060 us=56058854 hb=56 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=86 rx=0 err=0 rearm=0 w=855
+ACK cmd=status t=56084 lat_us=3234 id=87 phase=5 why=1 j=86 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=56183 lat_us=1802 id=87 phase=5 why=1 j=86 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=56249 lat_us=35254 id=87 phase=5 why=1 j=86 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=56323 lat_us=8669 id=87 phase=5 why=1 j=86 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=56453 lat_us=39248 id=87 phase=5 why=1 j=86 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=56515 lat_us=636 id=87 phase=5 why=1 j=86 sd=1 l=1 nv=1 av=1
+COMMIT seq=87 id=87 phase=1 why=0 t=56529 elapsed_us=599954
+ACK cmd=start id=87 seq=87
+ACK cmd=status t=56645 lat_us=31242 id=87 phase=5 why=1 j=87 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=56719 lat_us=4657 id=87 phase=5 why=1 j=87 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=56849 lat_us=35235 id=87 phase=5 why=1 j=87 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=56923 lat_us=8650 id=87 phase=5 why=1 j=87 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=57053 lat_us=39231 id=87 phase=5 why=1 j=87 sd=1 l=1 nv=1 av=1
+HEART t=57075 us=57073452 hb=57 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=87 rx=0 err=0 rearm=0 w=870
+ACK cmd=status t=57115 lat_us=703 id=87 phase=5 why=1 j=87 sd=1 l=1 nv=1 av=1
+COMMIT seq=88 id=87 phase=5 why=1 t=57140 elapsed_us=600208
+EV t=57172 us=57170700 id=89 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=57249 lat_us=35224 id=89 phase=1 why=0 j=88 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=57456 lat_us=8974 id=89 phase=1 why=0 j=88 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=57491 lat_us=9726 id=89 phase=1 why=0 j=88 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=57539 lat_us=7735 id=89 phase=1 why=0 j=88 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=57585 lat_us=4341 id=89 phase=1 why=0 j=88 sd=1 l=1 nv=1 av=1
+REACT id=89 t=57690 latency_us=25635
+EV t=57694 us=57692547 id=89 phase=5 why=1 hold=0 queued=1
+LID t=57690 us=57698944 closed=0
+ACK cmd=status t=57704 lat_us=22980 id=89 phase=5 why=1 j=88 sd=1 l=0 nv=1 av=1
+REC seq=13 id=13 t=13000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=57789 lat_us=7613 id=89 phase=5 why=1 j=88 sd=1 l=0 nv=1 av=1
+LID t=57855 us=57853882 closed=1
+ACK cmd=status t=57884 lat_us=3572 id=89 phase=5 why=1 j=88 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=57983 lat_us=2134 id=89 phase=5 why=1 j=88 sd=1 l=1 nv=1 av=1
+HEART t=58062 us=58060812 hb=58 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=88 rx=0 err=0 rearm=0 w=885
+ACK cmd=status t=58086 lat_us=5275 id=89 phase=5 why=1 j=88 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=58185 lat_us=3848 id=89 phase=5 why=1 j=88 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=58290 lat_us=8990 id=89 phase=5 why=1 j=88 sd=1 l=1 nv=1 av=1
+COMMIT seq=89 id=89 phase=1 why=0 t=58357 elapsed_us=602614
+ACK cmd=start id=89 seq=89
+ACK cmd=status t=58389 lat_us=8394 id=89 phase=5 why=1 j=89 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=58482 lat_us=972 id=89 phase=5 why=1 j=89 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=58651 lat_us=3457 id=89 phase=5 why=1 j=89 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=58685 lat_us=4208 id=89 phase=5 why=1 j=89 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=58784 lat_us=2679 id=89 phase=5 why=1 j=89 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=58889 lat_us=7968 id=89 phase=5 why=1 j=89 sd=1 l=1 nv=1 av=1
+COMMIT seq=90 id=89 phase=5 why=1 t=58956 elapsed_us=588253
+ACK cmd=status t=58987 lat_us=6451 id=89 phase=5 why=1 j=90 sd=1 l=1 nv=1 av=1
+EV t=59009 us=59007478 id=91 phase=1 why=0 hold=0 queued=1
+HEART t=59073 us=59071763 hb=59 phase=1 why=0 n=250 nv=1 a=240 av=1 l=1 j=90 rx=0 err=0 rearm=0 w=901
+ACK cmd=status t=59084 lat_us=3364 id=91 phase=1 why=0 j=90 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=59208 lat_us=10366 id=91 phase=1 why=0 j=90 sd=1 l=1 nv=1 av=1
+REACT id=91 t=59229 latency_us=34222
+EV t=59233 us=59231795 id=91 phase=5 why=1 hold=0 queued=1
+LID t=59229 us=59238204 closed=0
+ACK cmd=status t=59289 lat_us=8660 id=91 phase=5 why=1 j=90 sd=1 l=0 nv=1 av=1
+LID t=59362 us=59361006 closed=1
+ACK cmd=status t=59392 lat_us=10743 id=91 phase=5 why=1 j=90 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=59484 lat_us=2866 id=91 phase=5 why=1 j=90 sd=1 l=1 nv=1 av=1
+REC seq=14 id=14 t=14000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=59583 lat_us=2201 id=91 phase=5 why=1 j=90 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=59686 lat_us=4931 id=91 phase=5 why=1 j=90 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=59784 lat_us=3495 id=91 phase=5 why=1 j=90 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=59890 lat_us=9044 id=91 phase=5 why=1 j=90 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=59988 lat_us=7611 id=91 phase=5 why=1 j=90 sd=1 l=1 nv=1 av=1
+HEART t=60068 us=60066771 hb=60 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=90 rx=0 err=0 rearm=0 w=916
+ACK cmd=status t=60092 lat_us=11325 id=91 phase=5 why=1 j=90 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=60182 lat_us=656 id=91 phase=5 why=1 j=90 sd=1 l=1 nv=1 av=1
+COMMIT seq=91 id=91 phase=1 why=0 t=60193 elapsed_us=600467
+ACK cmd=start id=91 seq=91
+ACK cmd=status t=60284 lat_us=2910 id=91 phase=5 why=1 j=91 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=60382 lat_us=1574 id=91 phase=5 why=1 j=91 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=60488 lat_us=6922 id=91 phase=5 why=1 j=91 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=60586 lat_us=5495 id=91 phase=5 why=1 j=91 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=60692 lat_us=11014 id=91 phase=5 why=1 j=91 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=60781 lat_us=346 id=91 phase=5 why=1 j=91 sd=1 l=1 nv=1 av=1
+COMMIT seq=92 id=91 phase=5 why=1 t=60793 elapsed_us=588879
+EV t=60844 us=60842777 id=93 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=60890 lat_us=8851 id=93 phase=1 why=0 j=92 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=60988 lat_us=7126 id=93 phase=1 why=0 j=92 sd=1 l=1 nv=1 av=1
+HEART t=61067 us=61065722 hb=61 phase=1 why=0 n=250 nv=1 a=240 av=1 l=1 j=92 rx=0 err=0 rearm=0 w=931
+ACK cmd=status t=61091 lat_us=10344 id=93 phase=1 why=0 j=92 sd=1 l=1 nv=1 av=1
+REACT id=93 t=61126 latency_us=35095
+EV t=61130 us=61128952 id=93 phase=5 why=1 hold=0 queued=1
+LID t=61126 us=61135353 closed=0
+ACK cmd=status t=61191 lat_us=10421 id=93 phase=5 why=1 j=92 sd=1 l=0 nv=1 av=1
+LID t=61284 us=61282395 closed=1
+ACK cmd=status t=61287 lat_us=6618 id=93 phase=5 why=1 j=92 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=61386 lat_us=4991 id=93 phase=5 why=1 j=92 sd=1 l=1 nv=1 av=1
+REC seq=15 id=15 t=15000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=61489 lat_us=8371 id=93 phase=5 why=1 j=92 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=61588 lat_us=6927 id=93 phase=5 why=1 j=92 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=61693 lat_us=11987 id=93 phase=5 why=1 j=92 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=61791 lat_us=10668 id=93 phase=5 why=1 j=92 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=61884 lat_us=2980 id=93 phase=5 why=1 j=92 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=61985 lat_us=3863 id=93 phase=5 why=1 j=92 sd=1 l=1 nv=1 av=1
+COMMIT seq=93 id=93 phase=1 why=0 t=62010 elapsed_us=555417
+ACK cmd=start id=93 seq=93
+HEART t=62062 us=62061120 hb=62 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=93 rx=0 err=0 rearm=0 w=946
+ACK cmd=status t=62087 lat_us=5753 id=93 phase=5 why=1 j=93 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=62185 lat_us=4411 id=93 phase=5 why=1 j=93 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=62290 lat_us=9074 id=93 phase=5 why=1 j=93 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=62388 lat_us=7543 id=93 phase=5 why=1 j=93 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=62481 lat_us=327 id=93 phase=5 why=1 j=93 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=62595 lat_us=13835 id=93 phase=5 why=1 j=93 sd=1 l=1 nv=1 av=1
+COMMIT seq=94 id=93 phase=5 why=1 t=62653 elapsed_us=599528
+ACK cmd=status t=62685 lat_us=3824 id=93 phase=5 why=1 j=94 sd=1 l=1 nv=1 av=1
+EV t=62706 us=62705000 id=95 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=62790 lat_us=9163 id=95 phase=1 why=0 j=94 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=62883 lat_us=1867 id=95 phase=1 why=0 j=94 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=62981 lat_us=244 id=95 phase=1 why=0 j=94 sd=1 l=1 nv=1 av=1
+HEART t=63060 us=63058681 hb=63 phase=1 why=0 n=250 nv=1 a=240 av=1 l=1 j=94 rx=0 err=0 rearm=0 w=962
+ACK cmd=status t=63084 lat_us=3286 id=95 phase=1 why=0 j=94 sd=1 l=1 nv=1 av=1
+REACT id=95 t=63105 latency_us=34123
+EV t=63109 us=63107956 id=95 phase=5 why=1 hold=0 queued=1
+LID t=63105 us=63114362 closed=0
+ACK cmd=status t=63184 lat_us=3358 id=95 phase=5 why=1 j=94 sd=1 l=0 nv=1 av=1
+REC seq=16 id=16 t=16000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+LID t=63277 us=63275611 closed=1
+ACK cmd=status t=63281 lat_us=127 id=95 phase=5 why=1 j=94 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=63389 lat_us=8540 id=95 phase=5 why=1 j=94 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=63482 lat_us=934 id=95 phase=5 why=1 j=94 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=63593 lat_us=12121 id=95 phase=5 why=1 j=94 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=63686 lat_us=5029 id=95 phase=5 why=1 j=94 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=63784 lat_us=3599 id=95 phase=5 why=1 j=94 sd=1 l=1 nv=1 av=1
+COMMIT seq=95 id=95 phase=1 why=0 t=63870 elapsed_us=580042
+ACK cmd=start id=95 seq=95
+ACK cmd=status t=63890 lat_us=9621 id=95 phase=5 why=1 j=95 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=63989 lat_us=8173 id=95 phase=5 why=1 j=95 sd=1 l=1 nv=1 av=1
+HEART t=64056 us=64054687 hb=64 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=95 rx=0 err=0 rearm=0 w=977
+ACK cmd=status t=64093 lat_us=12027 id=95 phase=5 why=1 j=95 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=64191 lat_us=10696 id=95 phase=5 why=1 j=95 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=64284 lat_us=3010 id=95 phase=5 why=1 j=95 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=64382 lat_us=1576 id=95 phase=5 why=1 j=95 sd=1 l=1 nv=1 av=1
+COMMIT seq=96 id=95 phase=5 why=1 t=64482 elapsed_us=600210
+ACK cmd=status t=64488 lat_us=7703 id=95 phase=5 why=1 j=96 sd=1 l=1 nv=1 av=1
+EV t=64523 us=64521753 id=97 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=64593 lat_us=12146 id=97 phase=1 why=0 j=96 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=64686 lat_us=4915 id=97 phase=1 why=0 j=96 sd=1 l=1 nv=1 av=1
+REACT id=97 t=64746 latency_us=26500
+EV t=64750 us=64748552 id=97 phase=5 why=1 hold=0 queued=1
+LID t=64746 us=64754948 closed=0
+ACK cmd=status t=64786 lat_us=4861 id=97 phase=5 why=1 j=96 sd=1 l=0 nv=1 av=1
+LID t=64891 us=64889331 closed=1
+ACK cmd=status t=64894 lat_us=13726 id=97 phase=5 why=1 j=96 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=64993 lat_us=12099 id=97 phase=5 why=1 j=96 sd=1 l=1 nv=1 av=1
+HEART t=65060 us=65058638 hb=65 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=96 rx=0 err=0 rearm=0 w=992
+ACK cmd=status t=65084 lat_us=3305 id=97 phase=5 why=1 j=96 sd=1 l=1 nv=1 av=1
+REC seq=17 id=17 t=17000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=65181 lat_us=449 id=97 phase=5 why=1 j=96 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=65286 lat_us=4981 id=97 phase=5 why=1 j=96 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=65384 lat_us=3647 id=97 phase=5 why=1 j=96 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=65490 lat_us=9081 id=97 phase=5 why=1 j=96 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=65588 lat_us=7547 id=97 phase=5 why=1 j=96 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=65683 lat_us=2744 id=97 phase=5 why=1 j=96 sd=1 l=1 nv=1 av=1
+COMMIT seq=97 id=97 phase=1 why=0 t=65709 elapsed_us=587384
+ACK cmd=start id=97 seq=97
+ACK cmd=status t=65793 lat_us=12405 id=97 phase=5 why=1 j=97 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=65886 lat_us=4965 id=97 phase=5 why=1 j=97 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=65984 lat_us=3631 id=97 phase=5 why=1 j=97 sd=1 l=1 nv=1 av=1
+HEART t=66064 us=66062646 hb=66 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=97 rx=0 err=0 rearm=0 w=1008
+ACK cmd=status t=66088 lat_us=7547 id=97 phase=5 why=1 j=97 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=66187 lat_us=6122 id=97 phase=5 why=1 j=97 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=66294 lat_us=13363 id=97 phase=5 why=1 j=97 sd=1 l=1 nv=1 av=1
+COMMIT seq=98 id=97 phase=5 why=1 t=66321 elapsed_us=600028
+EV t=66335 us=66333950 id=99 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=66385 lat_us=3814 id=99 phase=1 why=0 j=98 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=66490 lat_us=8967 id=99 phase=1 why=0 j=98 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=66588 lat_us=7340 id=99 phase=1 why=0 j=98 sd=1 l=1 nv=1 av=1
+REACT id=99 t=66667 latency_us=45327
+EV t=66671 us=66669757 id=99 phase=5 why=1 hold=0 queued=1
+LID t=66667 us=66676174 closed=0
+ACK cmd=status t=66681 lat_us=617 id=99 phase=5 why=1 j=98 sd=1 l=0 nv=1 av=1
+ACK cmd=status t=66805 lat_us=7451 id=99 phase=5 why=1 j=98 sd=1 l=0 nv=1 av=1
+LID t=66826 us=66824581 closed=1
+ACK cmd=status t=66888 lat_us=7337 id=99 phase=5 why=1 j=98 sd=1 l=1 nv=1 av=1
+REC seq=18 id=18 t=18000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=66985 lat_us=4471 id=99 phase=5 why=1 j=98 sd=1 l=1 nv=1 av=1
+HEART t=67064 us=67062625 hb=67 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=98 rx=0 err=0 rearm=0 w=1023
+ACK cmd=status t=67088 lat_us=7520 id=99 phase=5 why=1 j=98 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=67187 lat_us=6095 id=99 phase=5 why=1 j=98 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=67292 lat_us=11022 id=99 phase=5 why=1 j=98 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=67390 lat_us=9701 id=99 phase=5 why=1 j=98 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=67483 lat_us=2017 id=99 phase=5 why=1 j=98 sd=1 l=1 nv=1 av=1
+COMMIT seq=99 id=99 phase=1 why=0 t=67537 elapsed_us=598916
+ACK cmd=start id=99 seq=99
+ACK cmd=status t=67582 lat_us=1575 id=99 phase=5 why=1 j=99 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=67687 lat_us=6010 id=99 phase=5 why=1 j=99 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=67785 lat_us=4582 id=99 phase=5 why=1 j=99 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=67891 lat_us=10005 id=99 phase=5 why=1 j=99 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=67989 lat_us=8780 id=99 phase=5 why=1 j=99 sd=1 l=1 nv=1 av=1
+HEART t=68056 us=68054603 hb=68 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=99 rx=0 err=0 rearm=0 w=1038
+ACK cmd=status t=68093 lat_us=12229 id=99 phase=5 why=1 j=99 sd=1 l=1 nv=1 av=1
+COMMIT seq=100 id=99 phase=5 why=1 t=68147 elapsed_us=599445
+ACK cmd=status t=68192 lat_us=11005 id=99 phase=5 why=1 j=100 sd=1 l=1 nv=1 av=1
+EV t=68247 us=68245298 id=101 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=68291 lat_us=10647 id=101 phase=1 why=0 j=100 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=68390 lat_us=9459 id=101 phase=1 why=0 j=100 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=68483 lat_us=2004 id=101 phase=1 why=0 j=100 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=68581 lat_us=600 id=101 phase=1 why=0 j=100 sd=1 l=1 nv=1 av=1
+REACT id=101 t=68687 latency_us=25630
+EV t=68691 us=68689418 id=101 phase=5 why=1 hold=0 queued=1
+LID t=68687 us=68695932 closed=0
+ACK cmd=status t=68701 lat_us=20404 id=101 phase=5 why=1 j=100 sd=1 l=0 nv=1 av=1
+REC seq=19 id=19 t=19000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=68786 lat_us=5250 id=101 phase=5 why=1 j=100 sd=1 l=0 nv=1 av=1
+LID t=68820 us=68818472 closed=1
+ACK cmd=status t=68882 lat_us=1434 id=101 phase=5 why=1 j=100 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=68981 lat_us=209 id=101 phase=5 why=1 j=100 sd=1 l=1 nv=1 av=1
+HEART t=69060 us=69058584 hb=69 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=100 rx=0 err=0 rearm=0 w=1053
+ACK cmd=status t=69084 lat_us=3673 id=101 phase=5 why=1 j=100 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=69183 lat_us=2461 id=101 phase=5 why=1 j=100 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=69289 lat_us=8064 id=101 phase=5 why=1 j=100 sd=1 l=1 nv=1 av=1
+COMMIT seq=101 id=101 phase=1 why=0 t=69369 elapsed_us=604372
+ACK cmd=start id=101 seq=101
+ACK cmd=status t=69389 lat_us=8121 id=101 phase=5 why=1 j=101 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=69482 lat_us=1042 id=101 phase=5 why=1 j=101 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=69593 lat_us=12444 id=101 phase=5 why=1 j=101 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=69686 lat_us=5051 id=101 phase=5 why=1 j=101 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=69785 lat_us=3838 id=101 phase=5 why=1 j=101 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=69890 lat_us=9049 id=101 phase=5 why=1 j=101 sd=1 l=1 nv=1 av=1
+COMMIT seq=102 id=101 phase=5 why=1 t=69970 elapsed_us=589835
+ACK cmd=status t=69984 lat_us=3236 id=101 phase=5 why=1 j=102 sd=1 l=1 nv=1 av=1
+EV t=70044 us=70042261 id=103 phase=1 why=0 hold=0 queued=1
+HEART t=70063 us=70061278 hb=70 phase=1 why=0 n=250 nv=1 a=240 av=1 l=1 j=102 rx=0 err=0 rearm=0 w=1069
+ACK cmd=status t=70087 lat_us=6333 id=103 phase=1 why=0 j=102 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=70186 lat_us=4939 id=103 phase=1 why=0 j=102 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=70291 lat_us=9961 id=103 phase=1 why=0 j=102 sd=1 l=1 nv=1 av=1
+REACT id=103 t=70326 latency_us=35211
+EV t=70330 us=70328564 id=103 phase=5 why=1 hold=0 queued=1
+LID t=70326 us=70335093 closed=0
+ACK cmd=status t=70391 lat_us=10395 id=103 phase=5 why=1 j=102 sd=1 l=0 nv=1 av=1
+LID t=70484 us=70482201 closed=1
+ACK cmd=status t=70487 lat_us=6747 id=103 phase=5 why=1 j=102 sd=1 l=1 nv=1 av=1
+REC seq=20 id=20 t=20000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=70600 lat_us=19112 id=103 phase=5 why=1 j=102 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=70690 lat_us=9009 id=103 phase=5 why=1 j=102 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=70789 lat_us=7891 id=103 phase=5 why=1 j=102 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=70893 lat_us=12671 id=103 phase=5 why=1 j=102 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=70992 lat_us=11568 id=103 phase=5 why=1 j=102 sd=1 l=1 nv=1 av=1
+HEART t=71059 us=71057541 hb=71 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=102 rx=0 err=0 rearm=0 w=1084
+ACK cmd=status t=71083 lat_us=2715 id=103 phase=5 why=1 j=102 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=71184 lat_us=3815 id=103 phase=5 why=1 j=102 sd=1 l=1 nv=1 av=1
+COMMIT seq=103 id=103 phase=1 why=0 t=71210 elapsed_us=600250
+ACK cmd=start id=103 seq=103
+ACK cmd=status t=71289 lat_us=8482 id=103 phase=5 why=1 j=103 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=71388 lat_us=7253 id=103 phase=5 why=1 j=103 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=71493 lat_us=12097 id=103 phase=5 why=1 j=103 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=71592 lat_us=10998 id=103 phase=5 why=1 j=103 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=71685 lat_us=4097 id=103 phase=5 why=1 j=103 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=71786 lat_us=5196 id=103 phase=5 why=1 j=103 sd=1 l=1 nv=1 av=1
+COMMIT seq=104 id=103 phase=5 why=1 t=71845 elapsed_us=590268
+EV t=71877 us=71875318 id=105 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=71896 lat_us=15337 id=105 phase=1 why=0 j=104 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=71982 lat_us=1428 id=105 phase=1 why=0 j=104 sd=1 l=1 nv=1 av=1
+HEART t=72062 us=72060492 hb=72 phase=1 why=0 n=250 nv=1 a=240 av=1 l=1 j=104 rx=0 err=0 rearm=0 w=1099
+ACK cmd=status t=72086 lat_us=5635 id=105 phase=1 why=0 j=104 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=72185 lat_us=4227 id=105 phase=1 why=0 j=104 sd=1 l=1 nv=1 av=1
+REACT id=105 t=72206 latency_us=34343
+EV t=72210 us=72208898 id=105 phase=5 why=1 hold=0 queued=1
+LID t=72206 us=72215416 closed=0
+ACK cmd=status t=72292 lat_us=11011 id=105 phase=5 why=1 j=104 sd=1 l=0 nv=1 av=1
+LID t=72352 us=72350684 closed=1
+ACK cmd=status t=72382 lat_us=818 id=105 phase=5 why=1 j=104 sd=1 l=1 nv=1 av=1
+REC seq=21 id=21 t=21000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=72485 lat_us=4661 id=105 phase=5 why=1 j=104 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=72584 lat_us=3426 id=105 phase=5 why=1 j=104 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=72690 lat_us=9067 id=105 phase=5 why=1 j=104 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=72789 lat_us=7954 id=105 phase=5 why=1 j=104 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=72893 lat_us=12714 id=105 phase=5 why=1 j=104 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=72992 lat_us=11710 id=105 phase=5 why=1 j=104 sd=1 l=1 nv=1 av=1
+HEART t=73050 us=73048828 hb=73 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=104 rx=0 err=0 rearm=0 w=1114
+COMMIT seq=105 id=105 phase=1 why=0 t=73078 elapsed_us=601516
+ACK cmd=start id=105 seq=105
+ACK cmd=status t=73088 lat_us=7096 id=105 phase=5 why=1 j=105 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=73184 lat_us=3251 id=105 phase=5 why=1 j=105 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=73289 lat_us=8145 id=105 phase=5 why=1 j=105 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=73388 lat_us=6931 id=105 phase=5 why=1 j=105 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=73493 lat_us=12139 id=105 phase=5 why=1 j=105 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=73592 lat_us=11038 id=105 phase=5 why=1 j=105 sd=1 l=1 nv=1 av=1
+COMMIT seq=106 id=105 phase=5 why=1 t=73678 elapsed_us=580678
+ACK cmd=status t=73685 lat_us=4637 id=105 phase=5 why=1 j=106 sd=1 l=1 nv=1 av=1
+EV t=73720 us=73718580 id=107 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=73790 lat_us=9403 id=107 phase=1 why=0 j=106 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=73883 lat_us=2044 id=107 phase=1 why=0 j=106 sd=1 l=1 nv=1 av=1
+REACT id=107 t=73930 latency_us=26497
+EV t=73934 us=73933093 id=107 phase=5 why=1 hold=0 queued=1
+LID t=73930 us=73939606 closed=0
+ACK cmd=status t=73983 lat_us=2446 id=107 phase=5 why=1 j=106 sd=1 l=0 nv=1 av=1
+HEART t=74063 us=74061450 hb=74 phase=5 why=1 n=250 nv=1 a=240 av=1 l=0 j=106 rx=0 err=0 rearm=0 w=1130
+ACK cmd=status t=74087 lat_us=6697 id=107 phase=5 why=1 j=106 sd=1 l=0 nv=1 av=1
+LID t=74109 us=74107095 closed=1
+ACK cmd=status t=74190 lat_us=8979 id=107 phase=5 why=1 j=106 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=74282 lat_us=1032 id=107 phase=5 why=1 j=106 sd=1 l=1 nv=1 av=1
+REC seq=22 id=22 t=22000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=74392 lat_us=11114 id=107 phase=5 why=1 j=106 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=74485 lat_us=4115 id=107 phase=5 why=1 j=106 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=74584 lat_us=2901 id=107 phase=5 why=1 j=106 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=74689 lat_us=8103 id=107 phase=5 why=1 j=106 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=74788 lat_us=6990 id=107 phase=5 why=1 j=106 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=74882 lat_us=1873 id=107 phase=5 why=1 j=106 sd=1 l=1 nv=1 av=1
+COMMIT seq=107 id=107 phase=1 why=0 t=74908 elapsed_us=588801
+ACK cmd=start id=107 seq=107
+ACK cmd=status t=74993 lat_us=12190 id=107 phase=5 why=1 j=107 sd=1 l=1 nv=1 av=1
+HEART t=75060 us=75058457 hb=75 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=107 rx=0 err=0 rearm=0 w=1145
+ACK cmd=status t=75084 lat_us=3701 id=107 phase=5 why=1 j=107 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=75183 lat_us=2488 id=107 phase=5 why=1 j=107 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=75289 lat_us=8087 id=107 phase=5 why=1 j=107 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=75388 lat_us=6872 id=107 phase=5 why=1 j=107 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=75495 lat_us=14498 id=107 phase=5 why=1 j=107 sd=1 l=1 nv=1 av=1
+COMMIT seq=108 id=107 phase=5 why=1 t=75522 elapsed_us=601590
+EV t=75537 us=75535195 id=109 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=75586 lat_us=5391 id=109 phase=1 why=0 j=108 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=75692 lat_us=10991 id=109 phase=1 why=0 j=108 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=75790 lat_us=9694 id=109 phase=1 why=0 j=108 sd=1 l=1 nv=1 av=1
+REACT id=109 t=75857 latency_us=45405
+EV t=75861 us=75859669 id=109 phase=5 why=1 hold=0 queued=1
+LID t=75857 us=75866191 closed=0
+ACK cmd=status t=75885 lat_us=3897 id=109 phase=5 why=1 j=108 sd=1 l=0 nv=1 av=1
+ACK cmd=status t=75983 lat_us=2529 id=109 phase=5 why=1 j=108 sd=1 l=0 nv=1 av=1
+LID t=76004 us=76002836 closed=1
+HEART t=76066 us=76064409 hb=76 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=108 rx=0 err=0 rearm=0 w=1160
+ACK cmd=status t=76090 lat_us=9718 id=109 phase=5 why=1 j=108 sd=1 l=1 nv=1 av=1
+REC seq=23 id=23 t=23000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=76188 lat_us=7029 id=109 phase=5 why=1 j=108 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=76293 lat_us=12157 id=109 phase=5 why=1 j=108 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=76392 lat_us=11059 id=109 phase=5 why=1 j=108 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=76485 lat_us=4157 id=109 phase=5 why=1 j=108 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=76584 lat_us=2945 id=109 phase=5 why=1 j=108 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=76689 lat_us=8146 id=109 phase=5 why=1 j=108 sd=1 l=1 nv=1 av=1
+COMMIT seq=109 id=109 phase=1 why=0 t=76743 elapsed_us=590016
+ACK cmd=start id=109 seq=109
+ACK cmd=status t=76789 lat_us=8199 id=109 phase=5 why=1 j=109 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=76882 lat_us=1135 id=109 phase=5 why=1 j=109 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=76993 lat_us=12665 id=109 phase=5 why=1 j=109 sd=1 l=1 nv=1 av=1
+HEART t=77060 us=77058416 hb=77 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=109 rx=0 err=0 rearm=0 w=1175
+ACK cmd=status t=77084 lat_us=3827 id=109 phase=5 why=1 j=109 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=77183 lat_us=2513 id=109 phase=5 why=1 j=109 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=77301 lat_us=4067 id=109 phase=5 why=1 j=109 sd=1 l=1 nv=1 av=1
+COMMIT seq=110 id=109 phase=5 why=1 t=77356 elapsed_us=601461
+ACK cmd=status t=77387 lat_us=6744 id=109 phase=5 why=1 j=110 sd=1 l=1 nv=1 av=1
+EV t=77409 us=77407667 id=111 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=77487 lat_us=6528 id=111 phase=1 why=0 j=110 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=77586 lat_us=5123 id=111 phase=1 why=0 j=110 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=77703 lat_us=6037 id=111 phase=1 why=0 j=110 sd=1 l=1 nv=1 av=1
+REACT id=111 t=77789 latency_us=25623
+EV t=77793 us=77791821 id=111 phase=5 why=1 hold=0 queued=1
+LID t=77789 us=77798346 closed=0
+ACK cmd=status t=77804 lat_us=23036 id=111 phase=5 why=1 j=110 sd=1 l=0 nv=1 av=1
+ACK cmd=status t=77884 lat_us=3425 id=111 phase=5 why=1 j=110 sd=1 l=0 nv=1 av=1
+LID t=77944 us=77942844 closed=1
+REC seq=24 id=24 t=24000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=77985 lat_us=4538 id=111 phase=5 why=1 j=110 sd=1 l=1 nv=1 av=1
+HEART t=78065 us=78063393 hb=78 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=110 rx=0 err=0 rearm=0 w=1191
+ACK cmd=status t=78089 lat_us=8808 id=111 phase=5 why=1 j=110 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=78188 lat_us=7585 id=111 phase=5 why=1 j=110 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=78281 lat_us=561 id=111 phase=5 why=1 j=110 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=78392 lat_us=11864 id=111 phase=5 why=1 j=110 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=78485 lat_us=4097 id=111 phase=5 why=1 j=110 sd=1 l=1 nv=1 av=1
+COMMIT seq=111 id=111 phase=1 why=0 t=78577 elapsed_us=601203
+ACK cmd=start id=111 seq=111
+ACK cmd=status t=78587 lat_us=6512 id=111 phase=5 why=1 j=111 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=78690 lat_us=9178 id=111 phase=5 why=1 j=111 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=78789 lat_us=7957 id=111 phase=5 why=1 j=111 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=78881 lat_us=181 id=111 phase=5 why=1 j=111 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=78992 lat_us=11471 id=111 phase=5 why=1 j=111 sd=1 l=1 nv=1 av=1
+HEART t=79059 us=79057374 hb=79 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=111 rx=0 err=0 rearm=0 w=1206
+ACK cmd=status t=79083 lat_us=2777 id=111 phase=5 why=1 j=111 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=79181 lat_us=312 id=111 phase=5 why=1 j=111 sd=1 l=1 nv=1 av=1
+COMMIT seq=112 id=111 phase=5 why=1 t=79197 elapsed_us=600372
+EV t=79245 us=79243071 id=113 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=79281 lat_us=829 id=113 phase=1 why=0 j=112 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=79393 lat_us=11920 id=113 phase=1 why=0 j=112 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=79485 lat_us=4087 id=113 phase=1 why=0 j=112 sd=1 l=1 nv=1 av=1
+REACT id=113 t=79506 latency_us=34337
+EV t=79510 us=79508515 id=113 phase=5 why=1 hold=0 queued=1
+LID t=79506 us=79515028 closed=0
+ACK cmd=status t=79585 lat_us=4594 id=113 phase=5 why=1 j=112 sd=1 l=0 nv=1 av=1
+LID t=79665 us=79663404 closed=1
+ACK cmd=status t=79682 lat_us=1268 id=113 phase=5 why=1 j=112 sd=1 l=1 nv=1 av=1
+REC seq=25 id=25 t=25000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=79807 lat_us=26235 id=113 phase=5 why=1 j=112 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=79884 lat_us=3498 id=113 phase=5 why=1 j=112 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=79983 lat_us=2277 id=113 phase=5 why=1 j=112 sd=1 l=1 nv=1 av=1
+HEART t=80062 us=80060353 hb=80 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=112 rx=0 err=0 rearm=0 w=1221
+ACK cmd=status t=80086 lat_us=5754 id=113 phase=5 why=1 j=112 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=80185 lat_us=4544 id=113 phase=5 why=1 j=112 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=80291 lat_us=10140 id=113 phase=5 why=1 j=112 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=80392 lat_us=11450 id=113 phase=5 why=1 j=112 sd=1 l=1 nv=1 av=1
+COMMIT seq=113 id=113 phase=1 why=0 t=80450 elapsed_us=633461
+ACK cmd=start id=113 seq=113
+ACK cmd=status t=80483 lat_us=2719 id=113 phase=5 why=1 j=113 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=80582 lat_us=1490 id=113 phase=5 why=1 j=113 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=80688 lat_us=7228 id=113 phase=5 why=1 j=113 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=80787 lat_us=6010 id=113 phase=5 why=1 j=113 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=80892 lat_us=11122 id=113 phase=5 why=1 j=113 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=80993 lat_us=12431 id=113 phase=5 why=1 j=113 sd=1 l=1 nv=1 av=1
+HEART t=81044 us=81042661 hb=81 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=113 rx=0 err=0 rearm=0 w=1236
+COMMIT seq=114 id=113 phase=5 why=1 t=81064 elapsed_us=601968
+ACK cmd=status t=81081 lat_us=190 id=113 phase=5 why=1 j=114 sd=1 l=1 nv=1 av=1
+EV t=81104 us=81102668 id=115 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=81188 lat_us=7577 id=115 phase=1 why=0 j=114 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=81281 lat_us=418 id=115 phase=1 why=0 j=114 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=81392 lat_us=11497 id=115 phase=1 why=0 j=114 sd=1 l=1 nv=1 av=1
+REACT id=115 t=81459 latency_us=45529
+EV t=81463 us=81461550 id=115 phase=5 why=1 hold=0 queued=1
+LID t=81459 us=81468075 closed=0
+ACK cmd=status t=81487 lat_us=5934 id=115 phase=5 why=1 j=114 sd=1 l=0 nv=1 av=1
+ACK cmd=status t=81585 lat_us=4558 id=115 phase=5 why=1 j=114 sd=1 l=0 nv=1 av=1
+LID t=81606 us=81604717 closed=1
+REC seq=26 id=26 t=26000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=81683 lat_us=2098 id=115 phase=5 why=1 j=114 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=81791 lat_us=10991 id=115 phase=5 why=1 j=114 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=81884 lat_us=3193 id=115 phase=5 why=1 j=114 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=81983 lat_us=1981 id=115 phase=5 why=1 j=114 sd=1 l=1 nv=1 av=1
+HEART t=82062 us=82060312 hb=82 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=114 rx=0 err=0 rearm=0 w=1252
+ACK cmd=status t=82086 lat_us=5795 id=115 phase=5 why=1 j=114 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=82185 lat_us=4574 id=115 phase=5 why=1 j=114 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=82281 lat_us=856 id=115 phase=5 why=1 j=114 sd=1 l=1 nv=1 av=1
+COMMIT seq=115 id=115 phase=1 why=0 t=82293 elapsed_us=600776
+ACK cmd=start id=115 seq=115
+ACK cmd=status t=82391 lat_us=10274 id=115 phase=5 why=1 j=115 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=82484 lat_us=3174 id=115 phase=5 why=1 j=115 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=82583 lat_us=1951 id=115 phase=5 why=1 j=115 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=82688 lat_us=7270 id=115 phase=5 why=1 j=115 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=82787 lat_us=6060 id=115 phase=5 why=1 j=115 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=82881 lat_us=132 id=115 phase=5 why=1 j=115 sd=1 l=1 nv=1 av=1
+COMMIT seq=116 id=115 phase=5 why=1 t=82894 elapsed_us=589809
+EV t=82940 us=82938276 id=117 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=82985 lat_us=4116 id=117 phase=1 why=0 j=116 sd=1 l=1 nv=1 av=1
+HEART t=83064 us=83062262 hb=83 phase=1 why=0 n=250 nv=1 a=240 av=1 l=1 j=116 rx=0 err=0 rearm=0 w=1267
+ACK cmd=status t=83101 lat_us=3733 id=117 phase=1 why=0 j=116 sd=1 l=1 nv=1 av=1
+REACT id=117 t=83136 latency_us=35208
+EV t=83140 us=83138540 id=117 phase=5 why=1 hold=0 queued=1
+LID t=83136 us=83145065 closed=0
+ACK cmd=status t=83189 lat_us=8141 id=117 phase=5 why=1 j=116 sd=1 l=0 nv=1 av=1
+ACK cmd=status t=83282 lat_us=1075 id=117 phase=5 why=1 j=116 sd=1 l=0 nv=1 av=1
+LID t=83303 us=83301238 closed=1
+ACK cmd=status t=83384 lat_us=3443 id=117 phase=5 why=1 j=116 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=83489 lat_us=8162 id=117 phase=5 why=1 j=116 sd=1 l=1 nv=1 av=1
+REC seq=27 id=27 t=27000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=83586 lat_us=5421 id=117 phase=5 why=1 j=116 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=83692 lat_us=11139 id=117 phase=5 why=1 j=116 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=83791 lat_us=10135 id=117 phase=5 why=1 j=116 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=83884 lat_us=3234 id=117 phase=5 why=1 j=116 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=83983 lat_us=2009 id=117 phase=5 why=1 j=116 sd=1 l=1 nv=1 av=1
+HEART t=84062 us=84060271 hb=84 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=116 rx=0 err=0 rearm=0 w=1282
+ACK cmd=status t=84086 lat_us=5824 id=117 phase=5 why=1 j=116 sd=1 l=1 nv=1 av=1
+COMMIT seq=117 id=117 phase=1 why=0 t=84128 elapsed_us=601828
+ACK cmd=start id=117 seq=117
+ACK cmd=status t=84186 lat_us=5857 id=117 phase=5 why=1 j=117 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=84292 lat_us=11221 id=117 phase=5 why=1 j=117 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=84391 lat_us=10118 id=117 phase=5 why=1 j=117 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=84509 lat_us=11790 id=117 phase=5 why=1 j=117 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=84583 lat_us=2100 id=117 phase=5 why=1 j=117 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=84688 lat_us=7310 id=117 phase=5 why=1 j=117 sd=1 l=1 nv=1 av=1
+COMMIT seq=118 id=117 phase=5 why=1 t=84730 elapsed_us=590241
+EV t=84748 us=84746108 id=119 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=84781 lat_us=469 id=119 phase=1 why=0 j=118 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=84886 lat_us=5120 id=119 phase=1 why=0 j=118 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=84984 lat_us=3713 id=119 phase=1 why=0 j=118 sd=1 l=1 nv=1 av=1
+HEART t=85064 us=85062222 hb=85 phase=1 why=0 n=250 nv=1 a=240 av=1 l=1 j=118 rx=0 err=0 rearm=0 w=1297
+REACT id=119 t=85075 latency_us=69763
+EV t=85079 us=85077728 id=119 phase=5 why=1 hold=0 queued=1
+LID t=85075 us=85084280 closed=0
+ACK cmd=status t=85090 lat_us=9202 id=119 phase=5 why=1 j=118 sd=1 l=0 nv=1 av=1
+ACK cmd=status t=85201 lat_us=3851 id=119 phase=5 why=1 j=118 sd=1 l=0 nv=1 av=1
+LID t=85222 us=85220545 closed=1
+ACK cmd=status t=85285 lat_us=4499 id=119 phase=5 why=1 j=118 sd=1 l=1 nv=1 av=1
+REC seq=28 id=28 t=28000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=85382 lat_us=1792 id=119 phase=5 why=1 j=118 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=85488 lat_us=7181 id=119 phase=5 why=1 j=118 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=85587 lat_us=5964 id=119 phase=5 why=1 j=118 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=85692 lat_us=11180 id=119 phase=5 why=1 j=118 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=85791 lat_us=10178 id=119 phase=5 why=1 j=118 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=85884 lat_us=3173 id=119 phase=5 why=1 j=118 sd=1 l=1 nv=1 av=1
+COMMIT seq=119 id=119 phase=1 why=0 t=85951 elapsed_us=590269
+ACK cmd=start id=119 seq=119
+ACK cmd=status t=85984 lat_us=3310 id=119 phase=5 why=1 j=119 sd=1 l=1 nv=1 av=1
+HEART t=86063 us=86061225 hb=86 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=119 rx=0 err=0 rearm=0 w=1313
+ACK cmd=status t=86087 lat_us=6864 id=119 phase=5 why=1 j=119 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=86186 lat_us=5648 id=119 phase=5 why=1 j=119 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=86292 lat_us=11262 id=119 phase=5 why=1 j=119 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=86391 lat_us=10060 id=119 phase=5 why=1 j=119 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=86484 lat_us=3256 id=119 phase=5 why=1 j=119 sd=1 l=1 nv=1 av=1
+COMMIT seq=120 id=119 phase=5 why=1 t=86564 elapsed_us=601471
+ACK cmd=status t=86581 lat_us=177 id=119 phase=5 why=1 j=120 sd=1 l=1 nv=1 av=1
+EV t=86604 us=86602502 id=121 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=86682 lat_us=1556 id=121 phase=1 why=0 j=120 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=86781 lat_us=147 id=121 phase=1 why=0 j=120 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=86886 lat_us=5160 id=121 phase=1 why=0 j=120 sd=1 l=1 nv=1 av=1
+REACT id=121 t=86946 latency_us=26499
+EV t=86950 us=86948415 id=121 phase=5 why=1 hold=0 queued=1
+LID t=86946 us=86954937 closed=0
+ACK cmd=status t=86986 lat_us=5563 id=121 phase=5 why=1 j=120 sd=1 l=0 nv=1 av=1
+HEART t=87066 us=87064176 hb=87 phase=5 why=1 n=250 nv=1 a=240 av=1 l=0 j=120 rx=0 err=0 rearm=0 w=1328
+ACK cmd=status t=87090 lat_us=9815 id=121 phase=5 why=1 j=120 sd=1 l=0 nv=1 av=1
+LID t=87112 us=87109824 closed=1
+REC seq=29 id=29 t=29000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=87194 lat_us=13374 id=121 phase=5 why=1 j=120 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=87284 lat_us=3216 id=121 phase=5 why=1 j=120 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=87383 lat_us=1994 id=121 phase=5 why=1 j=120 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=87488 lat_us=7226 id=121 phase=5 why=1 j=120 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=87587 lat_us=6116 id=121 phase=5 why=1 j=120 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=87692 lat_us=11319 id=121 phase=5 why=1 j=120 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=87781 lat_us=770 id=121 phase=5 why=1 j=120 sd=1 l=1 nv=1 av=1
+COMMIT seq=121 id=121 phase=1 why=0 t=87793 elapsed_us=589305
+ACK cmd=start id=121 seq=121
+ACK cmd=status t=87885 lat_us=4301 id=121 phase=5 why=1 j=121 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=87984 lat_us=2984 id=121 phase=5 why=1 j=121 sd=1 l=1 nv=1 av=1
+HEART t=88063 us=88061188 hb=88 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=121 rx=0 err=0 rearm=0 w=1343
+ACK cmd=status t=88087 lat_us=6921 id=121 phase=5 why=1 j=121 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=88186 lat_us=5711 id=121 phase=5 why=1 j=121 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=88292 lat_us=11302 id=121 phase=5 why=1 j=121 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=88381 lat_us=768 id=121 phase=5 why=1 j=121 sd=1 l=1 nv=1 av=1
+COMMIT seq=122 id=121 phase=5 why=1 t=88406 elapsed_us=601409
+EV t=88447 us=88444878 id=123 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=88489 lat_us=8422 id=123 phase=1 why=0 j=122 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=88588 lat_us=7210 id=123 phase=1 why=0 j=122 sd=1 l=1 nv=1 av=1
+REACT id=123 t=88693 latency_us=25686
+EV t=88697 us=88695077 id=123 phase=5 why=1 hold=0 queued=1
+LID t=88693 us=88701589 closed=0
+ACK cmd=status t=88707 lat_us=26680 id=123 phase=5 why=1 j=122 sd=1 l=0 nv=1 av=1
+ACK cmd=status t=88781 lat_us=376 id=123 phase=5 why=1 j=122 sd=1 l=0 nv=1 av=1
+LID t=88860 us=88858360 closed=1
+ACK cmd=status t=88889 lat_us=8984 id=123 phase=5 why=1 j=122 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=88988 lat_us=7760 id=123 phase=5 why=1 j=122 sd=1 l=1 nv=1 av=1
+HEART t=89045 us=89043616 hb=89 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=122 rx=0 err=0 rearm=0 w=1358
+COMMIT seq=123 id=123 phase=1 why=0 t=89073 elapsed_us=618371
+ACK cmd=start id=123 seq=123
+ACK cmd=status t=89083 lat_us=2191 id=123 phase=5 why=1 j=123 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=89191 lat_us=10984 id=123 phase=5 why=1 j=123 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=89284 lat_us=3273 id=123 phase=5 why=1 j=123 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=89383 lat_us=2050 id=123 phase=5 why=1 j=123 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=89488 lat_us=7366 id=123 phase=5 why=1 j=123 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=89587 lat_us=6059 id=123 phase=5 why=1 j=123 sd=1 l=1 nv=1 av=1
+COMMIT seq=124 id=123 phase=5 why=1 t=89672 elapsed_us=579834
+ACK cmd=status t=89687 lat_us=6411 id=123 phase=5 why=1 j=124 sd=1 l=1 nv=1 av=1
+EV t=89740 us=89738111 id=125 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=89785 lat_us=4048 id=125 phase=1 why=0 j=124 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=89890 lat_us=9175 id=125 phase=1 why=0 j=124 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=90001 lat_us=3770 id=125 phase=1 why=0 j=124 sd=1 l=1 nv=1 av=1
+REACT id=125 t=90022 latency_us=34343
+EV t=90026 us=90024617 id=125 phase=5 why=1 hold=0 queued=1
+LID t=90022 us=90031140 closed=0
+HEART t=90082 us=90080612 hb=90 phase=5 why=1 n=250 nv=1 a=240 av=1 l=0 j=124 rx=0 err=0 rearm=0 w=1374
+ACK cmd=status t=90094 lat_us=13298 id=125 phase=5 why=1 j=124 sd=1 l=0 nv=1 av=1
+LID t=90167 us=90165061 closed=1
+ACK cmd=status t=90184 lat_us=3003 id=125 phase=5 why=1 j=124 sd=1 l=1 nv=1 av=1
+REC seq=30 id=30 t=30000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=90303 lat_us=22045 id=125 phase=5 why=1 j=124 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=90386 lat_us=5677 id=125 phase=5 why=1 j=124 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=90492 lat_us=11336 id=125 phase=5 why=1 j=124 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=90591 lat_us=10233 id=125 phase=5 why=1 j=124 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=90684 lat_us=3330 id=125 phase=5 why=1 j=124 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=90783 lat_us=2109 id=125 phase=5 why=1 j=124 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=90881 lat_us=646 id=125 phase=5 why=1 j=124 sd=1 l=1 nv=1 av=1
+COMMIT seq=125 id=125 phase=1 why=0 t=90903 elapsed_us=590381
+ACK cmd=start id=125 seq=125
+ACK cmd=status t=90988 lat_us=7304 id=125 phase=5 why=1 j=125 sd=1 l=1 nv=1 av=1
+HEART t=91067 us=91065246 hb=91 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=125 rx=0 err=0 rearm=0 w=1389
+ACK cmd=status t=91091 lat_us=10931 id=125 phase=5 why=1 j=125 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=91190 lat_us=9821 id=125 phase=5 why=1 j=125 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=91283 lat_us=2314 id=125 phase=5 why=1 j=125 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=91382 lat_us=1092 id=125 phase=5 why=1 j=125 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=91489 lat_us=8620 id=125 phase=5 why=1 j=125 sd=1 l=1 nv=1 av=1
+COMMIT seq=126 id=125 phase=5 why=1 t=91516 elapsed_us=600598
+EV t=91531 us=91529790 id=127 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=91593 lat_us=12142 id=127 phase=1 why=0 j=126 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=91686 lat_us=5219 id=127 phase=1 why=0 j=126 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=91784 lat_us=3814 id=127 phase=1 why=0 j=126 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=91902 lat_us=5220 id=127 phase=1 why=0 j=126 sd=1 l=1 nv=1 av=1
+REACT id=127 t=91924 latency_us=34336
+EV t=91928 us=91925980 id=127 phase=5 why=1 hold=0 queued=1
+LID t=91923 us=91932499 closed=0
+ACK cmd=status t=91990 lat_us=9716 id=127 phase=5 why=1 j=126 sd=1 l=0 nv=1 av=1
+HEART t=92057 us=92055179 hb=92 phase=5 why=1 n=250 nv=1 a=240 av=1 l=0 j=126 rx=0 err=0 rearm=0 w=1404
+ACK cmd=status t=92081 lat_us=854 id=127 phase=5 why=1 j=126 sd=1 l=0 nv=1 av=1
+LID t=92102 us=92100710 closed=1
+REC seq=31 id=31 t=31000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=92182 lat_us=1772 id=127 phase=5 why=1 j=126 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=92288 lat_us=7284 id=127 phase=5 why=1 j=126 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=92387 lat_us=6066 id=127 phase=5 why=1 j=126 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=92518 lat_us=4483 id=127 phase=5 why=1 j=126 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=92591 lat_us=10060 id=127 phase=5 why=1 j=126 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=92684 lat_us=3272 id=127 phase=5 why=1 j=126 sd=1 l=1 nv=1 av=1
+COMMIT seq=127 id=127 phase=1 why=0 t=92738 elapsed_us=590380
+ACK cmd=start id=127 seq=127
+ACK cmd=status t=92784 lat_us=3396 id=127 phase=5 why=1 j=127 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=92889 lat_us=8368 id=127 phase=5 why=1 j=127 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=92988 lat_us=7144 id=127 phase=5 why=1 j=127 sd=1 l=1 nv=1 av=1
+HEART t=93067 us=93065203 hb=93 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=127 rx=0 err=0 rearm=0 w=1420
+ACK cmd=status t=93091 lat_us=10868 id=127 phase=5 why=1 j=127 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=93190 lat_us=9767 id=127 phase=5 why=1 j=127 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=93283 lat_us=2254 id=127 phase=5 why=1 j=127 sd=1 l=1 nv=1 av=1
+COMMIT seq=128 id=127 phase=5 why=1 t=93350 elapsed_us=600480
+ACK cmd=status t=93382 lat_us=1264 id=127 phase=5 why=1 j=128 sd=1 l=1 nv=1 av=1
+EV t=93403 us=93401501 id=129 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=93481 lat_us=557 id=129 phase=1 why=0 j=128 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=93592 lat_us=11736 id=129 phase=1 why=0 j=128 sd=1 l=1 nv=1 av=1
+REACT id=129 t=93659 latency_us=45520
+EV t=93663 us=93661415 id=129 phase=5 why=1 hold=0 queued=1
+LID t=93659 us=93667940 closed=0
+ACK cmd=status t=93687 lat_us=6060 id=129 phase=5 why=1 j=128 sd=1 l=0 nv=1 av=1
+ACK cmd=status t=93798 lat_us=613 id=129 phase=5 why=1 j=128 sd=1 l=0 nv=1 av=1
+LID t=93819 us=93817076 closed=1
+ACK cmd=status t=93881 lat_us=644 id=129 phase=5 why=1 j=128 sd=1 l=1 nv=1 av=1
+REC seq=32 id=32 t=32000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=93991 lat_us=10431 id=129 phase=5 why=1 j=128 sd=1 l=1 nv=1 av=1
+HEART t=94058 us=94056179 hb=94 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=128 rx=0 err=0 rearm=0 w=1435
+ACK cmd=status t=94082 lat_us=1936 id=129 phase=5 why=1 j=128 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=94181 lat_us=715 id=129 phase=5 why=1 j=128 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=94287 lat_us=6325 id=129 phase=5 why=1 j=128 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=94386 lat_us=5119 id=129 phase=5 why=1 j=128 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=94491 lat_us=10319 id=129 phase=5 why=1 j=128 sd=1 l=1 nv=1 av=1
+COMMIT seq=129 id=129 phase=1 why=0 t=94571 elapsed_us=601538
+ACK cmd=start id=129 seq=129
+ACK cmd=status t=94581 lat_us=255 id=129 phase=5 why=1 j=129 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=94683 lat_us=2299 id=129 phase=5 why=1 j=129 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=94782 lat_us=1186 id=129 phase=5 why=1 j=129 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=94887 lat_us=6308 id=129 phase=5 why=1 j=129 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=94986 lat_us=5201 id=129 phase=5 why=1 j=129 sd=1 l=1 nv=1 av=1
+HEART t=95065 us=95063162 hb=95 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=129 rx=0 err=0 rearm=0 w=1450
+ACK cmd=status t=95089 lat_us=8906 id=129 phase=5 why=1 j=129 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=95181 lat_us=143 id=129 phase=5 why=1 j=129 sd=1 l=1 nv=1 av=1
+COMMIT seq=130 id=129 phase=5 why=1 t=95191 elapsed_us=600183
+EV t=95255 us=95253180 id=131 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=95287 lat_us=6768 id=131 phase=1 why=0 j=130 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=95386 lat_us=5372 id=131 phase=1 why=0 j=130 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=95491 lat_us=10306 id=131 phase=1 why=0 j=130 sd=1 l=1 nv=1 av=1
+REACT id=131 t=95576 latency_us=25254
+EV t=95580 us=95578770 id=131 phase=5 why=1 hold=0 queued=1
+LID t=95576 us=95585294 closed=0
+ACK cmd=status t=95591 lat_us=10512 id=131 phase=5 why=1 j=130 sd=1 l=0 nv=1 av=1
+ACK cmd=status t=95684 lat_us=3223 id=131 phase=5 why=1 j=130 sd=1 l=0 nv=1 av=1
+LID t=95705 us=95703131 closed=1
+REC seq=33 id=33 t=33000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=95800 lat_us=19491 id=131 phase=5 why=1 j=130 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=95890 lat_us=9367 id=131 phase=5 why=1 j=130 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=95989 lat_us=8152 id=131 phase=5 why=1 j=130 sd=1 l=1 nv=1 av=1
+HEART t=96055 us=96053141 hb=96 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=130 rx=0 err=0 rearm=0 w=1465
+ACK cmd=status t=96092 lat_us=11504 id=131 phase=5 why=1 j=130 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=96191 lat_us=10502 id=131 phase=5 why=1 j=130 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=96284 lat_us=3368 id=131 phase=5 why=1 j=130 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=96385 lat_us=4457 id=131 phase=5 why=1 j=130 sd=1 l=1 nv=1 av=1
+COMMIT seq=131 id=131 phase=1 why=0 t=96411 elapsed_us=600638
+ACK cmd=start id=131 seq=131
+ACK cmd=status t=96489 lat_us=8744 id=131 phase=5 why=1 j=131 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=96588 lat_us=7514 id=131 phase=5 why=1 j=131 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=96693 lat_us=12354 id=131 phase=5 why=1 j=131 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=96792 lat_us=11253 id=131 phase=5 why=1 j=131 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=96885 lat_us=4355 id=131 phase=5 why=1 j=131 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=96986 lat_us=5456 id=131 phase=5 why=1 j=131 sd=1 l=1 nv=1 av=1
+COMMIT seq=132 id=131 phase=5 why=1 t=97045 elapsed_us=590264
+HEART t=97052 us=97049887 hb=97 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=132 rx=0 err=0 rearm=0 w=1480
+EV t=97071 us=97068988 id=133 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=97081 lat_us=287 id=133 phase=1 why=0 j=132 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=97181 lat_us=493 id=133 phase=1 why=0 j=132 sd=1 l=1 nv=1 av=1
+REACT id=133 t=97286 latency_us=25630
+EV t=97290 us=97288070 id=133 phase=5 why=1 hold=0 queued=1
+LID t=97286 us=97294583 closed=0
+ACK cmd=status t=97300 lat_us=19656 id=133 phase=5 why=1 j=132 sd=1 l=0 nv=1 av=1
+ACK cmd=status t=97386 lat_us=5779 id=133 phase=5 why=1 j=132 sd=1 l=0 nv=1 av=1
+LID t=97466 us=97464279 closed=1
+ACK cmd=status t=97483 lat_us=2441 id=133 phase=5 why=1 j=132 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=97581 lat_us=927 id=133 phase=5 why=1 j=132 sd=1 l=1 nv=1 av=1
+REC seq=34 id=34 t=34000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=97685 lat_us=5039 id=133 phase=5 why=1 j=132 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=97784 lat_us=3704 id=133 phase=5 why=1 j=132 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=97890 lat_us=9324 id=133 phase=5 why=1 j=132 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=97989 lat_us=8110 id=133 phase=5 why=1 j=132 sd=1 l=1 nv=1 av=1
+HEART t=98055 us=98053225 hb=98 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=132 rx=0 err=0 rearm=0 w=1496
+ACK cmd=status t=98092 lat_us=11661 id=133 phase=5 why=1 j=132 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=98191 lat_us=10553 id=133 phase=5 why=1 j=132 sd=1 l=1 nv=1 av=1
+COMMIT seq=133 id=133 phase=1 why=0 t=98277 elapsed_us=601124
+ACK cmd=start id=133 seq=133
+ACK cmd=status t=98287 lat_us=6979 id=133 phase=5 why=1 j=133 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=98384 lat_us=3042 id=133 phase=5 why=1 j=133 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=98489 lat_us=8403 id=133 phase=5 why=1 j=133 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=98588 lat_us=7089 id=133 phase=5 why=1 j=133 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=98693 lat_us=12396 id=133 phase=5 why=1 j=133 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=98792 lat_us=11296 id=133 phase=5 why=1 j=133 sd=1 l=1 nv=1 av=1
+COMMIT seq=134 id=133 phase=5 why=1 t=98878 elapsed_us=581048
+ACK cmd=status t=98885 lat_us=4835 id=133 phase=5 why=1 j=134 sd=1 l=1 nv=1 av=1
+EV t=98920 us=98918350 id=135 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=98990 lat_us=9714 id=135 phase=1 why=0 j=134 sd=1 l=1 nv=1 av=1
+HEART t=99057 us=99055175 hb=99 phase=1 why=0 n=250 nv=1 a=240 av=1 l=1 j=134 rx=0 err=0 rearm=0 w=1511
+ACK cmd=status t=99081 lat_us=940 id=135 phase=1 why=0 j=134 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=99205 lat_us=8029 id=135 phase=1 why=0 j=134 sd=1 l=1 nv=1 av=1
+REACT id=135 t=99226 latency_us=34341
+EV t=99230 us=99228678 id=135 phase=5 why=1 hold=0 queued=1
+LID t=99226 us=99235198 closed=0
+ACK cmd=status t=99286 lat_us=6182 id=135 phase=5 why=1 j=134 sd=1 l=0 nv=1 av=1
+LID t=99372 us=99370245 closed=1
+ACK cmd=status t=99389 lat_us=8384 id=135 phase=5 why=1 j=134 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=99482 lat_us=1290 id=135 phase=5 why=1 j=134 sd=1 l=1 nv=1 av=1
+REC seq=35 id=35 t=35000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=99592 lat_us=11277 id=135 phase=5 why=1 j=134 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=99685 lat_us=4472 id=135 phase=5 why=1 j=134 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=99784 lat_us=3160 id=135 phase=5 why=1 j=134 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=99889 lat_us=8362 id=135 phase=5 why=1 j=134 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=99988 lat_us=7147 id=135 phase=5 why=1 j=134 sd=1 l=1 nv=1 av=1
+HEART t=100067 us=100065183 hb=100 phase=5 why=1 n=250 nv=1 a=240 av=1 l=1 j=134 rx=0 err=0 rearm=0 w=1526
+ACK cmd=status t=100094 lat_us=13606 id=135 phase=5 why=1 j=134 sd=1 l=1 nv=1 av=1
+COMMIT seq=135 id=135 phase=1 why=0 t=100121 elapsed_us=601899
+ACK cmd=start id=135 seq=135
+ACK cmd=status t=100192 lat_us=11779 id=135 phase=5 why=1 j=135 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=100285 lat_us=4354 id=135 phase=5 why=1 j=135 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=100384 lat_us=3342 id=135 phase=5 why=1 j=135 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=100489 lat_us=8344 id=135 phase=5 why=1 j=135 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=100588 lat_us=7238 id=135 phase=5 why=1 j=135 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=100695 lat_us=14654 id=135 phase=5 why=1 j=135 sd=1 l=1 nv=1 av=1
+COMMIT seq=136 id=135 phase=5 why=1 t=100722 elapsed_us=589733
+EV t=100754 us=100752278 id=137 phase=1 why=0 hold=0 queued=1
+ACK cmd=status t=100786 lat_us=6017 id=137 phase=1 why=0 j=136 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=100892 lat_us=11349 id=137 phase=1 why=0 j=136 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=100991 lat_us=10161 id=137 phase=1 why=0 j=136 sd=1 l=1 nv=1 av=1
+HEART t=101058 us=101056135 hb=101 phase=1 why=0 n=250 nv=1 a=240 av=1 l=1 j=136 rx=0 err=0 rearm=0 w=1541
+ACK cmd=status t=101083 lat_us=2306 id=137 phase=1 why=0 j=136 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=101181 lat_us=1013 id=137 phase=1 why=0 j=136 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=101287 lat_us=6336 id=137 phase=1 why=0 j=136 sd=1 l=1 nv=1 av=1
+REC seq=36 id=36 t=36000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=101384 lat_us=3811 id=137 phase=1 why=0 j=136 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=101490 lat_us=9418 id=137 phase=1 why=0 j=136 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=101589 lat_us=8317 id=137 phase=1 why=0 j=136 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=101682 lat_us=1409 id=137 phase=1 why=0 j=136 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=101781 lat_us=296 id=137 phase=1 why=0 j=136 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=101886 lat_us=5402 id=137 phase=1 why=0 j=136 sd=1 l=1 nv=1 av=1
+COMMIT seq=137 id=137 phase=1 why=0 t=101928 elapsed_us=590674
+ACK cmd=start id=137 seq=137
+EV t=101975 us=101973334 id=137 phase=5 why=4 hold=0 queued=1
+ACK cmd=status t=101995 lat_us=14357 id=137 phase=5 why=4 j=137 sd=1 l=1 nv=1 av=1
+HEART t=102062 us=102060114 hb=102 phase=5 why=4 n=250 nv=1 a=240 av=1 l=1 j=137 rx=0 err=0 rearm=0 w=1557
+ACK cmd=status t=102087 lat_us=6287 id=137 phase=5 why=4 j=137 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=102185 lat_us=4991 id=137 phase=5 why=4 j=137 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=102291 lat_us=10306 id=137 phase=5 why=4 j=137 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=102390 lat_us=9106 id=137 phase=5 why=4 j=137 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=102482 lat_us=1401 id=137 phase=5 why=4 j=137 sd=1 l=1 nv=1 av=1
+REC seq=37 id=37 t=37000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=102592 lat_us=11363 id=137 phase=5 why=4 j=137 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=102685 lat_us=4384 id=137 phase=5 why=4 j=137 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=102809 lat_us=11952 id=137 phase=5 why=4 j=137 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=102889 lat_us=8733 id=137 phase=5 why=4 j=137 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=102988 lat_us=7624 id=137 phase=5 why=4 j=137 sd=1 l=1 nv=1 av=1
+HEART t=103068 us=103066120 hb=103 phase=5 why=4 n=250 nv=1 a=240 av=1 l=1 j=137 rx=0 err=0 rearm=0 w=1572
+ACK cmd=status t=103093 lat_us=12397 id=137 phase=5 why=4 j=137 sd=1 l=1 nv=1 av=1
+COMMIT seq=138 id=137 phase=5 why=4 t=103147 elapsed_us=602660
+ACK cmd=abort id=137 lat_us=1190370 seq=138
+ACK cmd=status t=103184 lat_us=3462 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=103289 lat_us=8277 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=103387 lat_us=7064 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=103493 lat_us=12272 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=103592 lat_us=11174 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=103685 lat_us=4270 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+REC seq=38 id=38 t=38000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=103784 lat_us=3467 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=103889 lat_us=8360 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=103987 lat_us=7047 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+HEART t=104067 us=104065071 hb=104 phase=5 why=4 n=250 nv=1 a=240 av=1 l=1 j=138 rx=0 err=0 rearm=0 w=1587
+ACK cmd=status t=104092 lat_us=11313 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=104190 lat_us=10117 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=104283 lat_us=2348 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+REC seq=39 id=39 t=39000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=104382 lat_us=1439 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=104487 lat_us=6341 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=104585 lat_us=5036 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=104691 lat_us=10435 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=104790 lat_us=9231 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=104882 lat_us=1330 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+REC seq=40 id=40 t=40000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=104981 lat_us=409 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+HEART t=105060 us=105058050 hb=105 phase=5 why=4 n=250 nv=1 a=240 av=1 l=1 j=138 rx=0 err=0 rearm=0 w=1603
+ACK cmd=status t=105085 lat_us=4383 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=105183 lat_us=2977 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=105289 lat_us=8318 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=105387 lat_us=7106 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=105493 lat_us=12412 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+REC seq=41 id=41 t=41000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=105592 lat_us=11603 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=105685 lat_us=4411 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=105783 lat_us=3098 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=105889 lat_us=8401 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=105987 lat_us=6988 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+HEART t=106067 us=106065030 hb=106 phase=5 why=4 n=250 nv=1 a=240 av=1 l=1 j=138 rx=0 err=0 rearm=0 w=1618
+ACK cmd=status t=106092 lat_us=11364 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+REC seq=42 id=42 t=42000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=106191 lat_us=10561 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=106284 lat_us=3389 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=106382 lat_us=2074 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=106488 lat_us=7383 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=106586 lat_us=6073 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+REC seq=43 id=43 t=43000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=106706 lat_us=25268 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=106791 lat_us=10598 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=106884 lat_us=3372 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=106982 lat_us=2157 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+HEART t=107062 us=107060009 hb=107 phase=5 why=4 n=250 nv=1 a=240 av=1 l=1 j=138 rx=0 err=0 rearm=0 w=1633
+ACK cmd=status t=107087 lat_us=6333 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=107185 lat_us=5027 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+REC seq=44 id=44 t=44000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=107305 lat_us=24262 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=107390 lat_us=9582 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=107483 lat_us=2353 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=107581 lat_us=1041 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=107687 lat_us=6447 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=107785 lat_us=5037 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+REC seq=45 id=45 t=45000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=107892 lat_us=11609 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=107990 lat_us=9539 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+HEART t=108057 us=108054988 hb=108 phase=5 why=4 n=250 nv=1 a=240 av=1 l=1 j=138 rx=0 err=0 rearm=0 w=1648
+ACK cmd=status t=108082 lat_us=1404 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=108180 lat_us=89 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=108286 lat_us=5428 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=108384 lat_us=4117 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+REC seq=46 id=46 t=46000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=108491 lat_us=10708 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=108589 lat_us=8534 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=108682 lat_us=1317 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=108780 lat_us=102 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=108886 lat_us=5411 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=108984 lat_us=4097 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+REC seq=47 id=47 t=47000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+HEART t=109078 us=109075863 hb=109 phase=5 why=4 n=250 nv=1 a=240 av=1 l=1 j=138 rx=0 err=0 rearm=0 w=1664
+ACK cmd=status t=109090 lat_us=9314 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=109187 lat_us=7129 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=109293 lat_us=12399 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=109392 lat_us=11203 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=109485 lat_us=4399 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=109583 lat_us=3094 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+REC seq=48 id=48 t=48000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=109685 lat_us=4252 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=109788 lat_us=7654 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=109893 lat_us=12381 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=109992 lat_us=11186 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+HEART t=110059 us=110056947 hb=110 phase=5 why=4 n=250 nv=1 a=240 av=1 l=1 j=138 rx=0 err=0 rearm=0 w=1679
+ACK cmd=status t=110084 lat_us=3342 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=110182 lat_us=2135 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+REC seq=49 id=49 t=49000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=110284 lat_us=3235 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=110387 lat_us=6636 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=110492 lat_us=11465 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=110591 lat_us=10167 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=110684 lat_us=3458 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=110782 lat_us=2146 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+REC seq=50 id=50 t=50000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=110888 lat_us=7960 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=110987 lat_us=6556 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+HEART t=111066 us=111063927 hb=111 phase=5 why=4 n=250 nv=1 a=240 av=1 l=1 j=138 rx=0 err=0 rearm=0 w=1694
+ACK cmd=status t=111091 lat_us=10421 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=111189 lat_us=9226 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=111282 lat_us=1441 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=111380 lat_us=126 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+REC seq=51 id=51 t=51000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=111486 lat_us=5947 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=111585 lat_us=4650 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=111690 lat_us=9434 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=111788 lat_us=8131 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=111881 lat_us=423 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+REC seq=52 id=52 t=52000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=112006 lat_us=25497 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+HEART t=112055 us=112053261 hb=112 phase=5 why=4 n=250 nv=1 a=240 av=1 l=1 j=138 rx=0 err=0 rearm=0 w=1709
+ACK cmd=status t=112084 lat_us=3472 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=112182 lat_us=2166 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=112288 lat_us=7511 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=112386 lat_us=6106 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=112492 lat_us=11505 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+REC seq=53 id=53 t=53000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=112604 lat_us=24095 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=112684 lat_us=3497 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=112782 lat_us=2083 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=112888 lat_us=7493 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=112986 lat_us=6085 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+HEART t=113066 us=113063884 hb=113 phase=5 why=4 n=250 nv=1 a=240 av=1 l=1 j=138 rx=0 err=0 rearm=0 w=1725
+ACK cmd=status t=113091 lat_us=10354 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+REC seq=54 id=54 t=54000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=113203 lat_us=23151 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=113283 lat_us=2381 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=113381 lat_us=1166 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=113487 lat_us=6475 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=113585 lat_us=5166 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=113691 lat_us=10469 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+REC seq=55 id=55 t=55000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=113791 lat_us=10540 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=113883 lat_us=2432 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=113981 lat_us=1126 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+HEART t=114061 us=114058864 hb=114 phase=5 why=4 n=250 nv=1 a=240 av=1 l=1 j=138 rx=0 err=0 rearm=0 w=1740
+ACK cmd=status t=114086 lat_us=5424 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=114184 lat_us=4120 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=114290 lat_us=9457 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+REC seq=56 id=56 t=56000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=114389 lat_us=9118 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=114481 lat_us=446 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=114592 lat_us=11624 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=114685 lat_us=4445 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=114783 lat_us=3143 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=114889 lat_us=8535 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+REC seq=57 id=57 t=57000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=114983 lat_us=3086 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+HEART t=115067 us=115064842 hb=115 phase=5 why=4 n=250 nv=1 a=240 av=1 l=1 j=138 rx=0 err=0 rearm=0 w=1755
+ACK cmd=status t=115092 lat_us=11496 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=115190 lat_us=10208 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=115284 lat_us=3524 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=115382 lat_us=2107 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=115488 lat_us=7417 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+REC seq=58 id=58 t=58000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=115582 lat_us=2087 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=115692 lat_us=11510 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=115791 lat_us=10212 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=115884 lat_us=3504 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=115982 lat_us=2191 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+HEART t=116062 us=116059822 hb=116 phase=5 why=4 n=250 nv=1 a=240 av=1 l=1 j=138 rx=0 err=0 rearm=0 w=1770
+ACK cmd=status t=116087 lat_us=6371 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+REC seq=59 id=59 t=59000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=116181 lat_us=942 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=116291 lat_us=10494 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=116390 lat_us=9291 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=116482 lat_us=1487 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=116580 lat_us=171 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=116686 lat_us=5482 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+REC seq=60 id=60 t=60000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=116785 lat_us=4582 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=116890 lat_us=9481 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=116988 lat_us=8176 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+HEART t=117055 us=117052800 hb=117 phase=5 why=4 n=250 nv=1 a=240 av=1 l=1 j=138 rx=0 err=0 rearm=0 w=1786
+ACK cmd=status t=117092 lat_us=12046 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=117191 lat_us=10858 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=117284 lat_us=3564 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+REC seq=61 id=61 t=61000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=117383 lat_us=2547 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=117488 lat_us=7458 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=117586 lat_us=6151 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=117692 lat_us=11452 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=117791 lat_us=10255 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=117884 lat_us=3546 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+REC seq=62 id=62 t=62000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=117983 lat_us=2637 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+HEART t=118062 us=118059780 hb=118 phase=5 why=4 n=250 nv=1 a=240 av=1 l=1 j=138 rx=0 err=0 rearm=0 w=1801
+ACK cmd=status t=118087 lat_us=6413 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=118185 lat_us=5203 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=118291 lat_us=10534 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=118390 lat_us=9333 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=118482 lat_us=1528 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+REC seq=63 id=63 t=63000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+ACK cmd=status t=118581 lat_us=613 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=118686 lat_us=5522 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=118784 lat_us=4210 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=118890 lat_us=9421 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+ACK cmd=status t=118988 lat_us=8219 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+HEART t=119055 us=119052759 hb=119 phase=5 why=4 n=250 nv=1 a=240 av=1 l=1 j=138 rx=0 err=0 rearm=0 w=1816
+ACK cmd=status t=119092 lat_us=12088 id=137 phase=5 why=4 j=138 sd=1 l=1 nv=1 av=1
+REC seq=64 id=64 t=64000 phase=4 why=0 hold=5000 ntc=250 bmp=240 min=250 max=600 p=600/20/5/350
+EXPORT end=64
+MET name=loop n=6845 min=94 max=78781 sum=84090587
+MET name=lid n=5001 min=26 max=14526 sum=788838
+MET name=ntc n=841 min=1183 max=1571 sum=1006541
+MET name=bmp n=420 min=31217 max=32573 sum=13342208
+MET name=rx n=892 min=88 max=8945 sum=7566190
+MET name=sd n=6206 min=794 max=27825 sum=59509622
+MET name=heart n=84 min=10990 max=11588 sum=942728
+MET name=adc_gate n=841 min=1120 max=1502 sum=953898
+MET name=lid_period n=5000 min=965 max=78781 sum=84090016
+MET name=ntc_period n=840 min=67429 max=126416 sum=84002583
+MET name=bmp_period n=419 min=164491 max=231003 sum=83788159
+MET name=lid_latency n=36 min=25240 max=69763 sum=1236978
+MET name=status_latency n=841 min=89 max=64217 sum=8645913
+MET name=abort_latency n=1 min=1190370 max=1190370 sum=1190370
+TOTAL t=119263 us=119260413 elapsed_us=84179568 busy_us=83156127 stack=812 heap=0 alloc_attempts=0 miss_lid=11819 miss_ntc=0 miss_bmp=0
+COUNTS adc=1192 bmp=596 errors=0 cmd=882 rejected=0 rx_overflow=0 rx_errors=0 rx_rearm=0

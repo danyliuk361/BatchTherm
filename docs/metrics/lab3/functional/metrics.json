@@ -1,0 +1,541 @@
+{
+  "run": {
+    "mode": "probe",
+    "started": "2026-11-09T12:45:38.254Z",
+    "pid": 52627,
+    "version": "4.1.0",
+    "elf_sha256": "91b42eea234e59243f39c5b5d0fd25c30985f1ef102d2bd078ce653006308403",
+    "hex_sha256": "4033be960cc9149a571e98bf0b67da9f244b62fb7c2a47b7f742a24d89ed559d",
+    "diagram_sha256": "742245d361fbf3866214bb6b973d7a3b2ddf41b65c2d05cc79bdde04e4fa0c7a",
+    "sd_before_sha256": "5647f05ec18958947d32874eeb788fa396a05d0bab7c1b71f112ceb7e9b31eee",
+    "browser_transport": "separate Chromium process, CDP pipe",
+    "status": "captured",
+    "measure_end_ms": 11058,
+    "ended": "2026-11-09T12:45:53.544Z",
+    "uart_bytes": 3894,
+    "images": [
+      "soak",
+      "wokwi"
+    ],
+    "events": [
+      "sim:run",
+      "sdcard:export",
+      "sim:stop",
+      "vcd:ready"
+    ]
+  },
+  "first": [
+    {
+      "t": 244,
+      "us": 244495,
+      "n": 250,
+      "a": 240
+    }
+  ],
+  "boot": [
+    {
+      "product": "BatchTherm",
+      "lab": 3,
+      "build": "f6b5827-0ba44211a1db",
+      "core": 48000000,
+      "units": "dC"
+    }
+  ],
+  "heart_n": 11,
+  "first_heart": {
+    "t": 1060,
+    "us": 1059994,
+    "hb": 1,
+    "phase": 1,
+    "why": 0,
+    "n": 250,
+    "nv": 1,
+    "a": 240,
+    "av": 1,
+    "l": 1,
+    "j": 0,
+    "rx": 0,
+    "err": 0,
+    "rearm": 0,
+    "w": 16
+  },
+  "last_heart": {
+    "t": 11058,
+    "us": 11058349,
+    "hb": 11,
+    "phase": 4,
+    "why": 0,
+    "n": 250,
+    "nv": 1,
+    "a": 240,
+    "av": 1,
+    "l": 1,
+    "j": 6,
+    "rx": 0,
+    "err": 0,
+    "rearm": 0,
+    "w": 168
+  },
+  "largest_heartbeat_gap_ms": 1019,
+  "events": [
+    {
+      "t": 998,
+      "us": 998486,
+      "id": 1,
+      "phase": 1,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 1811,
+      "us": 1811116,
+      "id": 1,
+      "phase": 2,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 2013,
+      "us": 2012919,
+      "id": 1,
+      "phase": 1,
+      "why": 11,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 2215,
+      "us": 2215366,
+      "id": 1,
+      "phase": 2,
+      "why": 0,
+      "hold": 0,
+      "queued": 1
+    },
+    {
+      "t": 7311,
+      "us": 7310868,
+      "id": 1,
+      "phase": 3,
+      "why": 0,
+      "hold": 5096,
+      "queued": 1
+    },
+    {
+      "t": 7513,
+      "us": 7512797,
+      "id": 1,
+      "phase": 4,
+      "why": 0,
+      "hold": 5096,
+      "queued": 1
+    }
+  ],
+  "commits": [
+    {
+      "seq": 1,
+      "id": 1,
+      "phase": 1,
+      "why": 0,
+      "t": 1551,
+      "elapsed_us": 545287
+    },
+    {
+      "seq": 2,
+      "id": 1,
+      "phase": 2,
+      "why": 0,
+      "t": 2375,
+      "elapsed_us": 525466
+    },
+    {
+      "seq": 3,
+      "id": 1,
+      "phase": 1,
+      "why": 11,
+      "t": 2919,
+      "elapsed_us": 535884
+    },
+    {
+      "seq": 4,
+      "id": 1,
+      "phase": 2,
+      "why": 0,
+      "t": 3471,
+      "elapsed_us": 545173
+    },
+    {
+      "seq": 5,
+      "id": 1,
+      "phase": 3,
+      "why": 0,
+      "t": 7859,
+      "elapsed_us": 540019
+    },
+    {
+      "seq": 6,
+      "id": 1,
+      "phase": 4,
+      "why": 0,
+      "t": 8379,
+      "elapsed_us": 512446
+    }
+  ],
+  "counts": [
+    {
+      "adc": 116,
+      "bmp": 58,
+      "errors": 0,
+      "cmd": 8,
+      "rejected": 4,
+      "rx_overflow": 0,
+      "rx_errors": 0,
+      "rx_rearm": 0
+    }
+  ],
+  "metrics": {
+    "loop": {
+      "name": "loop",
+      "n": 38136,
+      "min": 92,
+      "max": 123710,
+      "sum": 11532206,
+      "avg": 302.397
+    },
+    "lid": {
+      "name": "lid",
+      "n": 1234,
+      "min": 27,
+      "max": 3204,
+      "sum": 41021,
+      "avg": 33.242
+    },
+    "ntc": {
+      "name": "ntc",
+      "n": 116,
+      "min": 1175,
+      "max": 7780,
+      "sum": 176882,
+      "avg": 1524.845
+    },
+    "bmp": {
+      "name": "bmp",
+      "n": 58,
+      "min": 31232,
+      "max": 115265,
+      "sum": 1912679,
+      "avg": 32977.224
+    },
+    "rx": {
+      "name": "rx",
+      "n": 39,
+      "min": 88,
+      "max": 7858,
+      "sum": 42960,
+      "avg": 1101.538
+    },
+    "sd": {
+      "name": "sd",
+      "n": 572,
+      "min": 796,
+      "max": 27361,
+      "sum": 5548375,
+      "avg": 9699.956
+    },
+    "heart": {
+      "name": "heart",
+      "n": 11,
+      "min": 10356,
+      "max": 10842,
+      "sum": 115597,
+      "avg": 10508.818
+    },
+    "adc_gate": {
+      "name": "adc_gate",
+      "n": 116,
+      "min": 1123,
+      "max": 1258,
+      "sum": 137717,
+      "avg": 1187.216
+    },
+    "lid_period": {
+      "name": "lid_period",
+      "n": 1233,
+      "min": 166,
+      "max": 123722,
+      "sum": 11528781,
+      "avg": 9350.187
+    },
+    "ntc_period": {
+      "name": "ntc_period",
+      "n": 115,
+      "min": 18394,
+      "max": 132038,
+      "sum": 11455151,
+      "avg": 99610.009
+    },
+    "bmp_period": {
+      "name": "bmp_period",
+      "n": 57,
+      "min": 145281,
+      "max": 211496,
+      "sum": 11346666,
+      "avg": 199064.316
+    },
+    "lid_latency": {
+      "name": "lid_latency",
+      "n": 0,
+      "min": 0,
+      "max": 0,
+      "sum": 0,
+      "avg": null
+    },
+    "status_latency": {
+      "name": "status_latency",
+      "n": 1,
+      "min": 192,
+      "max": 192,
+      "sum": 192,
+      "avg": 192.0
+    },
+    "abort_latency": {
+      "name": "abort_latency",
+      "n": 0,
+      "min": 0,
+      "max": 0,
+      "sum": 0,
+      "avg": null
+    }
+  },
+  "total": {
+    "t": 11674,
+    "us": 11674274,
+    "elapsed_us": 11674286,
+    "busy_us": 7837514,
+    "stack": 712,
+    "heap": 0,
+    "alloc_attempts": 0,
+    "miss_lid": 1084,
+    "miss_ntc": 0,
+    "miss_bmp": 0
+  },
+  "busy_percent": 67.135,
+  "status_ack_us": {
+    "n": 1,
+    "min": 192,
+    "avg": 192,
+    "max": 192,
+    "p99": 192
+  },
+  "abort_ack_us": {
+    "n": 0
+  },
+  "lid_poll_reaction_us": {
+    "n": 0
+  },
+  "sector_commit_us": {
+    "n": 6,
+    "min": 512446,
+    "avg": 534045.833,
+    "max": 545287,
+    "p99": 545287
+  },
+  "rejections": [
+    {
+      "cmd": "start",
+      "why": "LID",
+      "t": 748
+    },
+    {
+      "cmd": "profile",
+      "why": "RANGE",
+      "t": 933
+    },
+    {
+      "cmd": "profile",
+      "why": "ACTIVE",
+      "t": 1583
+    },
+    {
+      "cmd": "line",
+      "why": "OVERFLOW_OR_LENGTH",
+      "t": 11572
+    }
+  ],
+  "bmp_status": [
+    {
+      "t": 177,
+      "result": 0,
+      "temp": 240,
+      "ut": 29028,
+      "addr": 77
+    }
+  ],
+  "export": [
+    {
+      "begin": 6
+    },
+    {
+      "end": 6
+    }
+  ],
+  "recovery": [],
+  "hold_mcu_ms": {
+    "n": 1,
+    "min": 5096,
+    "avg": 5096,
+    "max": 5096,
+    "p99": 5096
+  },
+  "hold_samples_mcu_ms": [
+    5096
+  ],
+  "gpio": {
+    "soak_width_us": {
+      "n": 0
+    },
+    "soak_samples_us": [],
+    "adc_width_us": {
+      "n": 118,
+      "min": 1108.725,
+      "avg": 1172.186,
+      "max": 1243.95,
+      "p99": 1241.475
+    },
+    "adc_period_us": {
+      "n": 117,
+      "min": 18396.575,
+      "avg": 99706.488,
+      "max": 177056.75,
+      "p99": 132038.5
+    },
+    "sd_busy_us": {
+      "n": 13,
+      "min": 485179.9,
+      "avg": 519007.887,
+      "max": 545256.65,
+      "p99": 545256.65
+    },
+    "lid_latency_us": {
+      "n": 0
+    },
+    "lid_during_sd": 0,
+    "reaction_points": [],
+    "vcd_end_us": 11799671.5
+  },
+  "journal": {
+    "records": [
+      {
+        "seq": 1,
+        "id": 1,
+        "t": 998,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 250,
+        "phase": 1,
+        "why": 0
+      },
+      {
+        "seq": 2,
+        "id": 1,
+        "t": 1811,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 600,
+        "bmp": 240,
+        "min": 250,
+        "max": 600,
+        "phase": 2,
+        "why": 0
+      },
+      {
+        "seq": 3,
+        "id": 1,
+        "t": 2013,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 630,
+        "bmp": 240,
+        "min": 250,
+        "max": 630,
+        "phase": 1,
+        "why": 11
+      },
+      {
+        "seq": 4,
+        "id": 1,
+        "t": 2215,
+        "hold": 0,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 580,
+        "bmp": 240,
+        "min": 250,
+        "max": 630,
+        "phase": 2,
+        "why": 0
+      },
+      {
+        "seq": 5,
+        "id": 1,
+        "t": 7311,
+        "hold": 5096,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 620,
+        "bmp": 240,
+        "min": 250,
+        "max": 630,
+        "phase": 3,
+        "why": 0
+      },
+      {
+        "seq": 6,
+        "id": 1,
+        "t": 7513,
+        "hold": 5096,
+        "profile": [
+          600,
+          20,
+          350,
+          5
+        ],
+        "ntc": 250,
+        "bmp": 240,
+        "min": 250,
+        "max": 630,
+        "phase": 4,
+        "why": 0
+      }
+    ],
+    "crc_or_seal_errors": []
+  }
+}
