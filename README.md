@@ -1,24 +1,23 @@
 # BatchTherm
 
-Данилюк Вадим Ігорович, ІО-36. Сенсорна підсистема реєстратора температурного циклу партії. Середовище: Ubuntu 24.04, Docker, STM32 HAL, Wokwi. Плата Nucleo-C031C6, форма B.
+Данилюк Вадим Ігорович, ІО-36. Реєстратор температурного циклу партії. Nucleo-C031C6, Ubuntu 24.04, Docker, STM32 HAL, Wokwi.
 
-## Збірка і перевірка поточної lab2
+## Збірка і запуск ЛР3
+
+З кореня BatchTherm:
 
 ```sh
-cd "/Users/pliffdax/Projects/university/Study/People/Данилюк Вадим Ігорович/2026-Fall/SP/Lab01/Work/BatchTherm"
-make build
+make build BUILD_DIR=build/clock BUILD_ID=f6b5827-0ba44211a1db
 make test
-python3 tools/verify_evidence.py
+shasum -a 256 firmware/build/clock/firmware.{elf,hex,bin}
 ```
 
-Docker image за замовчуванням `batchtherm-build:lab2`; ELF/HEX/BIN у firmware/build. Для Wokwi відкрити цей корінь у VS Code і виконати Wokwi: Start Simulator. Існуючу ліцензію зберігати, trial не вмикати. Гілка lab1 містить окремий UART/LED bring-up; у ній image `batchtherm-build:lab1`, а у lab2 PA5 позначає спільну валідність та входження в коридор58–62 °C.
+Для повторення вимірів звірити хеші з [ідентифікатором виміряної прошивки](docs/evidence/lab3/identity.json). Звичайний `wokwi.toml` використовує виміряний ELF/HEX з `docs/evidence/lab3` і записує живий VCD в окремий файл. У VS Code з кореня проєкту виконати `Wokwi: Start Simulator`. Для чистої демонстрації SD використовувати копію порожнього образу; підтверджені журнали не монтувати на запис.
 
 ## Входи і команди
 
-BMP180/I²C - температура середовища; NTC/ADC - температура зразка; контакт/GPIO - кришка. У Wokwi натиснута синя кнопка=CLOSED. Температури двох моделей незалежні. UART: selftest, capture, status, nack, recover, counts, sdwrite, sdread. Значення в0.1 °C, використовувати лише valid=1. `sdwrite` змінює scratch-сектор32 поточного demo image; saved evidence не використовувати як writable media.
+BMP180/I²C — температура середовища; NTC/ADC — температура зразка; контакт/GPIO — кришка. У Wokwi зафіксована синя кнопка означає CLOSED, а температури моделей незалежні. PA5 світиться у SOAK. UART 115200 8N1: `profile`, `start`, `abort`, `status`, `export`. Одиниці профілю й температури — 0,1 °C, час витримки в команді profile — секунди. `measure` і `stats` керують статистичним вікном; `nack`/`recover` — діагностика BMP. Прийняті start/abort підтверджуються після запису в журнал.
 
-[PRD](docs/PRD.md), [компоненти](docs/hardware-components.md), [pinout](docs/pinout.md), [архітектура](docs/architecture.md), [аналіз власних VCD](docs/captures/analysis.md), [план ЛР3–4](docs/tasks.md), [походження заготовки](docs/starter-template.md). PDF у Reports.
+[PRD](docs/PRD.md), [задачі ЛР3](docs/lab3-tasks.md), [розводка](docs/pinout.md), [звіт і дані](docs/lab3-report.md), [базова лінія ЛР4](docs/baseline-lab4.md), [обмеження](docs/limitations.md). S2: один запуск 3 602 000 мс MCU, 30 партій і 120 підтверджених CRC-записів. Кришка реагувала до 89,466 мс у S3, але 5-мс релізи пропускалися; стійкий ACK abort досяг 1734,645 мс при межі 150 мс. Сценарії, вердикти й сирі дані збережено з виміряною збіркою. FreeRTOS належить ЛР4.
 
-Host line coverage: BMP18097.73%, NTC100%, App100%, SD90.10%; це не покриття фізичного стенда. CI workflow додано, remote run до успішного push не підтверджений. diagram.json записує I²C/UART/ADC/контакт; diagram.storage.json змінює тільки канали аналізатора для SPI. Виміряні ELF/HEX/BIN у docs/evidence/lab2, hashes у run.json/manifest. Повторну перевірку артефактів ЛР1 виконує `python3 tools/check_lab1.py`.
-
-Автомат партій, продуктові profile/start/abort/export, журнал із CRC/power-loss recovery, S1/S2/S3 baseline та FreeRTOS належать наступним лабораторним і ще не реалізовані. Фактичні відео й зовнішні кроки здачі обліковуються в локальному GUIDE поза репозиторієм.
+Історична ревізія `lab2` містить bring-up сенсорів і scratch-sector SD; її команди та [архітектура ЛР2](docs/architecture.md) описують саме ту версію. Попередні виміри збережені в `docs/metrics/lab1` і `docs/metrics/lab2`.
